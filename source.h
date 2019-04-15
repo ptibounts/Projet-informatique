@@ -3,8 +3,9 @@
 #include <string>
 #include <iostream>
 #include <fstream>
-#include <unordered_map>
+#include <map>
 #include "sommet.h"
+#include "arete.h"
 
 class graphe
 {
@@ -15,7 +16,6 @@ class graphe
     protected:
 
     private:
-        std::unordered_map<std::string,Sommet*> m_sommets;
-        std::unordered_map<std::string,Sommet*> m_arretes;
+        std::map<std::string,Sommet*> m_sommets;
 };
 #endif // SOURCE_H_INCLUDED

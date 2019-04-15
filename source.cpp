@@ -17,22 +17,21 @@ graphe::graphe(std::string nomFichier){
         ifs>>y; if(ifs.fail()) throw std::runtime_error("Probleme lecture données sommet");
         m_sommets.insert({id,new Sommet{id,x,y}});
     }
-    /// arrete
     int taille;
     ifs >> taille;
     if ( ifs.fail() )
         throw std::runtime_error("Probleme lecture taille du graphe");
     std::string id_voisin;
     int x1, y1;
-    for (int i=0; i<taille; ++i){
-        ifs>>id; if(ifs.fail()) throw std::runtime_error("Probleme lecture données sommet");
-        ifs>>x1; if(ifs.fail()) throw std::runtime_error("Probleme lecture données sommet");
-        ifs>>y1; if(ifs.fail()) throw std::runtime_error("Probleme lecture données sommet");
-        m_arretes.insert({id,new Sommet{id,x1,y1}});
+    for (int i=0; i<taille; ++i)
+        {
+            ifs>>id; if(ifs.fail()) throw std::runtime_error("Probleme lecture donnees sommet");
+            ifs>>x1; if(ifs.fail()) throw std::runtime_error("Probleme lecture donnees sommet");
+            ifs>>y1; if(ifs.fail()) throw std::runtime_error("Probleme lecture donnees sommet");
+        }
     }
-}
 
-void graphe::afficher() const{ /// Sous-programme d'affichage du fichier charge
+void graphe::afficher() const{
     std::cout<<"graphe : "<<std::endl;
     std::cout << "ordre : " << m_sommets.size() << std::endl;
     for ( auto it = m_sommets.begin(); it !=m_sommets.end(); ++it){
@@ -43,7 +42,7 @@ void graphe::afficher() const{ /// Sous-programme d'affichage du fichier charge
     for(auto it = m_arretes.begin(); it !=m_arretes.end(); ++it)
     {
         std::cout<< "arretes : ";
-        it->second->afficherData();
+        it->second->afficher();
         std::cout << std::endl;
     }
 }

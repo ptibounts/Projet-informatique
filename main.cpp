@@ -1,4 +1,3 @@
-#include <iostream>
 #include "source.h"
 #include "sommet.h"
 

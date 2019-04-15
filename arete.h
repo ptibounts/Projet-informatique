@@ -2,14 +2,16 @@
 #define ARETE_H_INCLUDED
 #include <string>
 #include <vector>
-#include <unordered_map>
-#include <unordered_set>
+#include <map>
+#include <set>
+#include "sommet.h"
+
 
 class Arete
 {
     public:
         ///constructeur qui reçoit en params les données du sommet
-        Arete(std::string,double,double);
+        Arete(std::string, double, double);
         void afficherData() const;
         void afficherVoisins() const;
         ~Arete();
@@ -18,14 +20,13 @@ class Arete
 
     private:
         /// Voisinage : liste d'adjacence
-        std::vector<const Arete*> m_voisins;
+        std::map<std::string,Sommet*> m_arretes;
 
         /// Données spécifiques du sommet
         std::string m_id; // Identifiant
         double m_sommet1, m_sommet2; // Position
-        double m_cout1, m_cout2;
+        double m_cout1, m_cout2; // Ponderation
 
 };
-
 
 #endif // ARETE_H_INCLUDED

@@ -2,8 +2,8 @@
 #define SOMMET_H_INCLUDED
 #include <string>
 #include <vector>
-#include <unordered_map>
-#include <unordered_set>
+#include <map>
+#include <set>
 #include <iostream>
 #include <fstream>
 #include <algorithm>
@@ -14,6 +14,7 @@ class Sommet
         Sommet(std::string,int,int);
         void ajouterVoisin( Sommet*);
         void afficherData() const;
+        void afficher() const;
         void afficherVoisins() const ;
         ~Sommet();
 
