@@ -11,8 +11,10 @@ class Arete
 {
     public:
         ///constructeur qui reçoit en params les données du sommet
+        Arete(std::string, double, double, double, double);
         Arete(std::string, double, double);
-        void afficherData() const;
+        void afficher() const;
+        void afficherPoids() const;
         void afficherVoisins() const;
         ~Arete();
 
@@ -21,11 +23,10 @@ class Arete
     private:
         /// Voisinage : liste d'adjacence
         std::map<std::string,Sommet*> m_arretes;
-
         /// Données spécifiques du sommet
         std::string m_id; // Identifiant
-        double m_sommet1, m_sommet2; // Position
         double m_cout1, m_cout2; // Ponderation
+        double m_sommet1, m_sommet2; // Position
 
 };
 

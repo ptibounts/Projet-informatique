@@ -24,7 +24,4 @@ void Sommet::afficherVoisins() const /// Sous-programme pour afficher les voisin
     }
 }
 
-void Sommet::afficher() const
-{
-    std::cout<<m_id<< " depart: "<< m_x << " arrive: "<< m_y<<std::endl;
-}
+
