@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1555323646 source:c:\users\teoro\travaux-pratiques\projet informatique\main.cpp
+	<iostream>
+	"source.h"
+	"sommet.h"
+
+1555323495 source:c:\users\teoro\travaux-pratiques\projet informatique\source.cpp
+	"source.h"
+
+1555323588 source:c:\users\teoro\travaux-pratiques\projet informatique\sommet.cpp
+	"sommet.h"
+
+1555323629 c:\users\teoro\travaux-pratiques\projet informatique\sommet.h
+	<string>
+	<vector>
+	<unordered_map>
+	<unordered_set>
+	<iostream>
+	<fstream>
+	<algorithm>
+
+1555323514 c:\users\teoro\travaux-pratiques\projet informatique\source.h
+	<string>
+	<iostream>
+	<fstream>
+	<unordered_map>
+	"sommet.h"
+
