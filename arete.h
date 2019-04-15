@@ -6,28 +6,24 @@
 #include <set>
 #include "sommet.h"
 
-
 class Arete
 {
     public:
-        ///constructeur qui reçoit en params les données du sommet
         Arete(std::string, double, double, double, double);
         Arete(std::string, double, double);
         void afficher() const;
-        void afficherPoids() const;
+        void afficherPoids();
         void afficherVoisins() const;
         ~Arete();
+        std::string m_id;         // Identifiant
+        double m_poids1, m_poids2; // Ponderation
 
     protected:
 
-    private:
-        /// Voisinage : liste d'adjacence
-        std::map<std::string,Sommet*> m_arretes;
-        /// Données spécifiques du sommet
-        std::string m_id; // Identifiant
-        double m_cout1, m_cout2; // Ponderation
-        double m_sommet1, m_sommet2; // Position
 
+    private:
+        //std::map<std::string,Sommet*> m_arretes;
+        double m_sommet1, m_sommet2; // Position
 };
 
 #endif // ARETE_H_INCLUDED

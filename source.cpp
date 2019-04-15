@@ -5,9 +5,8 @@ graphe::graphe()
 
 }
 
-graphe::graphe(std::string nomFichier)
+void graphe::sommet(std::string nomFichier)
 {
-    std::cout<< "bonjour";
     std::ifstream ifs{nomFichier};
     if (!ifs)
         throw std::runtime_error( "Impossible d'ouvrir en lecture " + nomFichier );
@@ -47,7 +46,7 @@ graphe::graphe(std::string nomFichier)
         ifs>>sommetF;
         if(ifs.fail())
             throw std::runtime_error("Probleme lecture donnees sommet");
-        m_aretes.insert({id,new Arete{id,0,0,sommetD,sommetF}});
+        m_aretes.insert({id,new Arete{id,1,1,sommetD,sommetF}});
     }
 }
 
@@ -56,7 +55,7 @@ void graphe::ponderation(std::string nomFichier)
     std::ifstream ifs{nomFichier};
     if (!ifs)
         throw std::runtime_error( "Impossible d'ouvrir en lecture " + nomFichier );
-        int ordre, nbPonderation;
+    int ordre, nbPonderation;
     ifs >> ordre;
     if (ifs.fail())
         throw std::runtime_error("Probleme lecture ordre du graphe");
@@ -76,13 +75,21 @@ void graphe::ponderation(std::string nomFichier)
         ifs>>p2;
         if(ifs.fail())
             throw std::runtime_error("Probleme lecture donnees sommet");
-        m_aretes.insert({id,new Arete{id,p1,p2}});
-    }
+        for (auto it = m_aretes.begin(); it !=m_aretes.end(); ++it)
+        {
+            if(id == it->first)
+            {
 
+                it->second->m_poids1 = p1;
+                it->second->m_poids2 = p2;
+            }
+        }
+    }
 }
 
-void graphe::afficherP() const
+void graphe::afficherP()
 {
+
     for(auto it = m_aretes.begin(); it !=m_aretes.end(); ++it)
     {
         std::cout<< "Arretes : ";

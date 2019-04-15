@@ -3,10 +3,10 @@
 
 int main()
 {
-    graphe g{"broadway.txt"};
-    graphe h;
-    h.ponderation("broadway_weights_0.txt");
+    graphe g;
+    g.sommet("broadway.txt");
+    g.ponderation("broadway_weights_0.txt");
     g.afficher();
-    h.afficherP();
+    g.afficherP();
     return 0;
 }

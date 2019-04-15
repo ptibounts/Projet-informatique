@@ -10,11 +10,11 @@
 class graphe
 {
     public:
+        void sommet(std::string);
         graphe();
-        graphe(std::string);
         ~graphe();
         void afficher() const ;
-        void afficherP() const;
+        void afficherP();
         void ponderation(std::string);
     protected:
 
