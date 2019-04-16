@@ -22,7 +22,6 @@ class Arete
 
 
     private:
-        //std::map<std::string,Sommet*> m_arretes;
         double m_sommet1, m_sommet2; // Position
 };
 

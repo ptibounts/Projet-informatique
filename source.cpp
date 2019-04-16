@@ -87,7 +87,7 @@ void graphe::ponderation(std::string nomFichier)
     }
 }
 
-void graphe::afficherP()
+void graphe::afficherP() const
 {
 
     for(auto it = m_aretes.begin(); it !=m_aretes.end(); ++it)
@@ -120,3 +120,4 @@ graphe::~graphe()
 {
 
 }
+

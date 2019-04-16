@@ -14,8 +14,9 @@ class graphe
         graphe();
         ~graphe();
         void afficher() const ;
-        void afficherP();
+        void afficherP() const;
         void ponderation(std::string);
+        std::vector<Arete*> Prim(graphe);
     protected:
 
     private:
