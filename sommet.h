@@ -3,6 +3,10 @@
 #include <string>
 #include <vector>
 #include <map>
+#include <unordered_map>
+#include <unordered_set>
+#include <queue>
+#include <stack>
 #include <set>
 #include <iostream>
 #include <fstream>
@@ -12,10 +16,13 @@ class Sommet
 {
     public:
         Sommet(std::string,int,int);
-        void ajouterVoisin( Sommet*);
+        void ajouterVoisin(Sommet* voisin);
         void afficherData() const;
         void afficher() const;
         void afficherVoisins() const ;
+        std::string GetId();
+        std::unordered_map<std::string,std::string> parcoursBFS() const;
+        std::unordered_set<std::string> rechercherCC() const;
         ~Sommet();
 
     protected:

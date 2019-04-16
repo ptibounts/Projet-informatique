@@ -26,12 +26,15 @@
 	<unordered_map>
 	"sommet.h"
 
-1555417639 source:c:\users\teoro\desktop\projet-informatique\projet-informatique\main.cpp
+1555428177 source:c:\users\teoro\desktop\projet-informatique\projet-informatique\main.cpp
 	"source.h"
 	"sommet.h"
 	"arete.h"
+	<iostream>
+	<fstream>
+	<unordered_map>
 
-1555408975 c:\users\teoro\desktop\projet-informatique\projet-informatique\source.h
+1555424106 c:\users\teoro\desktop\projet-informatique\projet-informatique\source.h
 	<string>
 	<iostream>
 	<fstream>
@@ -39,29 +42,33 @@
 	"sommet.h"
 	"arete.h"
 
-1555336860 c:\users\teoro\desktop\projet-informatique\projet-informatique\sommet.h
+1555428368 c:\users\teoro\desktop\projet-informatique\projet-informatique\sommet.h
 	<string>
 	<vector>
 	<map>
+	<unordered_map>
+	<unordered_set>
+	<queue>
+	<stack>
 	<set>
 	<iostream>
 	<fstream>
 	<algorithm>
 
-1555351385 source:c:\users\teoro\desktop\projet-informatique\projet-informatique\sommet.cpp
+1555428283 source:c:\users\teoro\desktop\projet-informatique\projet-informatique\sommet.cpp
 	"sommet.h"
 
-1555417631 source:c:\users\teoro\desktop\projet-informatique\projet-informatique\source.cpp
+1555428197 source:c:\users\teoro\desktop\projet-informatique\projet-informatique\source.cpp
 	"source.h"
 
-1555364024 source:c:\users\teoro\desktop\projet-informatique\projet-informatique\arete.cpp
+1555428096 source:c:\users\teoro\desktop\projet-informatique\projet-informatique\arete.cpp
 	<iostream>
 	<string>
 	<unordered_map>
 	<unordered_set>
 	"arete.h"
 
-1555406764 c:\users\teoro\desktop\projet-informatique\projet-informatique\arete.h
+1555427909 c:\users\teoro\desktop\projet-informatique\projet-informatique\arete.h
 	<string>
 	<vector>
 	<map>
