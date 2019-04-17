@@ -1,5 +1,6 @@
 #include "source.h"
-
+#include <bitset>
+#include <string>
 graphe::graphe()
 {
 
@@ -178,7 +179,7 @@ std::map<std::string, Arete*> graphe::Kruskal ( int v )
     std::string id=m_aretes1[0]->GetId();
     std::map<std::string, Arete*> m_Kruskal;
     m_Kruskal[id]=m_aretes1[0];
-    m_aretes1[0]->Setselect(true);
+    m_aretes1[0]->SetSelect(true);
     std::vector <std::string > m_vecSommet;
     std::string Sommet1=m_aretes1[0]->GetSommet1();
         m_vecSommet.push_back(Sommet1);
@@ -204,17 +205,17 @@ int compteur=0;
       }
 
       if(z==0){
-        m_aretes1[i]->Setselect(true);
+        m_aretes1[i]->SetSelect(true);
         m_vecSommet.push_back(Sommet1);
         m_vecSommet.push_back(Sommet2);
         compteur+=1;
         }
         else if(z==1){
-            m_aretes1[i]->Setselect(true);
+            m_aretes1[i]->SetSelect(true);
         m_vecSommet.push_back(Sommet2);
         compteur+=1;
         }else if (z==2){
-             m_aretes1[i]->Setselect(true);
+             m_aretes1[i]->SetSelect(true);
         m_vecSommet.push_back(Sommet1);
         compteur+=1;
         }
@@ -223,7 +224,7 @@ int compteur=0;
         std::unordered_set<std::string> cc=S0->rechercherCC(m_vecSommet,m_aretes1);
 
         if((cc.find(Sommet2)==cc.end())){
-        m_aretes1[i]->Setselect(true);
+        m_aretes1[i]->SetSelect(true);
         compteur+=1;
         }
         }
@@ -304,4 +305,33 @@ void graphe::dessiner(std::map<std::string, Arete*> Kruskal)
 }
 
 
+std::vector<std::vector<bool>> graphe::Connexite(std::vector<std::vector<bool>> m_Aretepossible){
+std::vector<std::vector<bool>> m_GrapheFinal;
+
+for(auto x: m_Aretepossible)
+    {
+
+        std::vector<std::string> m_vecSommet;
+        for(auto y:m_sommets){
+            m_vecSommet.push_back(y.first);
+        }
+
+         std::vector<Arete*> m_vecArete;
+        for(auto z:m_aretes){
+            m_vecArete.push_back(z.second);
+        }
+        for(size_t i=0; i<x.size();i++){
+            m_vecArete[i]->SetSelect(x[i]);
+
+        }
+            Sommet* S1=m_sommets.begin()->second;
+            std::unordered_set<std::string> cc= S1->rechercherCC(m_vecSommet,m_vecArete);
+
+          if(cc.size()==m_vecSommet.size())
+           {
+                m_GrapheFinal.push_back(x);
+           }
+    }
+    return m_GrapheFinal;
+ }
 

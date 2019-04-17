@@ -40,7 +40,7 @@ std::string Arete::GetSommet2()
     return m_select;
  }
 
-void Arete::Setselect(bool x)
+void Arete::SetSelect(bool x)
 {
     m_select=x;
 }

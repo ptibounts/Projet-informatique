@@ -21,7 +21,7 @@ class Arete
         bool GetSelect();
         std::string GetId();
         void SetCout1(float x);
-        void Setselect(bool x);
+        void SetSelect(bool x);
         ~Arete();
         std::string m_id;         // Identifiant
         double m_poids1, m_poids2; // Ponderation

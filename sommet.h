@@ -26,9 +26,9 @@ class Sommet
         int GetposY();
         int GetposX();
         std::unordered_map<std::string,std::string> parcoursBFS() const;
-        std::unordered_map<std::string,std::string> parcoursBFS(std::vector <std::string > m_vecSommet, std::vector <Arete*> m_aretes1) ;
+        std::unordered_map<std::string,std::string> parcoursBFS(std::vector <std::string > , std::vector <Arete*> ) ;
         std::unordered_set<std::string> rechercherCC() const;
-        std::unordered_set<std::string> rechercherCC(std::vector<std::string>,std::vector <Arete*> m_aretes1) ;
+        std::unordered_set<std::string> rechercherCC(std::vector<std::string>,std::vector <Arete*>) ;
         ~Sommet();
 
     protected:

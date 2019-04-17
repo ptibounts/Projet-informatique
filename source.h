@@ -19,11 +19,13 @@ class graphe
         void afficher() const ;
         void afficherP() const;
         void ponderation(std::string);
-        std::vector<Arete*> Prim(graphe);
         std::map<std::string, Arete*> Kruskal ( int v );
         std::map<std::string, Sommet*> GetMapsom();
         std::map<std::string, Arete*> GetMapar();
         void dessiner(std::map<std::string, Arete*>);
+        std::vector<std::vector<bool>> Connexite(std::vector<std::vector<bool>>);
+         int rechercher_afficherToutesCC() const;
+
     protected:
 
     private:
