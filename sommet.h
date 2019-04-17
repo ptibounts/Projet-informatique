@@ -12,6 +12,7 @@
 #include <fstream>
 #include <algorithm>
 #include "arete.h"
+#include <vector>
 
 class Sommet
 {
@@ -30,14 +31,12 @@ class Sommet
         std::unordered_set<std::string> rechercherCC(std::vector<std::string>,std::vector <Arete*> m_aretes1) ;
         ~Sommet();
 
-
     protected:
 
     private:
         std::vector<Sommet*> m_voisins;
         std::string m_id; // Identifiant
         int m_x, m_y; // Position
-
 };
 
 

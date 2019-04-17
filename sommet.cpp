@@ -138,5 +138,3 @@ int Sommet::GetposX()
 {
     return m_x;
 }
-
-

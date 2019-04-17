@@ -51,4 +51,6 @@ class Svgfile
 
 };
 
+
+
 #endif // SVGFILE_H_INCLUDED

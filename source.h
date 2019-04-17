@@ -4,8 +4,6 @@
 #include <iostream>
 #include <fstream>
 #include <map>
-#include <unordered_map>
-#include <unordered_set>
 #include "sommet.h"
 #include "arete.h"
 #include "svgfile.h"
@@ -18,13 +16,14 @@ class graphe
         void sommet(std::string);
         graphe();
         ~graphe();
-        void dessiner(std::map<std::string, Arete*>);
         void afficher() const ;
         void afficherP() const;
         void ponderation(std::string);
-        std::map<std::string, Arete*> Kruskal (int v);
+        std::vector<Arete*> Prim(graphe);
+        std::map<std::string, Arete*> Kruskal ( int v );
         std::map<std::string, Sommet*> GetMapsom();
         std::map<std::string, Arete*> GetMapar();
+        void dessiner(std::map<std::string, Arete*>);
     protected:
 
     private:

@@ -4,7 +4,7 @@
 #include <vector>
 #include <map>
 #include <set>
-//#include "sommet.h"
+
 
 class Arete
 {
@@ -22,18 +22,16 @@ class Arete
         std::string GetId();
         void SetCout1(float x);
         void Setselect(bool x);
-        void setpoids1(double poids1);
-        void setpoids2(double poids2);
-        void setid(std::string id);
         ~Arete();
+        std::string m_id;         // Identifiant
+        double m_poids1, m_poids2; // Ponderation
+
     protected:
 
 
     private:
-        std::string m_id;         // Identifiant
-        double m_poids1, m_poids2; // Ponderation
-        std::string m_sommet1, m_sommet2; // Position
         bool m_select;
+        std::string m_sommet1, m_sommet2; // Position
 };
 
 #endif // ARETE_H_INCLUDED

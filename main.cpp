@@ -1,7 +1,6 @@
 #include "source.h"
 #include "sommet.h"
 #include "arete.h"
-#include "svgfile.h"
 #include <iostream>
 #include <fstream>
 #include<unordered_map>
@@ -22,10 +21,6 @@ int main()
         valeur = choix();
     } while (valeur == 0);
     Kruskal = g.Kruskal(valeur);
-    for(auto x: Kruskal)
-    {
-        std::cout<< x.second->GetSommet1()<< " " << x.second->GetSommet2()<<std::endl;
-    }
     g.dessiner(Kruskal);
     system("start output.svg");
     return 0;

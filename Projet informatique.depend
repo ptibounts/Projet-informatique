@@ -26,7 +26,7 @@
 	<unordered_map>
 	"sommet.h"
 
-1555496290 source:c:\users\teoro\desktop\projet-informatique\projet-informatique\main.cpp
+1555500154 source:c:\users\teoro\desktop\projet-informatique\projet-informatique\main.cpp
 	"source.h"
 	"sommet.h"
 	"arete.h"
@@ -35,18 +35,16 @@
 	<fstream>
 	<unordered_map>
 
-1555497015 c:\users\teoro\desktop\projet-informatique\projet-informatique\source.h
+1555500312 c:\users\teoro\desktop\projet-informatique\projet-informatique\source.h
 	<string>
 	<iostream>
 	<fstream>
 	<map>
-	<unordered_map>
-	<unordered_set>
 	"sommet.h"
 	"arete.h"
 	"svgfile.h"
 
-1555497796 c:\users\teoro\desktop\projet-informatique\projet-informatique\sommet.h
+1555500312 c:\users\teoro\desktop\projet-informatique\projet-informatique\sommet.h
 	<string>
 	<vector>
 	<map>
@@ -59,32 +57,33 @@
 	<fstream>
 	<algorithm>
 	"arete.h"
+	<vector>
 
-1555497857 source:c:\users\teoro\desktop\projet-informatique\projet-informatique\sommet.cpp
+1555500311 source:c:\users\teoro\desktop\projet-informatique\projet-informatique\sommet.cpp
 	"sommet.h"
 
-1555497837 source:c:\users\teoro\desktop\projet-informatique\projet-informatique\source.cpp
+1555500311 source:c:\users\teoro\desktop\projet-informatique\projet-informatique\source.cpp
 	"source.h"
 
-1555495361 source:c:\users\teoro\desktop\projet-informatique\projet-informatique\arete.cpp
+1555500312 source:c:\users\teoro\desktop\projet-informatique\projet-informatique\arete.cpp
 	<iostream>
 	<string>
 	<unordered_map>
 	<unordered_set>
 	"arete.h"
 
-1555495538 c:\users\teoro\desktop\projet-informatique\projet-informatique\arete.h
+1555500312 c:\users\teoro\desktop\projet-informatique\projet-informatique\arete.h
 	<string>
 	<vector>
 	<map>
 	<set>
 
-1555491002 source:c:\users\teoro\desktop\projet-informatique\projet-informatique\svgfile.cpp
+1555500312 source:c:\users\teoro\desktop\projet-informatique\projet-informatique\svgfile.cpp
 	"svgfile.h"
 	<iostream>
 	<sstream>
 
-1555491002 c:\users\teoro\desktop\projet-informatique\projet-informatique\svgfile.h
+1555500312 c:\users\teoro\desktop\projet-informatique\projet-informatique\svgfile.h
 	<string>
 	<fstream>
 	<set>

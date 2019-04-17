@@ -66,7 +66,6 @@ void graphe::ponderation(std::string nomFichier)
         throw std::runtime_error("Probleme lecture nombre de ponderation du graphe");
     std::string id;
     double p1, p2;
-    auto it = m_aretes.begin();
     for (int i=0; i<ordre; ++i)
     {
         ifs>>id;
@@ -74,18 +73,20 @@ void graphe::ponderation(std::string nomFichier)
             throw std::runtime_error("Probleme lecture donnees sommet");
         ifs>>p1;
         if(ifs.fail())
-            throw std::runtime_error("Probleme lecture poids1 sommet");
+            throw std::runtime_error("Probleme lecture donnees sommet");
         ifs>>p2;
         if(ifs.fail())
-            throw std::runtime_error("Probleme lecture poids2 sommet");
-
-        it->second->setpoids1(p1);
-        it->second->setpoids2(p2);
-
-       ++it;
-       }
+            throw std::runtime_error("Probleme lecture donnees sommet");
+        for (auto it = m_aretes.begin(); it !=m_aretes.end(); ++it)
+        {
+            if(id == it->first)
+            {
+                it->second->m_poids1 = p1;
+                it->second->m_poids2 = p2;
+            }
+        }
     }
-
+}
 
 void graphe::afficherP() const
 {
@@ -158,6 +159,7 @@ std::vector <Arete*> Tri (std::map<std::string, Arete*> m_aretes,int v )
                     Arete* a2=m_aretes1[j+1];
                     m_aretes1.insert(m_aretes1.begin() + j,a2);
                     m_aretes1.erase(m_aretes1.begin() + (j+2));
+
                 }
             }
         }
@@ -229,37 +231,36 @@ int compteur=0;
          if(compteur ==(m_sommets.size()-1)){
                 break;
     }
-        if(m_aretes1[i]->GetSelect()){
-        std::cout<< m_aretes1[i]->GetId()<<" arete selectionnée"<<std::endl;
-    } else{
-    std::cout<< m_aretes1[i]->GetId()<< " non"<<std::endl;
-    }
-    }
-    for (size_t i=0; i<m_aretes1.size(); i++)
-    {
-        bool a=m_aretes1[i]->GetSelect();
-        if(a==true)
-        {
-            id=m_aretes1[i]->GetId();
-            m_Kruskal[id]=m_aretes1[i];
-        }
     }
 
-        for (auto x:m_Kruskal)
+
+     for (size_t i=0;i<m_aretes1.size();i++){
+        bool a=m_aretes1[i]->GetSelect();
+        if(a==true){
+        id=m_aretes1[i]->GetId();
+        m_Kruskal[id]=m_aretes1[i];
+        }
+     }
+for (auto x:m_Kruskal)
         {
             poidsTotal1 += x.second->GetCout1();
             poidsTotal2 += x.second->GetCout2();
         }
-        for (auto x:m_Kruskal)
-        {
-            std::string q=x.second->GetId();
-            std::cout<<q<<std::endl;
-        }
-    std::cout<< "resultat ("<<poidsTotal1<< " , "<<poidsTotal2<<")"<<std::endl;
-    return m_Kruskal;
+for (auto x:m_Kruskal)
+    {
+    std::string q=x.second->GetId();
+    std::cout<< q <<" ";
     }
+    std::cout<<std::endl;
+std::cout<< "resultat ("<<poidsTotal1<< " , "<<poidsTotal2<<")"<<std::endl;
+return m_Kruskal;
+}
 
 
+graphe::~graphe()
+{
+
+}
 
 int choix()
 {
@@ -278,11 +279,6 @@ int choix()
                 std::cout << "Veuillez resaisir, s'il vous plait!"<<std::endl;
                 return 0;
         }
-}
-
-graphe::~graphe()
-{
-
 }
 
 void graphe::dessiner(std::map<std::string, Arete*> Kruskal)
@@ -306,3 +302,6 @@ void graphe::dessiner(std::map<std::string, Arete*> Kruskal)
         svgout.addLine(S1->GetposX(), S1->GetposY(), S2->GetposX(), S2->GetposY(), couleur);
     }
 }
+
+
+
