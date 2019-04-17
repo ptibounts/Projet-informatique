@@ -16,7 +16,6 @@ class graphe
         void sommet(std::string);
         graphe();
         ~graphe();
-        void sommet(std::string);
         void afficher() const ;
         void afficherP() const;
         void ponderation(std::string);

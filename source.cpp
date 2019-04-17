@@ -118,22 +118,6 @@ void graphe::afficher() const
         std::cout << std::endl;
     }
 }
-/*
-std::vector<Arete*> graphe::Prim(graphe grph)
-{
-    std::vector<Arete*> aretetmp;
-    std::vector<Sommet*> sommettmp;
-
-std::map <std::string, Sommet*> graphe::GetMapsom(){
-return m_sommets;
-}
-
-std::map<std::string, Arete*> graphe::GetMapar()
-{
-    return m_aretes;
-}
-
-
 
 std::vector <Arete*> Tri (std::map<std::string, Arete*> m_aretes,int v )
 {
