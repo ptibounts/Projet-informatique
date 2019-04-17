@@ -1,10 +1,12 @@
-#include <iostream>
 #include "source.h"
-#include "sommet.h"
 
 int main()
 {
-    graphe g{"broadway.txt"};
-    g.afficher();
+    graphe g;
+    g.sommet("broadway.txt");
+    g.ponderation("broadway_weights_0.txt");
+    //g.afficher();
+    //g.afficherP();
+    g.compteurbinaire();
     return 0;
 }
