@@ -57,6 +57,66 @@ std::unordered_map<std::string,std::string> Sommet::parcoursBFS() const
     return l_pred;
 }
 
+std::unordered_map<std::string,std::string> Sommet::parcoursBFS(std::vector <std::string > m_vecSommet, std::vector <Arete*> m_aretes1)
+{
+    std::unordered_map<std::string,std::string> l_pred;
+    std::queue< Sommet*> file;
+    std::unordered_set<std::string> l_decouvert;
+    file.push(this);
+    l_decouvert.insert(m_id);
+      Sommet* s=nullptr;
+
+std::string voisin;
+std::string soma1;
+std::string soma2;
+std::string som1;
+
+    while(!file.empty())
+    {
+        bool selection=false;
+         s=file.front();
+        file.pop();
+        for ( auto ts: (s->m_voisins))
+        {
+            voisin= ts->GetId();
+            for(auto x: m_vecSommet){
+                if(voisin==x){
+                for(auto y:m_aretes1){
+
+                    selection=y->GetSelect();
+                    if(selection==true){
+                   soma1=y->GetSommet1();
+                   soma2=y->GetSommet2();
+                   som1=s->GetId();
+                   if((soma1==som1 && soma2==voisin)||(soma1==voisin && soma2==som1)){
+
+
+                    if(l_decouvert.find(ts->m_id)==l_decouvert.end())
+            {
+                l_decouvert.insert(ts->m_id);
+                file.push(ts);
+                l_pred.insert({ts->m_id, s->m_id});
+            }
+        }
+    }}
+    }
+            }}}
+
+
+    return l_pred;
+}
+std::unordered_set<std::string> Sommet::rechercherCC(std::vector <std::string > m_vecSommet,std::vector <Arete*> m_aretes1)
+{
+    std::unordered_set<std::string> cc;
+    std::unordered_map<std::string,std::string> l_pred = this->parcoursBFS(m_vecSommet,m_aretes1);
+    cc.insert(this->m_id);
+    for (auto s: l_pred)
+    {
+        cc.insert(s.first);
+    }
+    return cc;
+}
+
 std::unordered_set<std::string> Sommet::rechercherCC() const
 {
     std::unordered_set<std::string> cc;
@@ -67,6 +127,16 @@ std::unordered_set<std::string> Sommet::rechercherCC() const
         cc.insert(s.first);
     }
     return cc;
+}
+
+int Sommet::GetposY()
+{
+    return m_y;
+}
+
+int Sommet::GetposX()
+{
+    return m_x;
 }
 
 

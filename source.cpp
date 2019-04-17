@@ -66,6 +66,7 @@ void graphe::ponderation(std::string nomFichier)
         throw std::runtime_error("Probleme lecture nombre de ponderation du graphe");
     std::string id;
     double p1, p2;
+    auto it = m_aretes.begin();
     for (int i=0; i<ordre; ++i)
     {
         ifs>>id;
@@ -73,20 +74,18 @@ void graphe::ponderation(std::string nomFichier)
             throw std::runtime_error("Probleme lecture donnees sommet");
         ifs>>p1;
         if(ifs.fail())
-            throw std::runtime_error("Probleme lecture donnees sommet");
+            throw std::runtime_error("Probleme lecture poids1 sommet");
         ifs>>p2;
         if(ifs.fail())
-            throw std::runtime_error("Probleme lecture donnees sommet");
-        for (auto it = m_aretes.begin(); it !=m_aretes.end(); ++it)
-        {
-            if(id == it->first)
-            {
-                it->second->m_poids1 = p1;
-                it->second->m_poids2 = p2;
-            }
-        }
+            throw std::runtime_error("Probleme lecture poids2 sommet");
+
+        it->second->setpoids1(p1);
+        it->second->setpoids2(p2);
+
+       ++it;
+       }
     }
-}
+
 
 void graphe::afficherP() const
 {
@@ -118,8 +117,18 @@ void graphe::afficher() const
     }
 }
 
-/*
-std::vector <Arete*> Tri (std::unordered_map<std::string, Arete*> m_aretes,int v )
+std::map <std::string, Sommet*> graphe::GetMapsom(){
+return m_sommets;
+}
+
+std::map<std::string, Arete*> graphe::GetMapar()
+{
+    return m_aretes;
+}
+
+
+
+std::vector <Arete*> Tri (std::map<std::string, Arete*> m_aretes,int v )
 {
     std::vector <Arete*> m_aretes1;
     for( auto x: m_aretes)
@@ -149,23 +158,25 @@ std::vector <Arete*> Tri (std::unordered_map<std::string, Arete*> m_aretes,int v
                     Arete* a2=m_aretes1[j+1];
                     m_aretes1.insert(m_aretes1.begin() + j,a2);
                     m_aretes1.erase(m_aretes1.begin() + (j+2));
-
                 }
             }
         }
 
     }
+
     return m_aretes1;
 }
 
-std::unordered_map<std::string, Arete*> Kruskal ( std::unordered_map<std::string, Arete*> m_aretes std::unordered_map<std::string,Sommet*> m_sommets,int v )
+std::map<std::string, Arete*> graphe::Kruskal ( int v )
 {
+    int poidsTotal1 = 0, poidsTotal2 = 0;
     std::vector <Arete*> m_aretes1;
-    m_aretes1= Tri(m_aretes,v);
+    std::map<std::string, Arete*> m_areteg =(this)->GetMapar();
+    m_aretes1= Tri(m_areteg,v);
     std::string id=m_aretes1[0]->GetId();
-    std::unordered_map<std::string, Arete*> m_Kruskal;
+    std::map<std::string, Arete*> m_Kruskal;
     m_Kruskal[id]=m_aretes1[0];
-
+    m_aretes1[0]->Setselect(true);
     std::vector <std::string > m_vecSommet;
     std::string Sommet1=m_aretes1[0]->GetSommet1();
         m_vecSommet.push_back(Sommet1);
@@ -173,6 +184,7 @@ std::unordered_map<std::string, Arete*> Kruskal ( std::unordered_map<std::string
         m_vecSommet.push_back(Sommet2);
 
 
+int compteur=0;
                     for (size_t i=1;i<m_aretes1.size();i++)
     {
          Sommet1=m_aretes1[i]->GetSommet1();
@@ -190,46 +202,107 @@ std::unordered_map<std::string, Arete*> Kruskal ( std::unordered_map<std::string
       }
 
       if(z==0){
-    m_aretes1[i]->Setselect(true);
+        m_aretes1[i]->Setselect(true);
         m_vecSommet.push_back(Sommet1);
         m_vecSommet.push_back(Sommet2);
+        compteur+=1;
         }
         else if(z==1){
             m_aretes1[i]->Setselect(true);
         m_vecSommet.push_back(Sommet2);
-
+        compteur+=1;
         }else if (z==2){
              m_aretes1[i]->Setselect(true);
         m_vecSommet.push_back(Sommet1);
+        compteur+=1;
         }
         else if(z==3){
         Sommet* S0= m_sommets.at(Sommet1);
-        std::unordered_set<std::string> cc=S0->rechercherCC();
+        std::unordered_set<std::string> cc=S0->rechercherCC(m_vecSommet,m_aretes1);
 
-        if(cc.find(Sommet2)==cc.end()){
+        if((cc.find(Sommet2)==cc.end())){
         m_aretes1[i]->Setselect(true);
+        compteur+=1;
         }
+        }
+
+         if(compteur ==(m_sommets.size()-1)){
+                break;
+    }
+        if(m_aretes1[i]->GetSelect()){
+        std::cout<< m_aretes1[i]->GetId()<<" arete selectionnée"<<std::endl;
+    } else{
+    std::cout<< m_aretes1[i]->GetId()<< " non"<<std::endl;
+    }
+    }
+    for (size_t i=0; i<m_aretes1.size(); i++)
+    {
+        bool a=m_aretes1[i]->GetSelect();
+        if(a==true)
+        {
+            id=m_aretes1[i]->GetId();
+            m_Kruskal[id]=m_aretes1[i];
         }
     }
 
-
-     for (size_t i=0;i<m_aretes1.size();i++){
-        bool a=m_aretes1[i]->GetSelect();
-        if(a==true){
-        id=m_aretes1[i]->GetId();
-        m_Kruskal[id]=m_aretes1[i];
+        for (auto x:m_Kruskal)
+        {
+            poidsTotal1 += x.second->GetCout1();
+            poidsTotal2 += x.second->GetCout2();
         }
-     }
-for (auto x:m_Kruskal){
-    std::string q=x.second->GetId();
-    std::cout<<q<<std::endl;
+        for (auto x:m_Kruskal)
+        {
+            std::string q=x.second->GetId();
+            std::cout<<q<<std::endl;
+        }
+    std::cout<< "resultat ("<<poidsTotal1<< " , "<<poidsTotal2<<")"<<std::endl;
+    return m_Kruskal;
+    }
+
+
+
+int choix()
+{
+        int choix;
+        std::cout<<"Veuillez saisir a partir de quelle ponderation voulez-vous lancer Kruskal :"<<std::endl;
+        std::cin>> choix;
+        switch (choix)
+        {
+            case 1:
+                return choix;
+                break;
+            case 2:
+                return choix;
+                break;
+            default:
+                std::cout << "Veuillez resaisir, s'il vous plait!"<<std::endl;
+                return 0;
+        }
 }
-return m_Kruskal;
-}*/
 
 graphe::~graphe()
 {
 
 }
 
+void graphe::dessiner(std::map<std::string, Arete*> Kruskal)
+{
+    Svgfile svgout;
+    svgout.addGrid();
+    std::string couleur = "black";
+    for (auto x: m_sommets)
+    {
 
+        svgout.addDisk(x.second->GetposX(), x.second->GetposY(), 10, couleur);
+    }
+
+    for (auto y: Kruskal)
+    {
+        std::string s1 = y.second->GetSommet1();
+        std::string s2 = y.second->GetSommet2();
+
+        Sommet* S1 = m_sommets.at(s1);
+        Sommet* S2 = m_sommets.at(s2);
+        svgout.addLine(S1->GetposX(), S1->GetposY(), S2->GetposX(), S2->GetposY(), couleur);
+    }
+}

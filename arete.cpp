@@ -40,6 +40,15 @@ std::string Arete::GetSommet2()
     return m_select;
  }
 
+ void Arete::setpoids1(double poids1)
+{m_poids1=poids1;}
+
+void Arete::setpoids2(double poids2)
+{m_poids2=poids2;}
+
+void Arete::setid(std::string id)
+{m_id=id;}
+
 void Arete::Setselect(bool x)
 {
     m_select=x;
