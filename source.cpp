@@ -1,7 +1,9 @@
 #include "source.h"
-
+#include <bitset>
+#include <string>
 graphe::graphe()
 {
+
 }
 
 void graphe::sommet(std::string nomFichier)
@@ -33,7 +35,7 @@ void graphe::sommet(std::string nomFichier)
     if (ifs.fail())
         throw std::runtime_error("Probleme lecture taille du graphe");
     std::string id_voisin;
-    double sommetD, sommetF;
+    std::string sommetD, sommetF;
     for (int i=0; i<taille; ++i)
     {
         ifs>>id;
@@ -45,6 +47,8 @@ void graphe::sommet(std::string nomFichier)
         ifs>>sommetF;
         if(ifs.fail())
             throw std::runtime_error("Probleme lecture donnees sommet");
+        (m_sommets.find(sommetD))->second->ajouterVoisin((m_sommets.find(sommetF))->second);
+        (m_sommets.find(sommetF))->second->ajouterVoisin((m_sommets.find(sommetD))->second);
         m_aretes.insert({id,new Arete{id,1,1,sommetD,sommetF}});
     }
 }
@@ -63,34 +67,34 @@ void graphe::ponderation(std::string nomFichier)
         throw std::runtime_error("Probleme lecture nombre de ponderation du graphe");
     std::string id;
     double p1, p2;
-    auto it = m_aretes.begin();
     for (int i=0; i<ordre; ++i)
     {
-
         ifs>>id;
         if(ifs.fail())
             throw std::runtime_error("Probleme lecture donnees sommet");
         ifs>>p1;
         if(ifs.fail())
-            throw std::runtime_error("Probleme lecture poids1 sommet");
+            throw std::runtime_error("Probleme lecture donnees sommet");
         ifs>>p2;
         if(ifs.fail())
-            throw std::runtime_error("Probleme lecture poids2 sommet");
-
-        it->second->setpoids1(p1);
-        it->second->setpoids2(p2);
-
-        ++it;
+            throw std::runtime_error("Probleme lecture donnees sommet");
+        for (auto it = m_aretes.begin(); it !=m_aretes.end(); ++it)
+        {
+            if(id == it->first)
+            {
+                it->second->m_poids1 = p1;
+                it->second->m_poids2 = p2;
+            }
+        }
     }
 }
 
-
-void graphe::afficherP()
+void graphe::afficherP() const
 {
 
     for(auto it = m_aretes.begin(); it !=m_aretes.end(); ++it)
     {
-        std::cout<< "Aretes : ";
+        std::cout<< "Arretes : ";
         it->second->afficherPoids();
         std::cout << std::endl;
     }
@@ -104,11 +108,12 @@ void graphe::afficher() const
     {
         std::cout << "Sommets :  ";
         it->second->afficherData();
+        it->second->afficherVoisins();
         std::cout << std::endl;
     }
     for(auto it = m_aretes.begin(); it !=m_aretes.end(); ++it)
     {
-        std::cout<< "Aretes : ";
+        std::cout<< "Arretes : ";
         it->second->afficher();
         std::cout << std::endl;
     }
@@ -119,41 +124,146 @@ std::vector<Arete*> graphe::Prim(graphe grph)
     std::vector<Arete*> aretetmp;
     std::vector<Sommet*> sommettmp;
 
-    while(tant que c'est pas connexe)
+std::map <std::string, Sommet*> graphe::GetMapsom(){
+return m_sommets;
+}
+
+std::map<std::string, Arete*> graphe::GetMapar()
+{
+    return m_aretes;
+}
+
+
+
+std::vector <Arete*> Tri (std::map<std::string, Arete*> m_aretes,int v )
+{
+    std::vector <Arete*> m_aretes1;
+    for( auto x: m_aretes)
     {
+        Arete* a=x.second;
+        m_aretes1.push_back(a);
 
     }
 
-    return aretetmp
-}
-*/
-/*
-int graphe::rechercherCompConnex() const{
-
-    int nbrCompConnex;
-    std::vector<std::unordered_set<std::string>> vec;
-    bool tst;
-
-    //std::cout<<"composantes connexes :"<<std::endl;
-
-    for(auto s: m_sommets)
+    for(size_t i = 0 ; i< m_aretes1.size() ; ++i)
     {
-        tst=0;
-        for(auto cc: vec)
+        for(size_t j = 0 ; j< m_aretes1.size() ; ++j)
         {
-            if(cc.find(s.first)!=cc.end())
-                tst=1;
+            if(m_aretes1.size() > j+1 )
+            {
+                 float a;
+                 float b;
+                if(v==1){
+                 a=m_aretes1[j]->GetCout1();
+                 b=m_aretes1[j+1]->GetCout1();
+                } else{
+                 a=m_aretes1[j]->GetCout2();
+                 b=m_aretes1[j+1]->GetCout2();
+                }
+                if(a>b)
+                {
+                    Arete* a2=m_aretes1[j+1];
+                    m_aretes1.insert(m_aretes1.begin() + j,a2);
+                    m_aretes1.erase(m_aretes1.begin() + (j+2));
+
+                }
+            }
         }
-        if(tst==0)
-            tab.push_back((s.second)->rechercherCC());
+
     }
 
-    nbrCompConnex=vec.size();
-    return nbrCompConnex;
+    return m_aretes1;
 }
-*/
 
-bool *graphe::DecToBin(int n) ///ce programme permet de convertir un nb base 10 en base 2 et le retourne
+std::map<std::string, Arete*> graphe::Kruskal ( int v )
+{
+    int poidsTotal1 = 0, poidsTotal2 = 0;
+    std::vector <Arete*> m_aretes1;
+    std::map<std::string, Arete*> m_areteg =(this)->GetMapar();
+    m_aretes1= Tri(m_areteg,v);
+    std::string id=m_aretes1[0]->GetId();
+    std::map<std::string, Arete*> m_Kruskal;
+    m_Kruskal[id]=m_aretes1[0];
+    m_aretes1[0]->SetSelect(true);
+    std::vector <std::string > m_vecSommet;
+    std::string Sommet1=m_aretes1[0]->GetSommet1();
+        m_vecSommet.push_back(Sommet1);
+    std::string Sommet2=m_aretes1[0]->GetSommet2();
+        m_vecSommet.push_back(Sommet2);
+
+
+int compteur=0;
+                    for (size_t i=1;i<m_aretes1.size();i++)
+    {
+         Sommet1=m_aretes1[i]->GetSommet1();
+         Sommet2=m_aretes1[i]->GetSommet2();
+    int z=0;
+
+      for (size_t i=0;i<m_vecSommet.size();i++){
+
+        if(m_vecSommet[i]==Sommet1){
+            z+=1;
+        }
+        if(m_vecSommet[i]==Sommet2){
+            z+=2;
+      }
+      }
+
+      if(z==0){
+        m_aretes1[i]->SetSelect(true);
+        m_vecSommet.push_back(Sommet1);
+        m_vecSommet.push_back(Sommet2);
+        compteur+=1;
+        }
+        else if(z==1){
+            m_aretes1[i]->SetSelect(true);
+        m_vecSommet.push_back(Sommet2);
+        compteur+=1;
+        }else if (z==2){
+             m_aretes1[i]->SetSelect(true);
+        m_vecSommet.push_back(Sommet1);
+        compteur+=1;
+        }
+        else if(z==3){
+        Sommet* S0= m_sommets.at(Sommet1);
+        std::unordered_set<std::string> cc=S0->rechercherCC(m_vecSommet,m_aretes1);
+
+        if((cc.find(Sommet2)==cc.end())){
+        m_aretes1[i]->SetSelect(true);
+        compteur+=1;
+        }
+        }
+
+         if(compteur ==(m_sommets.size()-1)){
+                break;
+    }
+    }
+
+
+     for (size_t i=0;i<m_aretes1.size();i++){
+        bool a=m_aretes1[i]->GetSelect();
+        if(a==true){
+        id=m_aretes1[i]->GetId();
+        m_Kruskal[id]=m_aretes1[i];
+        }
+     }
+for (auto x:m_Kruskal)
+        {
+            poidsTotal1 += x.second->GetCout1();
+            poidsTotal2 += x.second->GetCout2();
+        }
+for (auto x:m_Kruskal)
+    {
+    std::string q=x.second->GetId();
+    std::cout<< q <<" ";
+    }
+    std::cout<<std::endl;
+std::cout<< "resultat ("<<poidsTotal1<< " , "<<poidsTotal2<<")"<<std::endl;
+return m_Kruskal;
+}
+
+
+graphe::~graphe()
 {
 
     bool *nbBinaire = new bool [32];
@@ -162,7 +272,7 @@ bool *graphe::DecToBin(int n) ///ce programme permet de convertir un nb base 10 
         nbBinaire[i]=0;
 
     int k=0;
-    while(n>0) //attribution du chiffre décimal en binaire
+    while(n>0) //attribution du chiffre dï¿½cimal en binaire
     {
         if (n%2==0)
             nbBinaire[k]=0;
@@ -171,55 +281,78 @@ bool *graphe::DecToBin(int n) ///ce programme permet de convertir un nb base 10 
         n/=2;
         k++;
     }
-    return nbBinaire; //on retourne le tableau de booléen
+    return nbBinaire; //on retourne le tableau de boolï¿½en
 }
 
-void graphe::compteurbinaire()
+int choix()
 {
-    std::vector<std::vector<bool>> tab; //vecteur de booléen à 2 dimensions
-
-    int ordre=m_sommets.size();
-    int taille=m_aretes.size();
-    int nbSol=pow(2,taille); //le nombre de solutions = 2^nb-arete
-    int nbArete=0;
-
-    for(int i=0; i<nbSol; ++i) //on réalise toutes les solutions possibles
-    {
-        std::vector <bool> ToutesSol; //tableau temporaire de booleen
-        bool *nbBin=DecToBin(i); //conversion base 10 -> base 2
-
-        for(int k=0; k<taille; ++k)
+        int choix;
+        std::cout<<"Veuillez saisir a partir de quelle ponderation voulez-vous lancer Kruskal :"<<std::endl;
+        std::cin>> choix;
+        switch (choix)
         {
-            ToutesSol.push_back(nbBin[k]); // on rempli le tableau temporaire avec toutes les solutions possibles
+            case 1:
+                return choix;
+                break;
+            case 2:
+                return choix;
+                break;
+            default:
+                std::cout << "Veuillez resaisir, s'il vous plait!"<<std::endl;
+                return 0;
         }
-
-        for(std::size_t m=0; m<ToutesSol.size();++m)
-        {
-            if(ToutesSol[m]==1) nbArete++;//si une valeur vaut 1 on l'ajoute compte '1' arete en plus
-        }
-
-        if(nbArete==(ordre-1)) //on ajoute les solutions admissibles dans le tableau quasi final
-        {
-            tab.push_back(ToutesSol);
-        }
-
-        ToutesSol.erase(ToutesSol.begin(), ToutesSol.end()); //on efface le tableau temporaire
-        nbArete=0;
-    }
-
-    ///Test si le vecteur s'est bien enregistré
-    /*
-    std::cout<<tab.size()<<" "<<taille;
-    for(int n=0; n<tab.size(); n++) //affichage du tableau de booleen à l'envers
-    {
-        for(int p=taille-1; p>=0;p--)
-        {std::cout<<tab[n][p];}
-        std::cout<<std::endl;
-    }
-    */
-
-    std::cout <<"\n\tNombre de vecteurs (enchainements possible) : "<<tab.size() <<'\n';
 }
 
-graphe::~graphe()
-{}
+void graphe::dessiner(std::map<std::string, Arete*> Kruskal)
+{
+    Svgfile svgout;
+    svgout.addGrid();
+    std::string couleur = "black";
+    for (auto x: m_sommets)
+    {
+
+        svgout.addDisk(x.second->GetposX(), x.second->GetposY(), 10, couleur);
+    }
+
+    for (auto y: Kruskal)
+    {
+        std::string s1 = y.second->GetSommet1();
+        std::string s2 = y.second->GetSommet2();
+
+        Sommet* S1 = m_sommets.at(s1);
+        Sommet* S2 = m_sommets.at(s2);
+        svgout.addLine(S1->GetposX(), S1->GetposY(), S2->GetposX(), S2->GetposY(), couleur);
+    }
+}
+
+
+std::vector<std::vector<bool>> graphe::Connexite(std::vector<std::vector<bool>> m_Aretepossible){
+std::vector<std::vector<bool>> m_GrapheFinal;
+
+for(auto x: m_Aretepossible)
+    {
+
+        std::vector<std::string> m_vecSommet;
+        for(auto y:m_sommets){
+            m_vecSommet.push_back(y.first);
+        }
+
+         std::vector<Arete*> m_vecArete;
+        for(auto z:m_aretes){
+            m_vecArete.push_back(z.second);
+        }
+        for(size_t i=0; i<x.size();i++){
+            m_vecArete[i]->SetSelect(x[i]);
+
+        }
+            Sommet* S1=m_sommets.begin()->second;
+            std::unordered_set<std::string> cc= S1->rechercherCC(m_vecSommet,m_vecArete);
+
+          if(cc.size()==m_vecSommet.size())
+           {
+                m_GrapheFinal.push_back(x);
+           }
+    }
+    return m_GrapheFinal;
+ }
+

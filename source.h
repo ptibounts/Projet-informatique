@@ -6,21 +6,27 @@
 #include <map>
 #include "sommet.h"
 #include "arete.h"
-#include <cmath>
-#include <math.h>
-#include <vector>
+#include "svgfile.h"
+
+int choix();
 
 class graphe
 {
     public:
+        void sommet(std::string);
         graphe();
         ~graphe();
         void sommet(std::string);
         void afficher() const ;
-        void afficherP();
+        void afficherP() const;
         void ponderation(std::string);
-        void compteurbinaire();
-        bool *DecToBin(int n);
+        std::map<std::string, Arete*> Kruskal ( int v );
+        std::map<std::string, Sommet*> GetMapsom();
+        std::map<std::string, Arete*> GetMapar();
+        void dessiner(std::map<std::string, Arete*>);
+        std::vector<std::vector<bool>> Connexite(std::vector<std::vector<bool>>);
+         int rechercher_afficherToutesCC() const;
+
     protected:
 
     private:
