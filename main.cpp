@@ -14,7 +14,7 @@ int main()
     std::vector<Arete*> test;
     g.sommet("broadway.txt");
     g.ponderation("broadway_weights_0.txt");
-    g.afficher();
+    /*g.afficher();
     g.afficherP();
     do
     {
@@ -23,7 +23,8 @@ int main()
     Kruskal = g.Kruskal(valeur);
     g.dessiner(Kruskal);
     system("start output.svg");
-
+*/
+g.RechercheSol();
 
     return 0;
 }

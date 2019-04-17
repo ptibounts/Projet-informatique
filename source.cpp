@@ -119,6 +119,12 @@ void graphe::afficher() const
     }
 }
 
+ std::map<std::string, Sommet*> graphe::GetMapsom(){
+ return m_sommets;
+ }
+std::map<std::string, Arete*> graphe::GetMapar(){
+        return m_aretes;
+        }
 std::vector <Arete*> Tri (std::map<std::string, Arete*> m_aretes,int v )
 {
     std::vector <Arete*> m_aretes1;
@@ -248,25 +254,8 @@ return m_Kruskal;
 
 
 graphe::~graphe()
-{
+{}
 
-    bool *nbBinaire = new bool [32];
-
-    for(size_t i=0;i<32;i++) //initialisation du tableau
-        nbBinaire[i]=0;
-
-    int k=0;
-    while(n>0) //attribution du chiffre d�cimal en binaire
-    {
-        if (n%2==0)
-            nbBinaire[k]=0;
-        else
-            nbBinaire[k]=1;
-        n/=2;
-        k++;
-    }
-    return nbBinaire; //on retourne le tableau de bool�en
-}
 
 int choix()
 {
@@ -339,4 +328,78 @@ for(auto x: m_Aretepossible)
     }
     return m_GrapheFinal;
  }
+
+ bool *graphe::DecToBin(int n) ///ce programme permet de convertir un nb base 10 en base 2 et le retourne
+{
+
+    bool *nbBinaire = new bool [32];
+
+    for(size_t i=0;i<32;i++) //initialisation du tableau
+        nbBinaire[i]=0;
+
+    int k=0;
+    while(n>0) //attribution du chiffre d�cimal en binaire
+    {
+        if (n%2==0)
+            nbBinaire[k]=0;
+        else
+            nbBinaire[k]=1;
+        n/=2;
+        k++;
+    }
+    return nbBinaire; //on retourne le tableau de bool�en
+}
+
+std::vector<std::vector<bool>> graphe::compteurbinaire()
+{
+    std::vector<std::vector<bool>> tab; //vecteur de bool�en � 2 dimensions
+
+    int ordre=m_sommets.size();
+    int taille=m_aretes.size();
+    int nbSol=pow(2,taille); //le nombre de solutions = 2^nb-arete
+    int nbArete=0;
+
+    for(int i=0; i<nbSol; ++i) //on r�alise toutes les solutions possibles
+    {
+        std::vector <bool> ToutesSol; //tableau temporaire de booleen
+        bool *nbBin=DecToBin(i); //conversion base 10 -> base 2
+
+        for(int k=0; k<taille; ++k)
+        {
+            ToutesSol.push_back(nbBin[k]); // on rempli le tableau temporaire avec toutes les solutions possibles
+        }
+
+        for(std::size_t m=0; m<ToutesSol.size();++m)
+        {
+            if(ToutesSol[m]==1) nbArete++;//si une valeur vaut 1 on l'ajoute compte '1' arete en plus
+        }
+
+        if(nbArete==(ordre-1)) //on ajoute les solutions admissibles dans le tableau quasi final
+        {
+            tab.push_back(ToutesSol);
+        }
+
+        ToutesSol.erase(ToutesSol.begin(), ToutesSol.end()); //on efface le tableau temporaire
+        nbArete=0;
+   }
+    return tab;
+}
+
+std::vector<std::vector<bool>> graphe::RechercheSol(){
+    std::vector<std::vector<bool>>Solutiontemp=this->compteurbinaire();
+    std::vector<std::vector<bool>>Solutionfin=this->Connexite(Solutiontemp);
+
+std::cout<<"Les Aretes finales sont: ";
+for (auto x:Solutionfin){
+        std::cout<< "Arete: ";
+    for (auto y:x){
+        std::cout<<y;
+    }
+    std::cout<<std::endl;
+
+}
+    return Solutionfin;
+
+}
+
 
