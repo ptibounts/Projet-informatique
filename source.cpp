@@ -276,10 +276,9 @@ int choix()
         }
 }
 
-void graphe::dessiner(std::map<std::string, Arete*> Kruskal)
+void graphe::dessiner(std::map<std::string, Arete*> Kruskal, int valeur)
 {
     Svgfile svgout;
-    svgout.addGrid();
     std::string couleur = "black";
     for (auto x: m_sommets)
     {
@@ -292,16 +291,38 @@ void graphe::dessiner(std::map<std::string, Arete*> Kruskal)
         std::string s1 = y.second->GetSommet1();
         std::string s2 = y.second->GetSommet2();
 
+
         Sommet* S1 = m_sommets.at(s1);
         Sommet* S2 = m_sommets.at(s2);
-        svgout.addLine(S1->GetposX(), S1->GetposY(), S2->GetposX(), S2->GetposY(), couleur);
+        int x1 = S1->GetposX();
+        int y1 = S1->GetposY();
+        int x2 = S2->GetposX();
+        int y2 = S2->GetposY();
+        svgout.addLine(x1, y1, x2, y2, couleur);
+        if (valeur == 1)
+        {
+            float v1 = y.second->GetCout1();
+            if(y1 == y2)
+            {
+                y1 = y1 - 10;
+            }
+            svgout.addText(((x1+x2)/2)+10, (y1+y2)/2, v1, couleur);
+        }
+        else if (valeur == 2)
+        {
+            float v2 = y.second->GetCout2();
+            if(y1 == y2)
+            {
+                y1 = y1 - 10;
+            }
+            svgout.addText(((x1+x2)/2)+10, (y1+y2)/2, v2, couleur);
+        }
+        }
     }
-}
 
 
 std::vector<std::vector<bool>> graphe::Connexite(std::vector<std::vector<bool>> m_Aretepossible){
 std::vector<std::vector<bool>> m_GrapheFinal;
-
 for(auto x: m_Aretepossible)
     {
 
@@ -352,7 +373,7 @@ for(auto x: m_Aretepossible)
 
 std::vector<std::vector<bool>> graphe::compteurbinaire()
 {
-    std::vector<std::vector<bool>> tab; //vecteur de bool�en � 2 dimensions
+    std::vector<std::vector<bool>> tab; //vecteur de booleen e 2 dimensions
 
     int ordre=m_sommets.size();
     int taille=m_aretes.size();
@@ -389,7 +410,7 @@ std::vector<std::vector<bool>> graphe::RechercheSol(){
     std::vector<std::vector<bool>>Solutiontemp=this->compteurbinaire();
     std::vector<std::vector<bool>>Solutionfin=this->Connexite(Solutiontemp);
 
-std::cout<<"Les Aretes finales sont: ";
+std::cout<<"Les Aretes finales sont: "<<std::endl;
 for (auto x:Solutionfin){
         std::cout<< "Arete: ";
     for (auto y:x){

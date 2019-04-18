@@ -66,10 +66,10 @@ std::unordered_map<std::string,std::string> Sommet::parcoursBFS(std::vector <std
     l_decouvert.insert(m_id);
       Sommet* s=nullptr;
 
-std::string voisin;
-std::string soma1;
-std::string soma2;
-std::string som1;
+    std::string voisin;
+    std::string soma1;
+    std::string soma2;
+    std::string som1;
 
     while(!file.empty())
     {

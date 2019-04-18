@@ -22,7 +22,7 @@ class graphe
         std::map<std::string, Arete*> Kruskal ( int v );
         std::map<std::string, Sommet*> GetMapsom();
         std::map<std::string, Arete*> GetMapar();
-        void dessiner(std::map<std::string, Arete*>);
+        void dessiner(std::map<std::string, Arete*>, int);
          bool *DecToBin(int n);
         std::vector<std::vector<bool>> compteurbinaire() ;
         std::vector<std::vector<bool>> Connexite(std::vector<std::vector<bool>>);
