@@ -20,11 +20,10 @@ int main()
     {
         valeur = choix();
     } while (valeur == 0);
-    Kruskal = g.Kruskal(valeur);
-    g.dessiner(Kruskal, valeur);
+    Kruskal = g.Kruskal(1);
+    g.dessiner(Kruskal, 1);
     system("start output.svg");
     g.RechercheSol();
-
     return 0;
 }
 

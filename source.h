@@ -20,8 +20,8 @@ class graphe
         void afficherP() const;
         void ponderation(std::string);
         std::map<std::string, Arete*> Kruskal ( int v );
-        std::map<std::string, Sommet*> GetMapsom();
-        std::map<std::string, Arete*> GetMapar();
+        std::map<std::string, Sommet*> GetMapsom() const;
+        std::map<std::string, Arete*> GetMapar() const;
         void dessiner(std::map<std::string, Arete*>, int);
          bool *DecToBin(int n);
         std::vector<std::vector<bool>> compteurbinaire() ;

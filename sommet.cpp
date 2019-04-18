@@ -6,7 +6,7 @@ Sommet::Sommet(std::string id,int x,int y):m_id{id},m_x{x},m_y{y}
 }
 
 
-std::string Sommet::GetId()
+std::string Sommet::GetId() const
  {
     return m_id;
  }
@@ -60,7 +60,7 @@ std::unordered_map<std::string,std::string> Sommet::parcoursBFS() const
 std::unordered_map<std::string,std::string> Sommet::parcoursBFS(std::vector <std::string > m_vecSommet, std::vector <Arete*> m_aretes1)
 {
     std::unordered_map<std::string,std::string> l_pred;
-    std::queue< Sommet*> file;
+    std::queue<Sommet*> file;
     std::unordered_set<std::string> l_decouvert;
     file.push(this);
     l_decouvert.insert(m_id);
@@ -129,12 +129,12 @@ std::unordered_set<std::string> Sommet::rechercherCC() const
     return cc;
 }
 
-int Sommet::GetposY()
+int Sommet::GetposY() const
 {
     return m_y;
 }
 
-int Sommet::GetposX()
+int Sommet::GetposX() const
 {
     return m_x;
 }

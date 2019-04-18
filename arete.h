@@ -12,25 +12,27 @@ class Arete
         Arete(std::string, double, double, std::string, std::string);
         Arete(std::string, double, double);
         void afficher() const;
-        void afficherPoids();
+        void afficherPoids() const;
         void afficherVoisins() const;
-        float GetCout1();
-        float GetCout2();
-        std::string GetSommet1();
-        std::string GetSommet2();
-        bool GetSelect();
-        std::string GetId();
+        float GetCout1() const;
+        float GetCout2() const;
+        std::string GetSommet1()const;
+        std::string GetSommet2() const;
+        bool GetSelect()const;
+        std::string GetId() const;
         void SetCout1(float x);
         void SetSelect(bool x);
+        void setpoids1(double poids1);
+        void setpoids2(double poids2);
         ~Arete();
-        std::string m_id;         // Identifiant
-        double m_poids1, m_poids2; // Ponderation
 
     protected:
 
 
     private:
         bool m_select;
+        std::string m_id;         // Identifiant
+        double m_poids1, m_poids2; // Ponderation
         std::string m_sommet1, m_sommet2; // Position
 };
 

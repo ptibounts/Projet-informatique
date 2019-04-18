@@ -67,6 +67,41 @@ void graphe::ponderation(std::string nomFichier)
         throw std::runtime_error("Probleme lecture nombre de ponderation du graphe");
     std::string id;
     double p1, p2;
+    auto it = m_aretes.begin();
+    for (int i=0; i<ordre; ++i)
+    {
+
+        ifs>>id;
+        if(ifs.fail())
+            throw std::runtime_error("Probleme lecture donnees sommet");
+        ifs>>p1;
+        if(ifs.fail())
+            throw std::runtime_error("Probleme lecture poids1 sommet");
+        ifs>>p2;
+        if(ifs.fail())
+            throw std::runtime_error("Probleme lecture poids2 sommet");
+
+        it->second->setpoids1(p1);
+        it->second->setpoids2(p2);
+
+       ++it;
+       }
+    }
+/*
+void graphe::ponderation(std::string nomFichier)
+{
+    std::ifstream ifs{nomFichier};
+    if (!ifs)
+        throw std::runtime_error( "Impossible d'ouvrir en lecture " + nomFichier );
+    int ordre, nbPonderation;
+    ifs >> ordre;
+    if (ifs.fail())
+        throw std::runtime_error("Probleme lecture ordre du graphe");
+    ifs >> nbPonderation;
+    if (ifs.fail())
+        throw std::runtime_error("Probleme lecture nombre de ponderation du graphe");
+    std::string id;
+    double p1, p2;
     for (int i=0; i<ordre; ++i)
     {
         ifs>>id;
@@ -88,7 +123,7 @@ void graphe::ponderation(std::string nomFichier)
         }
     }
 }
-
+*/
 void graphe::afficherP() const
 {
 
@@ -119,12 +154,14 @@ void graphe::afficher() const
     }
 }
 
- std::map<std::string, Sommet*> graphe::GetMapsom(){
- return m_sommets;
+ std::map<std::string, Sommet*> graphe::GetMapsom() const
+ {
+    return m_sommets;
  }
-std::map<std::string, Arete*> graphe::GetMapar(){
-        return m_aretes;
-        }
+std::map<std::string, Arete*> graphe::GetMapar() const
+{
+    return m_aretes;
+}
 std::vector <Arete*> Tri (std::map<std::string, Arete*> m_aretes,int v )
 {
     std::vector <Arete*> m_aretes1;
@@ -181,13 +218,12 @@ std::map<std::string, Arete*> graphe::Kruskal ( int v )
     std::string Sommet2=m_aretes1[0]->GetSommet2();
         m_vecSommet.push_back(Sommet2);
 
-
-int compteur=0;
-                    for (size_t i=1;i<m_aretes1.size();i++)
+    int compteur=0;
+    for (size_t i=1;i<m_aretes1.size();i++)
     {
          Sommet1=m_aretes1[i]->GetSommet1();
          Sommet2=m_aretes1[i]->GetSommet2();
-    int z=0;
+        int z=0;
 
       for (size_t i=0;i<m_vecSommet.size();i++){
 
@@ -322,6 +358,7 @@ void graphe::dessiner(std::map<std::string, Arete*> Kruskal, int valeur)
 
 
 std::vector<std::vector<bool>> graphe::Connexite(std::vector<std::vector<bool>> m_Aretepossible){
+
 std::vector<std::vector<bool>> m_GrapheFinal;
 for(auto x: m_Aretepossible)
     {
@@ -330,8 +367,7 @@ for(auto x: m_Aretepossible)
         for(auto y:m_sommets){
             m_vecSommet.push_back(y.first);
         }
-
-         std::vector<Arete*> m_vecArete;
+        std::vector<Arete*> m_vecArete;
         for(auto z:m_aretes){
             m_vecArete.push_back(z.second);
         }
@@ -409,16 +445,17 @@ std::vector<std::vector<bool>> graphe::compteurbinaire()
 std::vector<std::vector<bool>> graphe::RechercheSol(){
     std::vector<std::vector<bool>>Solutiontemp=this->compteurbinaire();
     std::vector<std::vector<bool>>Solutionfin=this->Connexite(Solutiontemp);
-
-std::cout<<"Les Aretes finales sont: "<<std::endl;
-for (auto x:Solutionfin){
+/*
+    std::cout<<"Les Aretes finales sont: "<<std::endl;
+    for (auto x:Solutionfin){
         std::cout<< "Arete: ";
-    for (auto y:x){
+    for (auto y:x)
+    {
         std::cout<<y;
     }
     std::cout<<std::endl;
 
-}
+    }*/
     return Solutionfin;
 
 }

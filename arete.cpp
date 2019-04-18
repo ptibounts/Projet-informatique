@@ -10,32 +10,32 @@ Arete::Arete(std::string id,double poids1,double poids2, std::string sommet1, st
 
 }
 
-std::string Arete::GetId()
+std::string Arete::GetId() const
 {
     return m_id;
 }
 
-float Arete::GetCout1()
+float Arete::GetCout1() const
 {
     return m_poids1;
 }
 
-float Arete::GetCout2()
+float Arete::GetCout2() const
 {
     return m_poids2;
 }
 
-std::string Arete::GetSommet1()
+std::string Arete::GetSommet1() const
 {
     return m_sommet1;
 }
 
-std::string Arete::GetSommet2()
+std::string Arete::GetSommet2() const
 {
     return m_sommet2;
 }
 
- bool Arete::GetSelect()
+ bool Arete::GetSelect() const
  {
     return m_select;
  }
@@ -55,13 +55,18 @@ Arete::Arete(std::string id,double poids1,double poids2)
 {
 
 }
+void Arete::setpoids1(double poids1)
+{m_poids1=poids1;}
+
+void Arete::setpoids2(double poids2)
+{m_poids2=poids2;}
 
 Arete::~Arete()
 {
     //dtor
 }
 
-void Arete::afficherPoids()
+void Arete::afficherPoids() const
 {
     std::cout<<m_id<<" : "<<m_sommet1<<" - "<< m_sommet2<< " Ponderation: " <<"("<<m_poids1<<","<<m_poids2<<")"<<std::endl;
 }
