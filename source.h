@@ -23,7 +23,7 @@ class graphe
         std::map<std::string, Arete*> Kruskal ( int v );
         std::map<std::string, Sommet*> GetMapsom();
         std::map<std::string, Arete*> GetMapar();
-        void dessiner(std::map<std::string, Arete*>);
+        void dessiner(std::map<std::string, Arete*>, int);
     protected:
 
     private:

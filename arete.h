@@ -16,15 +16,18 @@ class Arete
         void afficherVoisins() const;
         float GetCout1();
         float GetCout2();
+        void setpoids1(double poids1);
+        void setpoids2(double poids2);
         std::string GetSommet1();
         std::string GetSommet2();
         bool GetSelect();
         std::string GetId();
         void SetCout1(float x);
-        void Setselect(bool x);
+        void SetSelect(bool x);
         ~Arete();
-        std::string m_id;         // Identifiant
+        std::string m_id;           // Identifiant
         double m_poids1, m_poids2; // Ponderation
+
 
     protected:
 

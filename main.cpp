@@ -12,8 +12,8 @@ int main()
     std::map<std::string, Arete*> Kruskal;
     graphe g;
     std::vector<Arete*> test;
-    g.sommet("triville.txt");
-    g.ponderation("triville_weights_0.txt");
+    g.sommet("cubetown.txt");
+    g.ponderation("cubetown_weights_0.txt");
     g.afficher();
     g.afficherP();
     do
@@ -21,7 +21,7 @@ int main()
         valeur = choix();
     } while (valeur == 0);
     Kruskal = g.Kruskal(valeur);
-    g.dessiner(Kruskal);
+    g.dessiner(Kruskal, valeur);
     system("start output.svg");
     return 0;
 }
