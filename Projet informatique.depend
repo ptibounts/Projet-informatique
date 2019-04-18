@@ -88,3 +88,66 @@
 	<fstream>
 	<set>
 
+1555617524 source:c:\users\wass1\desktop\gitkrakenv2\projet-informatique\main.cpp
+	"source.h"
+	"sommet.h"
+	"arete.h"
+	<iostream>
+	<fstream>
+	<unordered_map>
+
+1555617494 c:\users\wass1\desktop\gitkrakenv2\projet-informatique\source.h
+	<string>
+	<iostream>
+	<fstream>
+	<map>
+	"sommet.h"
+	"arete.h"
+	"svgfile.h"
+
+1555617481 c:\users\wass1\desktop\gitkrakenv2\projet-informatique\sommet.h
+	<string>
+	<vector>
+	<map>
+	<unordered_map>
+	<unordered_set>
+	<queue>
+	<stack>
+	<set>
+	<iostream>
+	<fstream>
+	<algorithm>
+	"arete.h"
+	<vector>
+
+1555617463 c:\users\wass1\desktop\gitkrakenv2\projet-informatique\arete.h
+	<string>
+	<vector>
+	<map>
+	<set>
+
+1555610196 c:\users\wass1\desktop\gitkrakenv2\projet-informatique\svgfile.h
+	<string>
+	<fstream>
+	<set>
+
+1555610196 source:c:\users\wass1\desktop\gitkrakenv2\projet-informatique\svgfile.cpp
+	"svgfile.h"
+	<iostream>
+	<sstream>
+
+1555617342 source:c:\users\wass1\desktop\gitkrakenv2\projet-informatique\sommet.cpp
+	"sommet.h"
+
+1555617359 source:c:\users\wass1\desktop\gitkrakenv2\projet-informatique\source.cpp
+	"source.h"
+	<bitset>
+	<string>
+
+1555617508 source:c:\users\wass1\desktop\gitkrakenv2\projet-informatique\arete.cpp
+	<iostream>
+	<string>
+	<unordered_map>
+	<unordered_set>
+	"arete.h"
+

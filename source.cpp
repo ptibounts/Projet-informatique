@@ -1,5 +1,6 @@
 #include "source.h"
-
+#include <bitset>
+#include <string>
 graphe::graphe()
 {
 
@@ -118,17 +119,12 @@ void graphe::afficher() const
     }
 }
 
-std::map <std::string, Sommet*> graphe::GetMapsom(){
-return m_sommets;
-}
-
-std::map<std::string, Arete*> graphe::GetMapar()
-{
-    return m_aretes;
-}
-
-
-
+ std::map<std::string, Sommet*> graphe::GetMapsom(){
+ return m_sommets;
+ }
+std::map<std::string, Arete*> graphe::GetMapar(){
+        return m_aretes;
+        }
 std::vector <Arete*> Tri (std::map<std::string, Arete*> m_aretes,int v )
 {
     std::vector <Arete*> m_aretes1;
@@ -178,7 +174,7 @@ std::map<std::string, Arete*> graphe::Kruskal ( int v )
     std::string id=m_aretes1[0]->GetId();
     std::map<std::string, Arete*> m_Kruskal;
     m_Kruskal[id]=m_aretes1[0];
-    m_aretes1[0]->Setselect(true);
+    m_aretes1[0]->SetSelect(true);
     std::vector <std::string > m_vecSommet;
     std::string Sommet1=m_aretes1[0]->GetSommet1();
         m_vecSommet.push_back(Sommet1);
@@ -204,17 +200,17 @@ int compteur=0;
       }
 
       if(z==0){
-        m_aretes1[i]->Setselect(true);
+        m_aretes1[i]->SetSelect(true);
         m_vecSommet.push_back(Sommet1);
         m_vecSommet.push_back(Sommet2);
         compteur+=1;
         }
         else if(z==1){
-            m_aretes1[i]->Setselect(true);
+            m_aretes1[i]->SetSelect(true);
         m_vecSommet.push_back(Sommet2);
         compteur+=1;
         }else if (z==2){
-             m_aretes1[i]->Setselect(true);
+             m_aretes1[i]->SetSelect(true);
         m_vecSommet.push_back(Sommet1);
         compteur+=1;
         }
@@ -223,7 +219,7 @@ int compteur=0;
         std::unordered_set<std::string> cc=S0->rechercherCC(m_vecSommet,m_aretes1);
 
         if((cc.find(Sommet2)==cc.end())){
-        m_aretes1[i]->Setselect(true);
+        m_aretes1[i]->SetSelect(true);
         compteur+=1;
         }
         }
@@ -258,9 +254,8 @@ return m_Kruskal;
 
 
 graphe::~graphe()
-{
+{}
 
-}
 
 int choix()
 {
@@ -281,10 +276,9 @@ int choix()
         }
 }
 
-void graphe::dessiner(std::map<std::string, Arete*> Kruskal)
+void graphe::dessiner(std::map<std::string, Arete*> Kruskal, int valeur)
 {
     Svgfile svgout;
-    svgout.addGrid();
     std::string couleur = "black";
     for (auto x: m_sommets)
     {
@@ -297,11 +291,237 @@ void graphe::dessiner(std::map<std::string, Arete*> Kruskal)
         std::string s1 = y.second->GetSommet1();
         std::string s2 = y.second->GetSommet2();
 
+
         Sommet* S1 = m_sommets.at(s1);
         Sommet* S2 = m_sommets.at(s2);
-        svgout.addLine(S1->GetposX(), S1->GetposY(), S2->GetposX(), S2->GetposY(), couleur);
+        int x1 = S1->GetposX();
+        int y1 = S1->GetposY();
+        int x2 = S2->GetposX();
+        int y2 = S2->GetposY();
+        svgout.addLine(x1, y1, x2, y2, couleur);
+        if (valeur == 1)
+        {
+            float v1 = y.second->GetCout1();
+            if(y1 == y2)
+            {
+                y1 = y1 - 10;
+            }
+            svgout.addText(((x1+x2)/2)+10, (y1+y2)/2, v1, couleur);
+        }
+        else if (valeur == 2)
+        {
+            float v2 = y.second->GetCout2();
+            if(y1 == y2)
+            {
+                y1 = y1 - 10;
+            }
+            svgout.addText(((x1+x2)/2)+10, (y1+y2)/2, v2, couleur);
+        }
     }
 }
 
+
+std::vector<std::vector<bool>> graphe::Connexite(std::vector<std::vector<bool>> m_Aretepossible){
+std::vector<std::vector<bool>> m_GrapheFinal;
+
+for(auto x: m_Aretepossible)
+    {
+
+        std::vector<std::string> m_vecSommet;
+        for(auto y:m_sommets){
+            m_vecSommet.push_back(y.first);
+        }
+
+         std::vector<Arete*> m_vecArete;
+        for(auto z:m_aretes){
+            m_vecArete.push_back(z.second);
+        }
+        for(size_t i=0; i<x.size();i++){
+            m_vecArete[i]->SetSelect(x[i]);
+
+        }
+            Sommet* S1=m_sommets.begin()->second;
+            std::unordered_set<std::string> cc= S1->rechercherCC(m_vecSommet,m_vecArete);
+
+          if(cc.size()==m_vecSommet.size())
+           {
+                m_GrapheFinal.push_back(x);
+           }
+    }
+    return m_GrapheFinal;
+ }
+
+ bool *graphe::DecToBin(int n) ///ce programme permet de convertir un nb base 10 en base 2 et le retourne
+{
+
+    bool *nbBinaire = new bool [32];
+
+    for(size_t i=0;i<32;i++) //initialisation du tableau
+        nbBinaire[i]=0;
+
+    int k=0;
+    while(n>0) //attribution du chiffre d�cimal en binaire
+    {
+        if (n%2==0)
+            nbBinaire[k]=0;
+        else
+            nbBinaire[k]=1;
+        n/=2;
+        k++;
+    }
+    return nbBinaire; //on retourne le tableau de bool�en
+}
+
+std::vector<std::vector<bool>> graphe::compteurbinaire()
+{
+    std::vector<std::vector<bool>> tab; //vecteur de bool�en � 2 dimensions
+
+    int ordre=m_sommets.size();
+    int taille=m_aretes.size();
+    int nbSol=pow(2,taille); //le nombre de solutions = 2^nb-arete
+    int nbArete=0;
+
+    for(int i=0; i<nbSol; ++i) //on r�alise toutes les solutions possibles
+    {
+        std::vector <bool> ToutesSol; //tableau temporaire de booleen
+        bool *nbBin=DecToBin(i); //conversion base 10 -> base 2
+
+        for(int k=0; k<taille; ++k)
+        {
+            ToutesSol.push_back(nbBin[k]); // on rempli le tableau temporaire avec toutes les solutions possibles
+        }
+
+        for(std::size_t m=0; m<ToutesSol.size();++m)
+        {
+            if(ToutesSol[m]==1) nbArete++;//si une valeur vaut 1 on l'ajoute compte '1' arete en plus
+        }
+
+        if(nbArete==(ordre-1)) //on ajoute les solutions admissibles dans le tableau quasi final
+        {
+            tab.push_back(ToutesSol);
+        }
+
+        ToutesSol.erase(ToutesSol.begin(), ToutesSol.end()); //on efface le tableau temporaire
+        nbArete=0;
+   }
+    return tab;
+}
+
+/*std::vector<std::vector<bool>> graphe::RechercheSol(){
+    std::vector<std::vector<bool>>Solutiontemp=this->compteurbinaire();
+    std::vector<std::vector<bool>>Solutionfin=this->Connexite(Solutiontemp);
+
+std::cout<<"Les Aretes finales sont: ";
+for (auto x:Solutionfin){
+        std::cout<< "Arete: ";
+    for (auto y:x){
+        std::cout<<y;
+    }
+    std::cout<<std::endl;
+
+}
+    return Solutionfin;
+
+}
+*/
+std::vector<std::vector<bool>> graphe::tailleGraphe(std::vector<std::vector<bool>>Solutionfin, std::vector <std::vector<double>> m_vecFin)
+{
+    std::vector<std::vector<bool>>SolutionfinT;
+    std::vector <std::vector<double>> test;
+    std::vector <std::vector<double>> m_vecfinT;
+    int z,y;
+    for (size_t i = 0; i<m_vecFin.size(); ++i)
+    {
+        for (size_t j = i+1; j<m_vecFin.size(); ++j)
+        {
+            if ((m_vecFin[i][0] < m_vecFin[j][0]) && (m_vecFin[i][1] < m_vecFin[j][1]))
+            {
+                test.push_back(m_vecFin[j]);
+
+            }
+
+        }
+    }
+
+    for( auto x: m_vecFin)
+    {
+        z=2;
+        for (auto y :test)
+        {
+            if(x==y)
+            {
+                z+=1;
+            }
+        }
+        if(z==2)
+        {
+            m_vecfinT.push_back(x);
+        }
+    }
+    for (size_t i = 0; i<m_vecFin.size(); ++i)
+    {
+        y=2;
+        for (size_t j = 0; j<m_vecfinT.size(); ++j)
+        {
+            if(m_vecfinT[j]==m_vecFin[i])
+            {
+                y+=1;
+            }
+        }
+        if(y!=2)
+        {
+
+            SolutionfinT.push_back(Solutionfin[i]);
+        }
+    }
+
+    return SolutionfinT;
+}
+
+
+
+std::vector<std::vector<bool>> graphe::RechercheSol()
+{
+    double poidsTotal1,poidsTotal2;
+    std::vector<std::vector<bool>>Solutiontemp=this->compteurbinaire();
+    std::vector<std::vector<bool>>Solutionfin=this->Connexite(Solutiontemp);
+
+    std::vector <double> m_vecPoids;
+    std::vector <std::vector<double>> m_vecFin;
+    for (auto x:Solutionfin)
+    {
+        poidsTotal1=0;
+        poidsTotal2=0;
+
+        for(size_t i=0; i<x.size(); ++i)
+        {
+            if(x[i])
+            {
+                std::string s = std::to_string(i);
+                poidsTotal1 += m_aretes.at(s)->GetCout1();
+                poidsTotal2 += m_aretes.at(s)->GetCout2();
+            }
+        }
+
+        m_vecPoids.push_back(poidsTotal1);
+        m_vecPoids.push_back(poidsTotal2);
+
+        m_vecFin.push_back(m_vecPoids);
+        m_vecPoids.clear();
+    }
+    std::vector<std::vector<bool>>SolutionFinal=this->tailleGraphe(Solutionfin,m_vecFin);
+
+    std::cout<<"Les Aretes finales sont: "<<std::endl;
+    for (auto x:SolutionFinal)
+    {
+        std::cout<< "Arete: ";
+        for (auto y:x)
+        {
+            std::cout<<y;
+        }
+        std::cout<<std::endl;
+    }
+    return SolutionFinal;
+}
 
 

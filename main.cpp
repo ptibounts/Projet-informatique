@@ -21,7 +21,7 @@ int main()
         valeur = choix();
     } while (valeur == 0);
     Kruskal = g.Kruskal(valeur);
-    g.dessiner(Kruskal);
+    g.dessiner(Kruskal, valeur);
     system("start output.svg");
     return 0;
 }
