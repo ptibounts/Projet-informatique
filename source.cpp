@@ -352,7 +352,7 @@ for(auto x: m_Aretepossible)
     return m_GrapheFinal;
  }
 
- bool *graphe::DecToBin(int n) ///ce programme permet de convertir un nb base 10 en base 2 et le retourne
+bool *graphe::DecToBin(int n) ///ce programme permet de convertir un nb base 10 en base 2 et le retourne
 {
 
     bool *nbBinaire = new bool [32];
@@ -382,7 +382,7 @@ std::vector<std::vector<bool>> graphe::compteurbinaire()
     int nbSol=pow(2,taille); //le nombre de solutions = 2^nb-arete
     int nbArete=0;
 
-    for(int i=0; i<nbSol; ++i) //on r�alise toutes les solutions possibles
+    for(int i=0; i<nbSol; ++i) //on realise toutes les solutions possibles
     {
         std::vector <bool> ToutesSol; //tableau temporaire de booleen
         bool *nbBin=DecToBin(i); //conversion base 10 -> base 2
