@@ -28,6 +28,7 @@ class graphe
         std::vector<std::vector<bool>> Connexite(std::vector<std::vector<bool>>);
          int rechercher_afficherToutesCC() const;
          std::vector<std::vector<bool>> RechercheSol();
+         std::vector<std::vector<bool>> tailleGraphe(std::vector<std::vector<bool>>, std::vector <std::vector<double>>);
 
     protected:
 

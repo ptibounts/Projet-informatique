@@ -409,12 +409,68 @@ std::vector<std::vector<bool>> graphe::compteurbinaire()
     return tab;
 }
 
-std::vector<std::vector<bool>> graphe::RechercheSol(){
+std::vector<std::vector<bool>> graphe::tailleGraphe(std::vector<std::vector<bool>>Solutionfin, std::vector <std::vector<double>> m_vecFin)
+{
+
+    for (size_t i = 0; i<m_vecFin.size(); ++i)
+    {
+
+        for(size_t a =0; a < m_vecFin[i].size()-1; ++a)
+        {
+            if ((m_vecFin[i][a] > m_vecFin[i+1][a]) && (m_vecFin[i][a+1]> m_vecFin[i+1][a+1]))
+            {
+                Solutionfin.erase(Solutionfin.begin()+i);
+            }
+                        if ((m_vecFin[i][a] < m_vecFin[i+1][a]) && (m_vecFin[i][a+1]< m_vecFin[i+1][a+1]))
+            {
+                Solutionfin.erase(Solutionfin.begin()+i+1);
+            }
+
+        }
+
+    }
+    return Solutionfin;
+}
+
+
+std::vector<std::vector<bool>> graphe::RechercheSol()
+{
+    double poidsTotal1,poidsTotal2;
     std::vector<std::vector<bool>>Solutiontemp=this->compteurbinaire();
     std::vector<std::vector<bool>>Solutionfin=this->Connexite(Solutiontemp);
 
+    std::vector <double> m_vecPoids;
+    std::vector <std::vector<double>> m_vecFin;
+     for (auto x:Solutionfin)
+    {
+        poidsTotal1=0;
+        poidsTotal2=0;
+
+        for(size_t i=0;i<x.size();++i)
+        {
+            if(x[i])
+            {
+                std::string s = std::to_string(i);
+                poidsTotal1 += m_aretes.at(s)->GetCout1();
+                poidsTotal2 += m_aretes.at(s)->GetCout2();
+            }
+        }
+    m_vecPoids.push_back(poidsTotal1);
+    m_vecPoids.push_back(poidsTotal2);
+    m_vecFin.push_back(m_vecPoids);
+    m_vecPoids.clear();
+    }
+     for (auto x:m_vecFin)
+    {  for(size_t i=0;i<x.size();++i){
+        std::cout<<x[i]<<" , ";
+    }
+     std::cout<<std::endl;
+    }
+
+    std::vector<std::vector<bool>>SolutionFinal=this->tailleGraphe(Solutionfin,m_vecFin);
+
     std::cout<<"Les Aretes finales sont: "<<std::endl;
-    for (auto x:Solutionfin)
+    for (auto x:SolutionFinal)
     {
         std::cout<< "Arete: ";
         for (auto y:x)
@@ -423,7 +479,8 @@ std::vector<std::vector<bool>> graphe::RechercheSol(){
         }
         std::cout<<std::endl;
     }
-    return Solutionfin;
+    return SolutionFinal;
 }
+
 
 
