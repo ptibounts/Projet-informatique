@@ -160,6 +160,7 @@ std::vector <Arete*> Tri(std::map<std::string, Arete*> m_aretes,int v )
 
     }
 
+
     return m_aretes1;
 }
 
