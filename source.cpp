@@ -80,50 +80,13 @@ void graphe::ponderation(std::string nomFichier)
         ifs>>p2;
         if(ifs.fail())
             throw std::runtime_error("Probleme lecture poids2 sommet");
-
+        it->second->setid(id);
         it->second->setpoids1(p1);
         it->second->setpoids2(p2);
-
        ++it;
        }
     }
-/*
-void graphe::ponderation(std::string nomFichier)
-{
-    std::ifstream ifs{nomFichier};
-    if (!ifs)
-        throw std::runtime_error( "Impossible d'ouvrir en lecture " + nomFichier );
-    int ordre, nbPonderation;
-    ifs >> ordre;
-    if (ifs.fail())
-        throw std::runtime_error("Probleme lecture ordre du graphe");
-    ifs >> nbPonderation;
-    if (ifs.fail())
-        throw std::runtime_error("Probleme lecture nombre de ponderation du graphe");
-    std::string id;
-    double p1, p2;
-    for (int i=0; i<ordre; ++i)
-    {
-        ifs>>id;
-        if(ifs.fail())
-            throw std::runtime_error("Probleme lecture donnees sommet");
-        ifs>>p1;
-        if(ifs.fail())
-            throw std::runtime_error("Probleme lecture donnees sommet");
-        ifs>>p2;
-        if(ifs.fail())
-            throw std::runtime_error("Probleme lecture donnees sommet");
-        for (auto it = m_aretes.begin(); it !=m_aretes.end(); ++it)
-        {
-            if(id == it->first)
-            {
-                it->second->m_poids1 = p1;
-                it->second->m_poids2 = p2;
-            }
-        }
-    }
-}
-*/
+
 void graphe::afficherP() const
 {
 
@@ -162,24 +125,22 @@ std::map<std::string, Arete*> graphe::GetMapar() const
 {
     return m_aretes;
 }
-std::vector <Arete*> Tri (std::map<std::string, Arete*> m_aretes,int v )
+std::vector <Arete*> Tri(std::map<std::string, Arete*> m_aretes,int v )
 {
     std::vector <Arete*> m_aretes1;
     for( auto x: m_aretes)
     {
         Arete* a=x.second;
         m_aretes1.push_back(a);
-
     }
-
     for(size_t i = 0 ; i< m_aretes1.size() ; ++i)
     {
         for(size_t j = 0 ; j< m_aretes1.size() ; ++j)
         {
             if(m_aretes1.size() > j+1 )
             {
-                 float a;
-                 float b;
+                float a;
+                float b;
                 if(v==1){
                  a=m_aretes1[j]->GetCout1();
                  b=m_aretes1[j+1]->GetCout1();
@@ -213,7 +174,7 @@ std::map<std::string, Arete*> graphe::Kruskal ( int v )
     m_Kruskal[id]=m_aretes1[0];
     m_aretes1[0]->SetSelect(true);
     std::vector <std::string > m_vecSommet;
-    std::string Sommet1=m_aretes1[0]->GetSommet1();
+    std::string Sommet1 = m_aretes1[0]->GetSommet1();
         m_vecSommet.push_back(Sommet1);
     std::string Sommet2=m_aretes1[0]->GetSommet2();
         m_vecSommet.push_back(Sommet2);
@@ -221,71 +182,76 @@ std::map<std::string, Arete*> graphe::Kruskal ( int v )
     int compteur=0;
     for (size_t i=1;i<m_aretes1.size();i++)
     {
-         Sommet1=m_aretes1[i]->GetSommet1();
-         Sommet2=m_aretes1[i]->GetSommet2();
+        Sommet1 = m_aretes1[i]->GetSommet1();
+        Sommet2 = m_aretes1[i]->GetSommet2();
         int z=0;
-
-      for (size_t i=0;i<m_vecSommet.size();i++){
-
-        if(m_vecSommet[i]==Sommet1){
+        for (size_t i=0;i<m_vecSommet.size();i++)
+        {
+        if(m_vecSommet[i]==Sommet1)
+        {
             z+=1;
         }
-        if(m_vecSommet[i]==Sommet2){
-            z+=2;
-      }
-      }
-
-      if(z==0){
-        m_aretes1[i]->SetSelect(true);
-        m_vecSommet.push_back(Sommet1);
-        m_vecSommet.push_back(Sommet2);
-        compteur+=1;
-        }
-        else if(z==1){
-            m_aretes1[i]->SetSelect(true);
-        m_vecSommet.push_back(Sommet2);
-        compteur+=1;
-        }else if (z==2){
-             m_aretes1[i]->SetSelect(true);
-        m_vecSommet.push_back(Sommet1);
-        compteur+=1;
-        }
-        else if(z==3){
-        Sommet* S0= m_sommets.at(Sommet1);
-        std::unordered_set<std::string> cc=S0->rechercherCC(m_vecSommet,m_aretes1);
-
-        if((cc.find(Sommet2)==cc.end())){
-        m_aretes1[i]->SetSelect(true);
-        compteur+=1;
-        }
-        }
-
-         if(compteur ==(m_sommets.size()-1)){
-                break;
-    }
-    }
-
-
-     for (size_t i=0;i<m_aretes1.size();i++){
-        bool a=m_aretes1[i]->GetSelect();
-        if(a==true){
-        id=m_aretes1[i]->GetId();
-        m_Kruskal[id]=m_aretes1[i];
-        }
-     }
-for (auto x:m_Kruskal)
+        if(m_vecSommet[i]==Sommet2)
         {
-            poidsTotal1 += x.second->GetCout1();
-            poidsTotal2 += x.second->GetCout2();
+            z+=2;
         }
-for (auto x:m_Kruskal)
+      }
+
+      if(z==0)
+        {
+            m_aretes1[i]->SetSelect(true);
+            m_vecSommet.push_back(Sommet1);
+            m_vecSommet.push_back(Sommet2);
+            compteur+=1;
+        }
+        else if(z==1)
+        {
+            m_aretes1[i]->SetSelect(true);
+            m_vecSommet.push_back(Sommet2);
+            compteur+=1;
+        }else if (z==2)
+        {
+            m_aretes1[i]->SetSelect(true);
+            m_vecSommet.push_back(Sommet1);
+            compteur+=1;
+        }
+        else if(z==3)
+        {
+            Sommet* S0= m_sommets.at(Sommet1);
+            std::unordered_set<std::string> cc=S0->rechercherCC(m_vecSommet,m_aretes1);
+            if((cc.find(Sommet2)==cc.end()))
+            {
+                m_aretes1[i]->SetSelect(true);
+                compteur+=1;
+            }
+        }
+        if(compteur ==(m_sommets.size()-1))
+        {
+            break;
+        }
+    }
+    for (size_t i=0;i<m_aretes1.size();i++)
     {
-    std::string q=x.second->GetId();
-    std::cout<< q <<" ";
+        bool a=m_aretes1[i]->GetSelect();
+        if(a==true)
+        {
+            id=m_aretes1[i]->GetId();
+            m_Kruskal[id]=m_aretes1[i];
+        }
+    }
+    for (auto x:m_Kruskal)
+    {
+        poidsTotal1 += x.second->GetCout1();
+        poidsTotal2 += x.second->GetCout2();
+    }
+    for (auto x:m_Kruskal)
+    {
+        std::string q=x.second->GetId();
+        std::cout<< q <<" ";
     }
     std::cout<<std::endl;
-std::cout<< "resultat ("<<poidsTotal1<< " , "<<poidsTotal2<<")"<<std::endl;
-return m_Kruskal;
+    std::cout<< "resultat ("<<poidsTotal1<< " , "<<poidsTotal2<<")"<<std::endl;
+    return m_Kruskal;
 }
 
 
@@ -445,19 +411,18 @@ std::vector<std::vector<bool>> graphe::compteurbinaire()
 std::vector<std::vector<bool>> graphe::RechercheSol(){
     std::vector<std::vector<bool>>Solutiontemp=this->compteurbinaire();
     std::vector<std::vector<bool>>Solutionfin=this->Connexite(Solutiontemp);
-/*
+
     std::cout<<"Les Aretes finales sont: "<<std::endl;
-    for (auto x:Solutionfin){
-        std::cout<< "Arete: ";
-    for (auto y:x)
+    for (auto x:Solutionfin)
     {
-        std::cout<<y;
+        std::cout<< "Arete: ";
+        for (auto y:x)
+        {
+            std::cout<<y;
+        }
+        std::cout<<std::endl;
     }
-    std::cout<<std::endl;
-
-    }*/
     return Solutionfin;
-
 }
 
 

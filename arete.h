@@ -24,16 +24,18 @@ class Arete
         void SetSelect(bool x);
         void setpoids1(double poids1);
         void setpoids2(double poids2);
+        void setid(std::string id);
         ~Arete();
 
     protected:
 
 
     private:
-        bool m_select;
         std::string m_id;         // Identifiant
         double m_poids1, m_poids2; // Ponderation
         std::string m_sommet1, m_sommet2; // Position
+        bool m_select;
+
 };
 
 #endif // ARETE_H_INCLUDED

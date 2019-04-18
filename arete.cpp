@@ -5,7 +5,7 @@
 #include "arete.h"
 
 Arete::Arete(std::string id,double poids1,double poids2, std::string sommet1, std::string sommet2)
-:m_id{id},m_poids1{poids1},m_poids2{poids2}, m_sommet1{sommet1}, m_sommet2{sommet2}
+:m_id{id},m_poids1{poids1},m_poids2{poids2}, m_sommet1{sommet1}, m_sommet2{sommet2}, m_select{false}
 {
 
 }
@@ -60,6 +60,11 @@ void Arete::setpoids1(double poids1)
 
 void Arete::setpoids2(double poids2)
 {m_poids2=poids2;}
+
+void Arete::setid(std::string id)
+{
+    m_id=id;
+}
 
 Arete::~Arete()
 {
