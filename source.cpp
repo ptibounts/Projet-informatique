@@ -293,6 +293,8 @@ int choix()
     }
 }
 
+
+
 void graphe::dessiner(std::map<std::string, Arete*> Kruskal, int valeur)
 {
     Svgfile svgout("output.svg");
@@ -341,16 +343,13 @@ void graphe::dessiner(std::map<std::string, Arete*> Kruskal, int valeur)
 std::vector<std::vector<bool>> graphe::Connexite(std::vector<std::vector<bool>> m_Aretepossible)
 {
     std::vector<std::vector<bool>> m_GrapheFinal;
-
     for(auto x: m_Aretepossible)
     {
-
         std::vector<std::string> m_vecSommet;
         for(auto y:m_sommets)
         {
             m_vecSommet.push_back(y.first);
         }
-
         std::vector<Arete*> m_vecArete;
         for(auto z:m_aretes)
         {
@@ -363,7 +362,6 @@ std::vector<std::vector<bool>> graphe::Connexite(std::vector<std::vector<bool>> 
         }
         Sommet* S1=m_sommets.begin()->second;
         std::unordered_set<std::string> cc= S1->rechercherCC(m_vecSommet,m_vecArete);
-
         if(cc.size()==m_vecSommet.size())
         {
             m_GrapheFinal.push_back(x);
@@ -381,7 +379,7 @@ bool *graphe::DecToBin(int n) ///ce programme permet de convertir un nb base 10 
         nbBinaire[i]=0;
 
     int k=0;
-    while(n>0) //attribution du chiffre d�cimal en binaire
+    while(n>0) //attribution du chiffre decimal en binaire
     {
         if (n%2==0)
             nbBinaire[k]=0;
@@ -390,19 +388,19 @@ bool *graphe::DecToBin(int n) ///ce programme permet de convertir un nb base 10 
         n/=2;
         k++;
     }
-    return nbBinaire; //on retourne le tableau de bool�en
+    return nbBinaire; //on retourne le tableau de booleen
 }
 
 std::vector<std::vector<bool>> graphe::compteurbinaire()
 {
-    std::vector<std::vector<bool>> tab; //vecteur de bool�en � 2 dimensions
+    std::vector<std::vector<bool>> tab; //vecteur de booleen a 2 dimensions
 
     int ordre=m_sommets.size();
     int taille=m_aretes.size();
     int nbSol=pow(2,taille); //le nombre de solutions = 2^nb-arete
     int nbArete=0;
 
-    for(int i=0; i<nbSol; ++i) //on r�alise toutes les solutions possibles
+    for(int i=0; i<nbSol; ++i) //on realise toutes les solutions possibles
     {
         std::vector <bool> ToutesSol; //tableau temporaire de booleen
         bool *nbBin=DecToBin(i); //conversion base 10 -> base 2
@@ -429,25 +427,11 @@ std::vector<std::vector<bool>> graphe::compteurbinaire()
     return tab;
 }
 
-/*std::vector<std::vector<bool>> graphe::RechercheSol(){
-    std::vector<std::vector<bool>>Solutiontemp=this->compteurbinaire();
-    std::vector<std::vector<bool>>Solutionfin=this->Connexite(Solutiontemp);
 
-std::cout<<"Les Aretes finales sont: ";
-for (auto x:Solutionfin){
-        std::cout<< "Arete: ";
-    for (auto y:x){
-        std::cout<<y;
-    }
-    std::cout<<std::endl;
-
-}
-    return Solutionfin;
-
-}
-*/
 std::vector<std::vector<bool>> graphe::tailleGraphe(std::vector<std::vector<bool>>Solutionfin, std::vector <std::vector<double>> m_vecFin)
 {
+
+    std::vector <std::vector<double>> m_vecFinal;
     std::vector<std::vector<bool>>SolutionfinT;
     std::vector <std::vector<double>> test;
     std::vector <std::vector<double>> m_vecfinT;
@@ -459,12 +443,29 @@ std::vector<std::vector<bool>> graphe::tailleGraphe(std::vector<std::vector<bool
             if ((m_vecFin[i][0] < m_vecFin[j][0]) && (m_vecFin[i][1] < m_vecFin[j][1]))
             {
                 test.push_back(m_vecFin[j]);
-
             }
-
+            else if ((m_vecFin[i][0] > m_vecFin[j][0]) && (m_vecFin[i][1] > m_vecFin[j][1]))
+            {
+                test.push_back(m_vecFin[i]);
+            }
+            else if(((m_vecFin[i][0] == m_vecFin[j][0]) && (m_vecFin[i][1] > m_vecFin[j][1])))
+            {
+                test.push_back(m_vecFin[i]);
+            }
+            else if (((m_vecFin[i][0] == m_vecFin[j][0]) && (m_vecFin[i][1] < m_vecFin[j][1])))
+            {
+                test.push_back(m_vecFin[j]);
+            }
+            else if (((m_vecFin[i][0] > m_vecFin[j][0]) && (m_vecFin[i][1] == m_vecFin[j][1])))
+            {
+                test.push_back(m_vecFin[i]);
+            }
+            else if (((m_vecFin[i][0] < m_vecFin[j][0]) && (m_vecFin[i][1] == m_vecFin[j][1])))
+            {
+                test.push_back(m_vecFin[j]);
+            }
         }
     }
-
     for( auto x: m_vecFin)
     {
         z=2;
@@ -496,20 +497,16 @@ std::vector<std::vector<bool>> graphe::tailleGraphe(std::vector<std::vector<bool
             SolutionfinT.push_back(Solutionfin[i]);
         }
     }
-
     return SolutionfinT;
 }
-
-
 
 std::vector<std::vector<bool>> graphe::RechercheSol()
 {
     double poidsTotal1,poidsTotal2;
     std::vector<std::vector<bool>>Solutiontemp=this->compteurbinaire();
     std::vector<std::vector<bool>>Solutionfin=this->Connexite(Solutiontemp);
-
-    std::vector <double> m_vecPoids;
     std::vector <std::vector<double>> m_vecFin;
+    std::vector<double> m_vecPoids;
     for (auto x:Solutionfin)
     {
         poidsTotal1=0;
@@ -524,15 +521,13 @@ std::vector<std::vector<bool>> graphe::RechercheSol()
                 poidsTotal2 += m_aretes.at(s)->GetCout2();
             }
         }
-
         m_vecPoids.push_back(poidsTotal1);
         m_vecPoids.push_back(poidsTotal2);
 
         m_vecFin.push_back(m_vecPoids);
         m_vecPoids.clear();
     }
-    std::vector<std::vector<bool>>SolutionFinal=this->tailleGraphe(Solutionfin,m_vecFin);
-
+    std::vector <std::vector<bool>> SolutionFinal=this->tailleGraphe(Solutionfin, m_vecFin);
     std::cout<<"Les Aretes finales sont: "<<std::endl;
     for (auto x:SolutionFinal)
     {
@@ -543,14 +538,16 @@ std::vector<std::vector<bool>> graphe::RechercheSol()
         }
         std::cout<<std::endl;
     }
-    return SolutionFinal;
+    return SolutionFinal; // Modification
 }
 
 void graphe::dessinFrontierePrometo(std::vector<std::vector<bool>> solution)
 {
     std::vector<std::vector<bool>> Sol = solution;
     int x1, y1, x3, y3, x4, y4, valeur = 0;
-    Svgfile svgout("output1.svg");
+    Svgfile svgout("output1.html");
+    Svgfile frontierePareto("pareto.html");
+    frontierePareto.addGrid();
     svgout.addGrid();
     int TotalCout1 = 0, TotalCout2 = 0;
     for(auto x: m_aretes)
@@ -560,12 +557,12 @@ void graphe::dessinFrontierePrometo(std::vector<std::vector<bool>> solution)
     }
     std::cout<< TotalCout1 << " " << TotalCout2;
     std::string couleur = "black";
-    svgout.addLine(500,500, 500+(TotalCout1*10), 500, couleur);
-    svgout.addLine((500+(TotalCout1*10))-50, 500-25,500+(TotalCout1*10), 500, couleur);
-    svgout.addLine((500+(TotalCout1*10))-50, 500+25,500+(TotalCout1*10), 500, couleur);
-    svgout.addLine(500, 500, 500, 500-(TotalCout2*10), couleur);
-    svgout.addLine(500+25, (500-(TotalCout1*10))+50,500, 500-(TotalCout2*10), couleur);
-    svgout.addLine(500-25, (500-(TotalCout1*10))+50,500, 500-(TotalCout2*10), couleur);
+    svgout.addLine(500,500, 500+(TotalCout1*7), 500, couleur);
+    svgout.addLine((500+(TotalCout1*7))-50, 500-25,500+(TotalCout1*7), 500, couleur);
+    svgout.addLine((500+(TotalCout1*7))-50, 500+25,500+(TotalCout1*7), 500, couleur);
+    svgout.addLine(500, 500, 500, 500-(TotalCout2*7), couleur);
+    svgout.addLine(500+25, (500-(TotalCout1*7))+50,500, 500-(TotalCout2*7), couleur);
+    svgout.addLine(500-25, (500-(TotalCout1*7))+50,500, 500-(TotalCout2*7), couleur);
     for(auto x: Sol)
     {
         x1 = 0, y1 = 0, x3 = 0, y3 = 0, x4 = 0, y4 =0;
@@ -584,16 +581,12 @@ void graphe::dessinFrontierePrometo(std::vector<std::vector<bool>> solution)
                 y3 = S1->GetposY();
                 x4 = S2->GetposX();
                 y4 = S2->GetposY();
-                svgout.addDisk(x3, y3+valeur, 10, couleur);
-                svgout.addDisk(x4, y4+valeur, 10, couleur);
-                svgout.addLine(x3, y3+valeur, x4, y4+valeur, couleur);
-
+                frontierePareto.addDisk(x3, y3+valeur, 10, couleur);
+                frontierePareto.addDisk(x4, y4+valeur, 10, couleur);
+                frontierePareto.addLine(x3, y3+valeur, x4, y4+valeur, couleur);
             }
-
         }
-        valeur+= 150;
-        svgout.addDisk(500+(x1*10),500-(y1*10),5, "green");
+        valeur+= 320;
+        svgout.addDisk(500+(x1*7),500-(y1*7),5, "green", 0, "green");
     }
 }
-
-

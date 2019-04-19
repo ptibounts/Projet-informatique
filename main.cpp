@@ -12,9 +12,11 @@ int main()
     std::map<std::string, Arete*> Kruskal;
     std::vector<std::vector<bool>> Solution;
     graphe g;
-    g.sommet("broadway.txt");
-    g.ponderation("broadway_weights_0.txt");
+    g.sommet("cubetown.txt");
+    g.ponderation("cubetown_weights_0.txt");
     g.afficher();
+
+
     g.afficherP();
     do
     {
@@ -22,9 +24,9 @@ int main()
     } while (valeur == 0);
     Kruskal = g.Kruskal(valeur);
     g.dessiner(Kruskal, valeur);
-    system("start output.svg");
+    system("start output.html");
     Solution = g.RechercheSol();
     g.dessinFrontierePrometo(Solution);
-    system("start output1.svg");
+    system("start output1.html");
     return 0;
 }

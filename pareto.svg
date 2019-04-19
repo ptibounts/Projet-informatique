@@ -1,96 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+<a href="pareto.html" class="myButton">Solutions</a><?xml version="1.0" encoding="utf-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="2000" height="2000">
 
-<line x1="0" y1="0" x2="2000" y2="0" stroke="lightgrey" />
-<text x="5" y="-5" fill="lightgrey" >0</text>
-<line x1="0" y1="100" x2="2000" y2="100" stroke="lightgrey" />
-<text x="5" y="95" fill="lightgrey" >100</text>
-<line x1="0" y1="200" x2="2000" y2="200" stroke="lightgrey" />
-<text x="5" y="195" fill="lightgrey" >200</text>
-<line x1="0" y1="300" x2="2000" y2="300" stroke="lightgrey" />
-<text x="5" y="295" fill="lightgrey" >300</text>
-<line x1="0" y1="400" x2="2000" y2="400" stroke="lightgrey" />
-<text x="5" y="395" fill="lightgrey" >400</text>
-<line x1="0" y1="500" x2="2000" y2="500" stroke="lightgrey" />
-<text x="5" y="495" fill="lightgrey" >500</text>
-<line x1="0" y1="600" x2="2000" y2="600" stroke="lightgrey" />
-<text x="5" y="595" fill="lightgrey" >600</text>
-<line x1="0" y1="700" x2="2000" y2="700" stroke="lightgrey" />
-<text x="5" y="695" fill="lightgrey" >700</text>
-<line x1="0" y1="800" x2="2000" y2="800" stroke="lightgrey" />
-<text x="5" y="795" fill="lightgrey" >800</text>
-<line x1="0" y1="900" x2="2000" y2="900" stroke="lightgrey" />
-<text x="5" y="895" fill="lightgrey" >900</text>
-<line x1="0" y1="1000" x2="2000" y2="1000" stroke="lightgrey" />
-<text x="5" y="995" fill="lightgrey" >1000</text>
-<line x1="0" y1="1100" x2="2000" y2="1100" stroke="lightgrey" />
-<text x="5" y="1095" fill="lightgrey" >1100</text>
-<line x1="0" y1="1200" x2="2000" y2="1200" stroke="lightgrey" />
-<text x="5" y="1195" fill="lightgrey" >1200</text>
-<line x1="0" y1="1300" x2="2000" y2="1300" stroke="lightgrey" />
-<text x="5" y="1295" fill="lightgrey" >1300</text>
-<line x1="0" y1="1400" x2="2000" y2="1400" stroke="lightgrey" />
-<text x="5" y="1395" fill="lightgrey" >1400</text>
-<line x1="0" y1="1500" x2="2000" y2="1500" stroke="lightgrey" />
-<text x="5" y="1495" fill="lightgrey" >1500</text>
-<line x1="0" y1="1600" x2="2000" y2="1600" stroke="lightgrey" />
-<text x="5" y="1595" fill="lightgrey" >1600</text>
-<line x1="0" y1="1700" x2="2000" y2="1700" stroke="lightgrey" />
-<text x="5" y="1695" fill="lightgrey" >1700</text>
-<line x1="0" y1="1800" x2="2000" y2="1800" stroke="lightgrey" />
-<text x="5" y="1795" fill="lightgrey" >1800</text>
-<line x1="0" y1="1900" x2="2000" y2="1900" stroke="lightgrey" />
-<text x="5" y="1895" fill="lightgrey" >1900</text>
-<line x1="0" y1="2000" x2="2000" y2="2000" stroke="lightgrey" />
-<text x="5" y="1995" fill="lightgrey" >2000</text>
-<line x1="0" y1="0" x2="0" y2="2000" stroke="lightgrey" />
-<text x="5" y="15" fill="lightgrey" >0</text>
-<line x1="100" y1="0" x2="100" y2="2000" stroke="lightgrey" />
-<text x="105" y="15" fill="lightgrey" >100</text>
-<line x1="200" y1="0" x2="200" y2="2000" stroke="lightgrey" />
-<text x="205" y="15" fill="lightgrey" >200</text>
-<line x1="300" y1="0" x2="300" y2="2000" stroke="lightgrey" />
-<text x="305" y="15" fill="lightgrey" >300</text>
-<line x1="400" y1="0" x2="400" y2="2000" stroke="lightgrey" />
-<text x="405" y="15" fill="lightgrey" >400</text>
-<line x1="500" y1="0" x2="500" y2="2000" stroke="lightgrey" />
-<text x="505" y="15" fill="lightgrey" >500</text>
-<line x1="600" y1="0" x2="600" y2="2000" stroke="lightgrey" />
-<text x="605" y="15" fill="lightgrey" >600</text>
-<line x1="700" y1="0" x2="700" y2="2000" stroke="lightgrey" />
-<text x="705" y="15" fill="lightgrey" >700</text>
-<line x1="800" y1="0" x2="800" y2="2000" stroke="lightgrey" />
-<text x="805" y="15" fill="lightgrey" >800</text>
-<line x1="900" y1="0" x2="900" y2="2000" stroke="lightgrey" />
-<text x="905" y="15" fill="lightgrey" >900</text>
-<line x1="1000" y1="0" x2="1000" y2="2000" stroke="lightgrey" />
-<text x="1005" y="15" fill="lightgrey" >1000</text>
-<line x1="1100" y1="0" x2="1100" y2="2000" stroke="lightgrey" />
-<text x="1105" y="15" fill="lightgrey" >1100</text>
-<line x1="1200" y1="0" x2="1200" y2="2000" stroke="lightgrey" />
-<text x="1205" y="15" fill="lightgrey" >1200</text>
-<line x1="1300" y1="0" x2="1300" y2="2000" stroke="lightgrey" />
-<text x="1305" y="15" fill="lightgrey" >1300</text>
-<line x1="1400" y1="0" x2="1400" y2="2000" stroke="lightgrey" />
-<text x="1405" y="15" fill="lightgrey" >1400</text>
-<line x1="1500" y1="0" x2="1500" y2="2000" stroke="lightgrey" />
-<text x="1505" y="15" fill="lightgrey" >1500</text>
-<line x1="1600" y1="0" x2="1600" y2="2000" stroke="lightgrey" />
-<text x="1605" y="15" fill="lightgrey" >1600</text>
-<line x1="1700" y1="0" x2="1700" y2="2000" stroke="lightgrey" />
-<text x="1705" y="15" fill="lightgrey" >1700</text>
-<line x1="1800" y1="0" x2="1800" y2="2000" stroke="lightgrey" />
-<text x="1805" y="15" fill="lightgrey" >1800</text>
-<line x1="1900" y1="0" x2="1900" y2="2000" stroke="lightgrey" />
-<text x="1905" y="15" fill="lightgrey" >1900</text>
-<line x1="2000" y1="0" x2="2000" y2="2000" stroke="lightgrey" />
-<text x="2005" y="15" fill="lightgrey" >2000</text>
-<line x1="500" y1="500" x2="913" y2="500" stroke="black" />
-<line x1="863" y1="475" x2="913" y2="500" stroke="black" />
-<line x1="863" y1="525" x2="913" y2="500" stroke="black" />
-<line x1="500" y1="500" x2="500" y2="122" stroke="black" />
-<line x1="525" y1="137" x2="500" y2="122" stroke="black" />
-<line x1="475" y1="137" x2="500" y2="122" stroke="black" />
 <circle cx="100" cy="100" r="10" fill="black" />
 <circle cx="400" cy="100" r="10" fill="black" />
 <line x1="100" y1="100" x2="400" y2="100" stroke="black" />
@@ -112,7 +22,6 @@
 <circle cx="200" cy="300" r="10" fill="black" />
 <circle cx="100" cy="400" r="10" fill="black" />
 <line x1="200" y1="300" x2="100" y2="400" stroke="black" />
-<circle cx="759" cy="304" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="250" r="10" fill="black" />
 <circle cx="400" cy="250" r="10" fill="black" />
 <line x1="100" y1="250" x2="400" y2="250" stroke="black" />
@@ -134,7 +43,6 @@
 <circle cx="200" cy="450" r="10" fill="black" />
 <circle cx="100" cy="550" r="10" fill="black" />
 <line x1="200" y1="450" x2="100" y2="550" stroke="black" />
-<circle cx="780" cy="276" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="400" r="10" fill="black" />
 <circle cx="400" cy="400" r="10" fill="black" />
 <line x1="100" y1="400" x2="400" y2="400" stroke="black" />
@@ -156,7 +64,6 @@
 <circle cx="200" cy="600" r="10" fill="black" />
 <circle cx="100" cy="700" r="10" fill="black" />
 <line x1="200" y1="600" x2="100" y2="700" stroke="black" />
-<circle cx="773" cy="269" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="550" r="10" fill="black" />
 <circle cx="100" cy="850" r="10" fill="black" />
 <line x1="100" y1="550" x2="100" y2="850" stroke="black" />
@@ -178,7 +85,6 @@
 <circle cx="200" cy="750" r="10" fill="black" />
 <circle cx="100" cy="850" r="10" fill="black" />
 <line x1="200" y1="750" x2="100" y2="850" stroke="black" />
-<circle cx="787" cy="290" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="700" r="10" fill="black" />
 <circle cx="400" cy="700" r="10" fill="black" />
 <line x1="100" y1="700" x2="400" y2="700" stroke="black" />
@@ -200,7 +106,6 @@
 <circle cx="200" cy="900" r="10" fill="black" />
 <circle cx="100" cy="1000" r="10" fill="black" />
 <line x1="200" y1="900" x2="100" y2="1000" stroke="black" />
-<circle cx="724" cy="318" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="850" r="10" fill="black" />
 <circle cx="400" cy="850" r="10" fill="black" />
 <line x1="100" y1="850" x2="400" y2="850" stroke="black" />
@@ -222,7 +127,6 @@
 <circle cx="200" cy="1050" r="10" fill="black" />
 <circle cx="100" cy="1150" r="10" fill="black" />
 <line x1="200" y1="1050" x2="100" y2="1150" stroke="black" />
-<circle cx="752" cy="311" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="1000" r="10" fill="black" />
 <circle cx="100" cy="1300" r="10" fill="black" />
 <line x1="100" y1="1000" x2="100" y2="1300" stroke="black" />
@@ -244,7 +148,6 @@
 <circle cx="200" cy="1200" r="10" fill="black" />
 <circle cx="100" cy="1300" r="10" fill="black" />
 <line x1="200" y1="1200" x2="100" y2="1300" stroke="black" />
-<circle cx="731" cy="325" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="1150" r="10" fill="black" />
 <circle cx="400" cy="1150" r="10" fill="black" />
 <line x1="100" y1="1150" x2="400" y2="1150" stroke="black" />
@@ -266,7 +169,6 @@
 <circle cx="200" cy="1350" r="10" fill="black" />
 <circle cx="100" cy="1450" r="10" fill="black" />
 <line x1="200" y1="1350" x2="100" y2="1450" stroke="black" />
-<circle cx="745" cy="290" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="1300" r="10" fill="black" />
 <circle cx="400" cy="1300" r="10" fill="black" />
 <line x1="100" y1="1300" x2="400" y2="1300" stroke="black" />
@@ -288,7 +190,6 @@
 <circle cx="200" cy="1500" r="10" fill="black" />
 <circle cx="100" cy="1600" r="10" fill="black" />
 <line x1="200" y1="1500" x2="100" y2="1600" stroke="black" />
-<circle cx="773" cy="283" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="1450" r="10" fill="black" />
 <circle cx="100" cy="1750" r="10" fill="black" />
 <line x1="100" y1="1450" x2="100" y2="1750" stroke="black" />
@@ -310,7 +211,6 @@
 <circle cx="200" cy="1650" r="10" fill="black" />
 <circle cx="100" cy="1750" r="10" fill="black" />
 <line x1="200" y1="1650" x2="100" y2="1750" stroke="black" />
-<circle cx="752" cy="297" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="1600" r="10" fill="black" />
 <circle cx="400" cy="1600" r="10" fill="black" />
 <line x1="100" y1="1600" x2="400" y2="1600" stroke="black" />
@@ -332,7 +232,6 @@
 <circle cx="200" cy="1800" r="10" fill="black" />
 <circle cx="100" cy="1900" r="10" fill="black" />
 <line x1="200" y1="1800" x2="100" y2="1900" stroke="black" />
-<circle cx="738" cy="283" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="1750" r="10" fill="black" />
 <circle cx="400" cy="1750" r="10" fill="black" />
 <line x1="100" y1="1750" x2="400" y2="1750" stroke="black" />
@@ -354,7 +253,6 @@
 <circle cx="200" cy="1950" r="10" fill="black" />
 <circle cx="100" cy="2050" r="10" fill="black" />
 <line x1="200" y1="1950" x2="100" y2="2050" stroke="black" />
-<circle cx="766" cy="276" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="1900" r="10" fill="black" />
 <circle cx="100" cy="2200" r="10" fill="black" />
 <line x1="100" y1="1900" x2="100" y2="2200" stroke="black" />
@@ -376,7 +274,6 @@
 <circle cx="200" cy="2100" r="10" fill="black" />
 <circle cx="100" cy="2200" r="10" fill="black" />
 <line x1="200" y1="2100" x2="100" y2="2200" stroke="black" />
-<circle cx="745" cy="290" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="2050" r="10" fill="black" />
 <circle cx="100" cy="2350" r="10" fill="black" />
 <line x1="100" y1="2050" x2="100" y2="2350" stroke="black" />
@@ -398,7 +295,6 @@
 <circle cx="200" cy="2250" r="10" fill="black" />
 <circle cx="100" cy="2350" r="10" fill="black" />
 <line x1="200" y1="2250" x2="100" y2="2350" stroke="black" />
-<circle cx="752" cy="304" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="2200" r="10" fill="black" />
 <circle cx="200" cy="2300" r="10" fill="black" />
 <line x1="100" y1="2200" x2="200" y2="2300" stroke="black" />
@@ -420,7 +316,6 @@
 <circle cx="200" cy="2400" r="10" fill="black" />
 <circle cx="100" cy="2500" r="10" fill="black" />
 <line x1="200" y1="2400" x2="100" y2="2500" stroke="black" />
-<circle cx="780" cy="297" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="2350" r="10" fill="black" />
 <circle cx="400" cy="2350" r="10" fill="black" />
 <line x1="100" y1="2350" x2="400" y2="2350" stroke="black" />
@@ -442,7 +337,6 @@
 <circle cx="200" cy="2550" r="10" fill="black" />
 <circle cx="300" cy="2550" r="10" fill="black" />
 <line x1="200" y1="2550" x2="300" y2="2550" stroke="black" />
-<circle cx="752" cy="262" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="2500" r="10" fill="black" />
 <circle cx="400" cy="2500" r="10" fill="black" />
 <line x1="100" y1="2500" x2="400" y2="2500" stroke="black" />
@@ -464,7 +358,6 @@
 <circle cx="200" cy="2700" r="10" fill="black" />
 <circle cx="300" cy="2700" r="10" fill="black" />
 <line x1="200" y1="2700" x2="300" y2="2700" stroke="black" />
-<circle cx="745" cy="255" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="2650" r="10" fill="black" />
 <circle cx="400" cy="2650" r="10" fill="black" />
 <line x1="100" y1="2650" x2="400" y2="2650" stroke="black" />
@@ -486,7 +379,6 @@
 <circle cx="200" cy="2850" r="10" fill="black" />
 <circle cx="300" cy="2850" r="10" fill="black" />
 <line x1="200" y1="2850" x2="300" y2="2850" stroke="black" />
-<circle cx="752" cy="269" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="2800" r="10" fill="black" />
 <circle cx="400" cy="2800" r="10" fill="black" />
 <line x1="100" y1="2800" x2="400" y2="2800" stroke="black" />
@@ -508,7 +400,6 @@
 <circle cx="200" cy="3000" r="10" fill="black" />
 <circle cx="300" cy="3000" r="10" fill="black" />
 <line x1="200" y1="3000" x2="300" y2="3000" stroke="black" />
-<circle cx="731" cy="269" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="2950" r="10" fill="black" />
 <circle cx="400" cy="2950" r="10" fill="black" />
 <line x1="100" y1="2950" x2="400" y2="2950" stroke="black" />
@@ -530,7 +421,6 @@
 <circle cx="200" cy="3150" r="10" fill="black" />
 <circle cx="300" cy="3150" r="10" fill="black" />
 <line x1="200" y1="3150" x2="300" y2="3150" stroke="black" />
-<circle cx="780" cy="262" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="3100" r="10" fill="black" />
 <circle cx="400" cy="3100" r="10" fill="black" />
 <line x1="100" y1="3100" x2="400" y2="3100" stroke="black" />
@@ -552,7 +442,6 @@
 <circle cx="200" cy="3300" r="10" fill="black" />
 <circle cx="300" cy="3300" r="10" fill="black" />
 <line x1="200" y1="3300" x2="300" y2="3300" stroke="black" />
-<circle cx="773" cy="241" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="3250" r="10" fill="black" />
 <circle cx="400" cy="3250" r="10" fill="black" />
 <line x1="100" y1="3250" x2="400" y2="3250" stroke="black" />
@@ -574,7 +463,6 @@
 <circle cx="200" cy="3450" r="10" fill="black" />
 <circle cx="300" cy="3450" r="10" fill="black" />
 <line x1="200" y1="3450" x2="300" y2="3450" stroke="black" />
-<circle cx="752" cy="241" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="3400" r="10" fill="black" />
 <circle cx="400" cy="3400" r="10" fill="black" />
 <line x1="100" y1="3400" x2="400" y2="3400" stroke="black" />
@@ -596,7 +484,6 @@
 <circle cx="200" cy="3600" r="10" fill="black" />
 <circle cx="300" cy="3600" r="10" fill="black" />
 <line x1="200" y1="3600" x2="300" y2="3600" stroke="black" />
-<circle cx="801" cy="234" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="3550" r="10" fill="black" />
 <circle cx="100" cy="3850" r="10" fill="black" />
 <line x1="100" y1="3550" x2="100" y2="3850" stroke="black" />
@@ -618,7 +505,6 @@
 <circle cx="200" cy="3750" r="10" fill="black" />
 <circle cx="300" cy="3750" r="10" fill="black" />
 <line x1="200" y1="3750" x2="300" y2="3750" stroke="black" />
-<circle cx="780" cy="248" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="3700" r="10" fill="black" />
 <circle cx="400" cy="3700" r="10" fill="black" />
 <line x1="100" y1="3700" x2="400" y2="3700" stroke="black" />
@@ -640,7 +526,6 @@
 <circle cx="200" cy="3900" r="10" fill="black" />
 <circle cx="300" cy="3900" r="10" fill="black" />
 <line x1="200" y1="3900" x2="300" y2="3900" stroke="black" />
-<circle cx="766" cy="234" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="3850" r="10" fill="black" />
 <circle cx="400" cy="3850" r="10" fill="black" />
 <line x1="100" y1="3850" x2="400" y2="3850" stroke="black" />
@@ -662,7 +547,6 @@
 <circle cx="200" cy="4050" r="10" fill="black" />
 <circle cx="300" cy="4050" r="10" fill="black" />
 <line x1="200" y1="4050" x2="300" y2="4050" stroke="black" />
-<circle cx="745" cy="234" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="4000" r="10" fill="black" />
 <circle cx="400" cy="4000" r="10" fill="black" />
 <line x1="100" y1="4000" x2="400" y2="4000" stroke="black" />
@@ -684,7 +568,6 @@
 <circle cx="200" cy="4200" r="10" fill="black" />
 <circle cx="300" cy="4200" r="10" fill="black" />
 <line x1="200" y1="4200" x2="300" y2="4200" stroke="black" />
-<circle cx="794" cy="227" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="4150" r="10" fill="black" />
 <circle cx="100" cy="4450" r="10" fill="black" />
 <line x1="100" y1="4150" x2="100" y2="4450" stroke="black" />
@@ -706,7 +589,6 @@
 <circle cx="200" cy="4350" r="10" fill="black" />
 <circle cx="300" cy="4350" r="10" fill="black" />
 <line x1="200" y1="4350" x2="300" y2="4350" stroke="black" />
-<circle cx="773" cy="241" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="4300" r="10" fill="black" />
 <circle cx="100" cy="4600" r="10" fill="black" />
 <line x1="100" y1="4300" x2="100" y2="4600" stroke="black" />
@@ -728,7 +610,6 @@
 <circle cx="200" cy="4500" r="10" fill="black" />
 <circle cx="300" cy="4500" r="10" fill="black" />
 <line x1="200" y1="4500" x2="300" y2="4500" stroke="black" />
-<circle cx="780" cy="255" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="4450" r="10" fill="black" />
 <circle cx="100" cy="4750" r="10" fill="black" />
 <line x1="100" y1="4450" x2="100" y2="4750" stroke="black" />
@@ -750,7 +631,6 @@
 <circle cx="200" cy="4650" r="10" fill="black" />
 <circle cx="300" cy="4650" r="10" fill="black" />
 <line x1="200" y1="4650" x2="300" y2="4650" stroke="black" />
-<circle cx="759" cy="255" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="4600" r="10" fill="black" />
 <circle cx="200" cy="4700" r="10" fill="black" />
 <line x1="100" y1="4600" x2="200" y2="4700" stroke="black" />
@@ -772,7 +652,6 @@
 <circle cx="200" cy="4800" r="10" fill="black" />
 <circle cx="300" cy="4800" r="10" fill="black" />
 <line x1="200" y1="4800" x2="300" y2="4800" stroke="black" />
-<circle cx="808" cy="248" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="4750" r="10" fill="black" />
 <circle cx="400" cy="4750" r="10" fill="black" />
 <line x1="100" y1="4750" x2="400" y2="4750" stroke="black" />
@@ -794,7 +673,6 @@
 <circle cx="200" cy="4950" r="10" fill="black" />
 <circle cx="300" cy="4950" r="10" fill="black" />
 <line x1="200" y1="4950" x2="300" y2="4950" stroke="black" />
-<circle cx="717" cy="276" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="4900" r="10" fill="black" />
 <circle cx="400" cy="4900" r="10" fill="black" />
 <line x1="100" y1="4900" x2="400" y2="4900" stroke="black" />
@@ -816,7 +694,6 @@
 <circle cx="200" cy="5100" r="10" fill="black" />
 <circle cx="300" cy="5100" r="10" fill="black" />
 <line x1="200" y1="5100" x2="300" y2="5100" stroke="black" />
-<circle cx="745" cy="269" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="5050" r="10" fill="black" />
 <circle cx="100" cy="5350" r="10" fill="black" />
 <line x1="100" y1="5050" x2="100" y2="5350" stroke="black" />
@@ -838,7 +715,6 @@
 <circle cx="200" cy="5250" r="10" fill="black" />
 <circle cx="300" cy="5250" r="10" fill="black" />
 <line x1="200" y1="5250" x2="300" y2="5250" stroke="black" />
-<circle cx="724" cy="283" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="5200" r="10" fill="black" />
 <circle cx="400" cy="5200" r="10" fill="black" />
 <line x1="100" y1="5200" x2="400" y2="5200" stroke="black" />
@@ -860,7 +736,6 @@
 <circle cx="200" cy="5400" r="10" fill="black" />
 <circle cx="300" cy="5400" r="10" fill="black" />
 <line x1="200" y1="5400" x2="300" y2="5400" stroke="black" />
-<circle cx="710" cy="269" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="5350" r="10" fill="black" />
 <circle cx="400" cy="5350" r="10" fill="black" />
 <line x1="100" y1="5350" x2="400" y2="5350" stroke="black" />
@@ -882,7 +757,6 @@
 <circle cx="200" cy="5550" r="10" fill="black" />
 <circle cx="300" cy="5550" r="10" fill="black" />
 <line x1="200" y1="5550" x2="300" y2="5550" stroke="black" />
-<circle cx="738" cy="262" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="5500" r="10" fill="black" />
 <circle cx="100" cy="5800" r="10" fill="black" />
 <line x1="100" y1="5500" x2="100" y2="5800" stroke="black" />
@@ -904,7 +778,6 @@
 <circle cx="200" cy="5700" r="10" fill="black" />
 <circle cx="300" cy="5700" r="10" fill="black" />
 <line x1="200" y1="5700" x2="300" y2="5700" stroke="black" />
-<circle cx="717" cy="276" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="5650" r="10" fill="black" />
 <circle cx="400" cy="5650" r="10" fill="black" />
 <line x1="100" y1="5650" x2="400" y2="5650" stroke="black" />
@@ -926,7 +799,6 @@
 <circle cx="200" cy="5850" r="10" fill="black" />
 <circle cx="300" cy="5850" r="10" fill="black" />
 <line x1="200" y1="5850" x2="300" y2="5850" stroke="black" />
-<circle cx="696" cy="283" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="5800" r="10" fill="black" />
 <circle cx="100" cy="6100" r="10" fill="black" />
 <line x1="100" y1="5800" x2="100" y2="6100" stroke="black" />
@@ -948,7 +820,6 @@
 <circle cx="200" cy="6000" r="10" fill="black" />
 <circle cx="300" cy="6000" r="10" fill="black" />
 <line x1="200" y1="6000" x2="300" y2="6000" stroke="black" />
-<circle cx="724" cy="290" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="5950" r="10" fill="black" />
 <circle cx="400" cy="5950" r="10" fill="black" />
 <line x1="100" y1="5950" x2="400" y2="5950" stroke="black" />
@@ -970,7 +841,6 @@
 <circle cx="200" cy="6150" r="10" fill="black" />
 <circle cx="300" cy="6150" r="10" fill="black" />
 <line x1="200" y1="6150" x2="300" y2="6150" stroke="black" />
-<circle cx="724" cy="276" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="6100" r="10" fill="black" />
 <circle cx="100" cy="6400" r="10" fill="black" />
 <line x1="100" y1="6100" x2="100" y2="6400" stroke="black" />
@@ -992,7 +862,6 @@
 <circle cx="200" cy="6300" r="10" fill="black" />
 <circle cx="300" cy="6300" r="10" fill="black" />
 <line x1="200" y1="6300" x2="300" y2="6300" stroke="black" />
-<circle cx="703" cy="290" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="6250" r="10" fill="black" />
 <circle cx="200" cy="6350" r="10" fill="black" />
 <line x1="100" y1="6250" x2="200" y2="6350" stroke="black" />
@@ -1014,7 +883,6 @@
 <circle cx="200" cy="6450" r="10" fill="black" />
 <circle cx="300" cy="6450" r="10" fill="black" />
 <line x1="200" y1="6450" x2="300" y2="6450" stroke="black" />
-<circle cx="752" cy="283" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="6400" r="10" fill="black" />
 <circle cx="400" cy="6400" r="10" fill="black" />
 <line x1="100" y1="6400" x2="400" y2="6400" stroke="black" />
@@ -1036,7 +904,6 @@
 <circle cx="200" cy="6600" r="10" fill="black" />
 <circle cx="300" cy="6600" r="10" fill="black" />
 <line x1="200" y1="6600" x2="300" y2="6600" stroke="black" />
-<circle cx="717" cy="255" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="6550" r="10" fill="black" />
 <circle cx="400" cy="6550" r="10" fill="black" />
 <line x1="100" y1="6550" x2="400" y2="6550" stroke="black" />
@@ -1058,7 +925,6 @@
 <circle cx="200" cy="6750" r="10" fill="black" />
 <circle cx="300" cy="6750" r="10" fill="black" />
 <line x1="200" y1="6750" x2="300" y2="6750" stroke="black" />
-<circle cx="745" cy="248" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="6700" r="10" fill="black" />
 <circle cx="100" cy="7000" r="10" fill="black" />
 <line x1="100" y1="6700" x2="100" y2="7000" stroke="black" />
@@ -1080,7 +946,6 @@
 <circle cx="200" cy="6900" r="10" fill="black" />
 <circle cx="300" cy="6900" r="10" fill="black" />
 <line x1="200" y1="6900" x2="300" y2="6900" stroke="black" />
-<circle cx="724" cy="262" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="6850" r="10" fill="black" />
 <circle cx="400" cy="6850" r="10" fill="black" />
 <line x1="100" y1="6850" x2="400" y2="6850" stroke="black" />
@@ -1102,7 +967,6 @@
 <circle cx="200" cy="7050" r="10" fill="black" />
 <circle cx="300" cy="7050" r="10" fill="black" />
 <line x1="200" y1="7050" x2="300" y2="7050" stroke="black" />
-<circle cx="710" cy="248" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="7000" r="10" fill="black" />
 <circle cx="400" cy="7000" r="10" fill="black" />
 <line x1="100" y1="7000" x2="400" y2="7000" stroke="black" />
@@ -1124,7 +988,6 @@
 <circle cx="200" cy="7200" r="10" fill="black" />
 <circle cx="300" cy="7200" r="10" fill="black" />
 <line x1="200" y1="7200" x2="300" y2="7200" stroke="black" />
-<circle cx="738" cy="241" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="7150" r="10" fill="black" />
 <circle cx="100" cy="7450" r="10" fill="black" />
 <line x1="100" y1="7150" x2="100" y2="7450" stroke="black" />
@@ -1146,7 +1009,6 @@
 <circle cx="200" cy="7350" r="10" fill="black" />
 <circle cx="300" cy="7350" r="10" fill="black" />
 <line x1="200" y1="7350" x2="300" y2="7350" stroke="black" />
-<circle cx="717" cy="255" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="7300" r="10" fill="black" />
 <circle cx="100" cy="7600" r="10" fill="black" />
 <line x1="100" y1="7300" x2="100" y2="7600" stroke="black" />
@@ -1168,7 +1030,6 @@
 <circle cx="200" cy="7500" r="10" fill="black" />
 <circle cx="300" cy="7500" r="10" fill="black" />
 <line x1="200" y1="7500" x2="300" y2="7500" stroke="black" />
-<circle cx="724" cy="269" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="200" cy="7550" r="10" fill="black" />
 <circle cx="300" cy="7550" r="10" fill="black" />
 <line x1="200" y1="7550" x2="300" y2="7550" stroke="black" />
@@ -1190,7 +1051,6 @@
 <circle cx="200" cy="7650" r="10" fill="black" />
 <circle cx="300" cy="7650" r="10" fill="black" />
 <line x1="200" y1="7650" x2="300" y2="7650" stroke="black" />
-<circle cx="752" cy="262" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="7600" r="10" fill="black" />
 <circle cx="400" cy="7600" r="10" fill="black" />
 <line x1="100" y1="7600" x2="400" y2="7600" stroke="black" />
@@ -1212,7 +1072,6 @@
 <circle cx="300" cy="7800" r="10" fill="black" />
 <circle cx="400" cy="7900" r="10" fill="black" />
 <line x1="300" y1="7800" x2="400" y2="7900" stroke="black" />
-<circle cx="766" cy="325" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="7750" r="10" fill="black" />
 <circle cx="400" cy="7750" r="10" fill="black" />
 <line x1="100" y1="7750" x2="400" y2="7750" stroke="black" />
@@ -1234,7 +1093,6 @@
 <circle cx="300" cy="7950" r="10" fill="black" />
 <circle cx="400" cy="8050" r="10" fill="black" />
 <line x1="300" y1="7950" x2="400" y2="8050" stroke="black" />
-<circle cx="787" cy="297" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="7900" r="10" fill="black" />
 <circle cx="400" cy="7900" r="10" fill="black" />
 <line x1="100" y1="7900" x2="400" y2="7900" stroke="black" />
@@ -1256,7 +1114,6 @@
 <circle cx="300" cy="8100" r="10" fill="black" />
 <circle cx="400" cy="8200" r="10" fill="black" />
 <line x1="300" y1="8100" x2="400" y2="8200" stroke="black" />
-<circle cx="780" cy="290" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="8050" r="10" fill="black" />
 <circle cx="100" cy="8350" r="10" fill="black" />
 <line x1="100" y1="8050" x2="100" y2="8350" stroke="black" />
@@ -1278,7 +1135,6 @@
 <circle cx="300" cy="8250" r="10" fill="black" />
 <circle cx="400" cy="8350" r="10" fill="black" />
 <line x1="300" y1="8250" x2="400" y2="8350" stroke="black" />
-<circle cx="794" cy="311" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="8200" r="10" fill="black" />
 <circle cx="400" cy="8200" r="10" fill="black" />
 <line x1="100" y1="8200" x2="400" y2="8200" stroke="black" />
@@ -1300,7 +1156,6 @@
 <circle cx="300" cy="8400" r="10" fill="black" />
 <circle cx="400" cy="8500" r="10" fill="black" />
 <line x1="300" y1="8400" x2="400" y2="8500" stroke="black" />
-<circle cx="731" cy="339" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="8350" r="10" fill="black" />
 <circle cx="400" cy="8350" r="10" fill="black" />
 <line x1="100" y1="8350" x2="400" y2="8350" stroke="black" />
@@ -1322,7 +1177,6 @@
 <circle cx="300" cy="8550" r="10" fill="black" />
 <circle cx="400" cy="8650" r="10" fill="black" />
 <line x1="300" y1="8550" x2="400" y2="8650" stroke="black" />
-<circle cx="759" cy="332" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="8500" r="10" fill="black" />
 <circle cx="100" cy="8800" r="10" fill="black" />
 <line x1="100" y1="8500" x2="100" y2="8800" stroke="black" />
@@ -1344,7 +1198,6 @@
 <circle cx="300" cy="8700" r="10" fill="black" />
 <circle cx="400" cy="8800" r="10" fill="black" />
 <line x1="300" y1="8700" x2="400" y2="8800" stroke="black" />
-<circle cx="738" cy="346" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="8650" r="10" fill="black" />
 <circle cx="400" cy="8650" r="10" fill="black" />
 <line x1="100" y1="8650" x2="400" y2="8650" stroke="black" />
@@ -1366,7 +1219,6 @@
 <circle cx="300" cy="8850" r="10" fill="black" />
 <circle cx="400" cy="8950" r="10" fill="black" />
 <line x1="300" y1="8850" x2="400" y2="8950" stroke="black" />
-<circle cx="752" cy="311" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="8800" r="10" fill="black" />
 <circle cx="400" cy="8800" r="10" fill="black" />
 <line x1="100" y1="8800" x2="400" y2="8800" stroke="black" />
@@ -1388,7 +1240,6 @@
 <circle cx="300" cy="9000" r="10" fill="black" />
 <circle cx="400" cy="9100" r="10" fill="black" />
 <line x1="300" y1="9000" x2="400" y2="9100" stroke="black" />
-<circle cx="780" cy="304" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="8950" r="10" fill="black" />
 <circle cx="100" cy="9250" r="10" fill="black" />
 <line x1="100" y1="8950" x2="100" y2="9250" stroke="black" />
@@ -1410,7 +1261,6 @@
 <circle cx="300" cy="9150" r="10" fill="black" />
 <circle cx="400" cy="9250" r="10" fill="black" />
 <line x1="300" y1="9150" x2="400" y2="9250" stroke="black" />
-<circle cx="759" cy="318" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="9100" r="10" fill="black" />
 <circle cx="400" cy="9100" r="10" fill="black" />
 <line x1="100" y1="9100" x2="400" y2="9100" stroke="black" />
@@ -1432,7 +1282,6 @@
 <circle cx="300" cy="9300" r="10" fill="black" />
 <circle cx="400" cy="9400" r="10" fill="black" />
 <line x1="300" y1="9300" x2="400" y2="9400" stroke="black" />
-<circle cx="745" cy="304" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="9250" r="10" fill="black" />
 <circle cx="400" cy="9250" r="10" fill="black" />
 <line x1="100" y1="9250" x2="400" y2="9250" stroke="black" />
@@ -1454,7 +1303,6 @@
 <circle cx="300" cy="9450" r="10" fill="black" />
 <circle cx="400" cy="9550" r="10" fill="black" />
 <line x1="300" y1="9450" x2="400" y2="9550" stroke="black" />
-<circle cx="773" cy="297" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="9400" r="10" fill="black" />
 <circle cx="100" cy="9700" r="10" fill="black" />
 <line x1="100" y1="9400" x2="100" y2="9700" stroke="black" />
@@ -1476,7 +1324,6 @@
 <circle cx="300" cy="9600" r="10" fill="black" />
 <circle cx="400" cy="9700" r="10" fill="black" />
 <line x1="300" y1="9600" x2="400" y2="9700" stroke="black" />
-<circle cx="752" cy="311" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="9550" r="10" fill="black" />
 <circle cx="100" cy="9850" r="10" fill="black" />
 <line x1="100" y1="9550" x2="100" y2="9850" stroke="black" />
@@ -1498,7 +1345,6 @@
 <circle cx="300" cy="9750" r="10" fill="black" />
 <circle cx="400" cy="9850" r="10" fill="black" />
 <line x1="300" y1="9750" x2="400" y2="9850" stroke="black" />
-<circle cx="759" cy="325" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="9700" r="10" fill="black" />
 <circle cx="200" cy="9800" r="10" fill="black" />
 <line x1="100" y1="9700" x2="200" y2="9800" stroke="black" />
@@ -1520,7 +1366,6 @@
 <circle cx="300" cy="9900" r="10" fill="black" />
 <circle cx="400" cy="10000" r="10" fill="black" />
 <line x1="300" y1="9900" x2="400" y2="10000" stroke="black" />
-<circle cx="787" cy="318" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="9850" r="10" fill="black" />
 <circle cx="400" cy="9850" r="10" fill="black" />
 <line x1="100" y1="9850" x2="400" y2="9850" stroke="black" />
@@ -1542,7 +1387,6 @@
 <circle cx="300" cy="10050" r="10" fill="black" />
 <circle cx="400" cy="10150" r="10" fill="black" />
 <line x1="300" y1="10050" x2="400" y2="10150" stroke="black" />
-<circle cx="731" cy="290" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="10000" r="10" fill="black" />
 <circle cx="400" cy="10000" r="10" fill="black" />
 <line x1="100" y1="10000" x2="400" y2="10000" stroke="black" />
@@ -1564,7 +1408,6 @@
 <circle cx="300" cy="10200" r="10" fill="black" />
 <circle cx="400" cy="10300" r="10" fill="black" />
 <line x1="300" y1="10200" x2="400" y2="10300" stroke="black" />
-<circle cx="766" cy="297" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="10150" r="10" fill="black" />
 <circle cx="400" cy="10150" r="10" fill="black" />
 <line x1="100" y1="10150" x2="400" y2="10150" stroke="black" />
@@ -1586,7 +1429,6 @@
 <circle cx="300" cy="10350" r="10" fill="black" />
 <circle cx="400" cy="10450" r="10" fill="black" />
 <line x1="300" y1="10350" x2="400" y2="10450" stroke="black" />
-<circle cx="752" cy="262" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="10300" r="10" fill="black" />
 <circle cx="400" cy="10300" r="10" fill="black" />
 <line x1="100" y1="10300" x2="400" y2="10300" stroke="black" />
@@ -1608,7 +1450,6 @@
 <circle cx="300" cy="10500" r="10" fill="black" />
 <circle cx="400" cy="10600" r="10" fill="black" />
 <line x1="300" y1="10500" x2="400" y2="10600" stroke="black" />
-<circle cx="787" cy="269" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="10450" r="10" fill="black" />
 <circle cx="400" cy="10450" r="10" fill="black" />
 <line x1="100" y1="10450" x2="400" y2="10450" stroke="black" />
@@ -1630,7 +1471,6 @@
 <circle cx="300" cy="10650" r="10" fill="black" />
 <circle cx="400" cy="10750" r="10" fill="black" />
 <line x1="300" y1="10650" x2="400" y2="10750" stroke="black" />
-<circle cx="780" cy="262" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="10600" r="10" fill="black" />
 <circle cx="100" cy="10900" r="10" fill="black" />
 <line x1="100" y1="10600" x2="100" y2="10900" stroke="black" />
@@ -1652,7 +1492,6 @@
 <circle cx="300" cy="10800" r="10" fill="black" />
 <circle cx="400" cy="10900" r="10" fill="black" />
 <line x1="300" y1="10800" x2="400" y2="10900" stroke="black" />
-<circle cx="759" cy="276" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="10750" r="10" fill="black" />
 <circle cx="200" cy="10850" r="10" fill="black" />
 <line x1="100" y1="10750" x2="200" y2="10850" stroke="black" />
@@ -1674,7 +1513,6 @@
 <circle cx="300" cy="10950" r="10" fill="black" />
 <circle cx="400" cy="11050" r="10" fill="black" />
 <line x1="300" y1="10950" x2="400" y2="11050" stroke="black" />
-<circle cx="794" cy="283" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="10900" r="10" fill="black" />
 <circle cx="400" cy="10900" r="10" fill="black" />
 <line x1="100" y1="10900" x2="400" y2="10900" stroke="black" />
@@ -1696,7 +1534,6 @@
 <circle cx="300" cy="11100" r="10" fill="black" />
 <circle cx="400" cy="11200" r="10" fill="black" />
 <line x1="300" y1="11100" x2="400" y2="11200" stroke="black" />
-<circle cx="696" cy="304" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="11050" r="10" fill="black" />
 <circle cx="400" cy="11050" r="10" fill="black" />
 <line x1="100" y1="11050" x2="400" y2="11050" stroke="black" />
@@ -1718,7 +1555,6 @@
 <circle cx="300" cy="11250" r="10" fill="black" />
 <circle cx="400" cy="11350" r="10" fill="black" />
 <line x1="300" y1="11250" x2="400" y2="11350" stroke="black" />
-<circle cx="724" cy="297" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="11200" r="10" fill="black" />
 <circle cx="100" cy="11500" r="10" fill="black" />
 <line x1="100" y1="11200" x2="100" y2="11500" stroke="black" />
@@ -1740,7 +1576,6 @@
 <circle cx="300" cy="11400" r="10" fill="black" />
 <circle cx="400" cy="11500" r="10" fill="black" />
 <line x1="300" y1="11400" x2="400" y2="11500" stroke="black" />
-<circle cx="703" cy="311" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="11350" r="10" fill="black" />
 <circle cx="400" cy="11350" r="10" fill="black" />
 <line x1="100" y1="11350" x2="400" y2="11350" stroke="black" />
@@ -1762,7 +1597,6 @@
 <circle cx="300" cy="11550" r="10" fill="black" />
 <circle cx="400" cy="11650" r="10" fill="black" />
 <line x1="300" y1="11550" x2="400" y2="11650" stroke="black" />
-<circle cx="731" cy="311" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="11500" r="10" fill="black" />
 <circle cx="200" cy="11600" r="10" fill="black" />
 <line x1="100" y1="11500" x2="200" y2="11600" stroke="black" />
@@ -1784,7 +1618,6 @@
 <circle cx="300" cy="11700" r="10" fill="black" />
 <circle cx="400" cy="11800" r="10" fill="black" />
 <line x1="300" y1="11700" x2="400" y2="11800" stroke="black" />
-<circle cx="738" cy="318" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="11650" r="10" fill="black" />
 <circle cx="400" cy="11650" r="10" fill="black" />
 <line x1="100" y1="11650" x2="400" y2="11650" stroke="black" />
@@ -1806,7 +1639,6 @@
 <circle cx="300" cy="11850" r="10" fill="black" />
 <circle cx="400" cy="11950" r="10" fill="black" />
 <line x1="300" y1="11850" x2="400" y2="11950" stroke="black" />
-<circle cx="717" cy="276" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="11800" r="10" fill="black" />
 <circle cx="400" cy="11800" r="10" fill="black" />
 <line x1="100" y1="11800" x2="400" y2="11800" stroke="black" />
@@ -1828,7 +1660,6 @@
 <circle cx="300" cy="12000" r="10" fill="black" />
 <circle cx="400" cy="12100" r="10" fill="black" />
 <line x1="300" y1="12000" x2="400" y2="12100" stroke="black" />
-<circle cx="745" cy="269" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="11950" r="10" fill="black" />
 <circle cx="100" cy="12250" r="10" fill="black" />
 <line x1="100" y1="11950" x2="100" y2="12250" stroke="black" />
@@ -1850,7 +1681,6 @@
 <circle cx="300" cy="12150" r="10" fill="black" />
 <circle cx="400" cy="12250" r="10" fill="black" />
 <line x1="300" y1="12150" x2="400" y2="12250" stroke="black" />
-<circle cx="724" cy="283" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="12100" r="10" fill="black" />
 <circle cx="400" cy="12100" r="10" fill="black" />
 <line x1="100" y1="12100" x2="400" y2="12100" stroke="black" />
@@ -1872,7 +1702,6 @@
 <circle cx="300" cy="12300" r="10" fill="black" />
 <circle cx="400" cy="12400" r="10" fill="black" />
 <line x1="300" y1="12300" x2="400" y2="12400" stroke="black" />
-<circle cx="752" cy="283" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="12250" r="10" fill="black" />
 <circle cx="200" cy="12350" r="10" fill="black" />
 <line x1="100" y1="12250" x2="200" y2="12350" stroke="black" />
@@ -1894,7 +1723,6 @@
 <circle cx="300" cy="12450" r="10" fill="black" />
 <circle cx="400" cy="12550" r="10" fill="black" />
 <line x1="300" y1="12450" x2="400" y2="12550" stroke="black" />
-<circle cx="759" cy="290" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="12400" r="10" fill="black" />
 <circle cx="400" cy="12400" r="10" fill="black" />
 <line x1="100" y1="12400" x2="400" y2="12400" stroke="black" />
@@ -1916,7 +1744,6 @@
 <circle cx="300" cy="12600" r="10" fill="black" />
 <circle cx="400" cy="12700" r="10" fill="black" />
 <line x1="300" y1="12600" x2="400" y2="12700" stroke="black" />
-<circle cx="745" cy="276" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="12550" r="10" fill="black" />
 <circle cx="100" cy="12850" r="10" fill="black" />
 <line x1="100" y1="12550" x2="100" y2="12850" stroke="black" />
@@ -1938,7 +1765,6 @@
 <circle cx="300" cy="12750" r="10" fill="black" />
 <circle cx="400" cy="12850" r="10" fill="black" />
 <line x1="300" y1="12750" x2="400" y2="12850" stroke="black" />
-<circle cx="724" cy="290" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="12700" r="10" fill="black" />
 <circle cx="200" cy="12800" r="10" fill="black" />
 <line x1="100" y1="12700" x2="200" y2="12800" stroke="black" />
@@ -1960,7 +1786,6 @@
 <circle cx="300" cy="12900" r="10" fill="black" />
 <circle cx="400" cy="13000" r="10" fill="black" />
 <line x1="300" y1="12900" x2="400" y2="13000" stroke="black" />
-<circle cx="759" cy="297" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="12850" r="10" fill="black" />
 <circle cx="400" cy="12850" r="10" fill="black" />
 <line x1="100" y1="12850" x2="400" y2="12850" stroke="black" />
@@ -1982,7 +1807,6 @@
 <circle cx="300" cy="13050" r="10" fill="black" />
 <circle cx="400" cy="13150" r="10" fill="black" />
 <line x1="300" y1="13050" x2="400" y2="13150" stroke="black" />
-<circle cx="759" cy="283" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="13000" r="10" fill="black" />
 <circle cx="400" cy="13000" r="10" fill="black" />
 <line x1="100" y1="13000" x2="400" y2="13000" stroke="black" />
@@ -2004,7 +1828,6 @@
 <circle cx="300" cy="13200" r="10" fill="black" />
 <circle cx="400" cy="13300" r="10" fill="black" />
 <line x1="300" y1="13200" x2="400" y2="13300" stroke="black" />
-<circle cx="752" cy="276" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="13150" r="10" fill="black" />
 <circle cx="400" cy="13150" r="10" fill="black" />
 <line x1="100" y1="13150" x2="400" y2="13150" stroke="black" />
@@ -2026,7 +1849,6 @@
 <circle cx="300" cy="13350" r="10" fill="black" />
 <circle cx="400" cy="13450" r="10" fill="black" />
 <line x1="300" y1="13350" x2="400" y2="13450" stroke="black" />
-<circle cx="759" cy="290" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="13300" r="10" fill="black" />
 <circle cx="400" cy="13300" r="10" fill="black" />
 <line x1="100" y1="13300" x2="400" y2="13300" stroke="black" />
@@ -2048,7 +1870,6 @@
 <circle cx="300" cy="13500" r="10" fill="black" />
 <circle cx="400" cy="13600" r="10" fill="black" />
 <line x1="300" y1="13500" x2="400" y2="13600" stroke="black" />
-<circle cx="738" cy="290" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="13450" r="10" fill="black" />
 <circle cx="400" cy="13450" r="10" fill="black" />
 <line x1="100" y1="13450" x2="400" y2="13450" stroke="black" />
@@ -2070,7 +1891,6 @@
 <circle cx="300" cy="13650" r="10" fill="black" />
 <circle cx="400" cy="13750" r="10" fill="black" />
 <line x1="300" y1="13650" x2="400" y2="13750" stroke="black" />
-<circle cx="787" cy="283" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="13600" r="10" fill="black" />
 <circle cx="400" cy="13600" r="10" fill="black" />
 <line x1="100" y1="13600" x2="400" y2="13600" stroke="black" />
@@ -2092,7 +1912,6 @@
 <circle cx="300" cy="13800" r="10" fill="black" />
 <circle cx="400" cy="13900" r="10" fill="black" />
 <line x1="300" y1="13800" x2="400" y2="13900" stroke="black" />
-<circle cx="780" cy="262" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="13750" r="10" fill="black" />
 <circle cx="400" cy="13750" r="10" fill="black" />
 <line x1="100" y1="13750" x2="400" y2="13750" stroke="black" />
@@ -2114,7 +1933,6 @@
 <circle cx="300" cy="13950" r="10" fill="black" />
 <circle cx="400" cy="14050" r="10" fill="black" />
 <line x1="300" y1="13950" x2="400" y2="14050" stroke="black" />
-<circle cx="759" cy="262" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="13900" r="10" fill="black" />
 <circle cx="400" cy="13900" r="10" fill="black" />
 <line x1="100" y1="13900" x2="400" y2="13900" stroke="black" />
@@ -2136,7 +1954,6 @@
 <circle cx="300" cy="14100" r="10" fill="black" />
 <circle cx="400" cy="14200" r="10" fill="black" />
 <line x1="300" y1="14100" x2="400" y2="14200" stroke="black" />
-<circle cx="808" cy="255" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="14050" r="10" fill="black" />
 <circle cx="100" cy="14350" r="10" fill="black" />
 <line x1="100" y1="14050" x2="100" y2="14350" stroke="black" />
@@ -2158,7 +1975,6 @@
 <circle cx="300" cy="14250" r="10" fill="black" />
 <circle cx="400" cy="14350" r="10" fill="black" />
 <line x1="300" y1="14250" x2="400" y2="14350" stroke="black" />
-<circle cx="787" cy="269" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="14200" r="10" fill="black" />
 <circle cx="400" cy="14200" r="10" fill="black" />
 <line x1="100" y1="14200" x2="400" y2="14200" stroke="black" />
@@ -2180,7 +1996,6 @@
 <circle cx="300" cy="14400" r="10" fill="black" />
 <circle cx="400" cy="14500" r="10" fill="black" />
 <line x1="300" y1="14400" x2="400" y2="14500" stroke="black" />
-<circle cx="773" cy="255" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="14350" r="10" fill="black" />
 <circle cx="400" cy="14350" r="10" fill="black" />
 <line x1="100" y1="14350" x2="400" y2="14350" stroke="black" />
@@ -2202,7 +2017,6 @@
 <circle cx="300" cy="14550" r="10" fill="black" />
 <circle cx="400" cy="14650" r="10" fill="black" />
 <line x1="300" y1="14550" x2="400" y2="14650" stroke="black" />
-<circle cx="752" cy="255" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="14500" r="10" fill="black" />
 <circle cx="400" cy="14500" r="10" fill="black" />
 <line x1="100" y1="14500" x2="400" y2="14500" stroke="black" />
@@ -2224,7 +2038,6 @@
 <circle cx="300" cy="14700" r="10" fill="black" />
 <circle cx="400" cy="14800" r="10" fill="black" />
 <line x1="300" y1="14700" x2="400" y2="14800" stroke="black" />
-<circle cx="801" cy="248" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="14650" r="10" fill="black" />
 <circle cx="100" cy="14950" r="10" fill="black" />
 <line x1="100" y1="14650" x2="100" y2="14950" stroke="black" />
@@ -2246,7 +2059,6 @@
 <circle cx="300" cy="14850" r="10" fill="black" />
 <circle cx="400" cy="14950" r="10" fill="black" />
 <line x1="300" y1="14850" x2="400" y2="14950" stroke="black" />
-<circle cx="780" cy="262" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="14800" r="10" fill="black" />
 <circle cx="100" cy="15100" r="10" fill="black" />
 <line x1="100" y1="14800" x2="100" y2="15100" stroke="black" />
@@ -2268,7 +2080,6 @@
 <circle cx="300" cy="15000" r="10" fill="black" />
 <circle cx="400" cy="15100" r="10" fill="black" />
 <line x1="300" y1="15000" x2="400" y2="15100" stroke="black" />
-<circle cx="787" cy="276" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="14950" r="10" fill="black" />
 <circle cx="100" cy="15250" r="10" fill="black" />
 <line x1="100" y1="14950" x2="100" y2="15250" stroke="black" />
@@ -2290,7 +2101,6 @@
 <circle cx="300" cy="15150" r="10" fill="black" />
 <circle cx="400" cy="15250" r="10" fill="black" />
 <line x1="300" y1="15150" x2="400" y2="15250" stroke="black" />
-<circle cx="766" cy="276" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="15100" r="10" fill="black" />
 <circle cx="200" cy="15200" r="10" fill="black" />
 <line x1="100" y1="15100" x2="200" y2="15200" stroke="black" />
@@ -2312,7 +2122,6 @@
 <circle cx="300" cy="15300" r="10" fill="black" />
 <circle cx="400" cy="15400" r="10" fill="black" />
 <line x1="300" y1="15300" x2="400" y2="15400" stroke="black" />
-<circle cx="815" cy="269" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="15250" r="10" fill="black" />
 <circle cx="400" cy="15250" r="10" fill="black" />
 <line x1="100" y1="15250" x2="400" y2="15250" stroke="black" />
@@ -2334,7 +2143,6 @@
 <circle cx="300" cy="15450" r="10" fill="black" />
 <circle cx="400" cy="15550" r="10" fill="black" />
 <line x1="300" y1="15450" x2="400" y2="15550" stroke="black" />
-<circle cx="724" cy="297" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="15400" r="10" fill="black" />
 <circle cx="400" cy="15400" r="10" fill="black" />
 <line x1="100" y1="15400" x2="400" y2="15400" stroke="black" />
@@ -2356,7 +2164,6 @@
 <circle cx="300" cy="15600" r="10" fill="black" />
 <circle cx="400" cy="15700" r="10" fill="black" />
 <line x1="300" y1="15600" x2="400" y2="15700" stroke="black" />
-<circle cx="752" cy="290" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="15550" r="10" fill="black" />
 <circle cx="100" cy="15850" r="10" fill="black" />
 <line x1="100" y1="15550" x2="100" y2="15850" stroke="black" />
@@ -2378,7 +2185,6 @@
 <circle cx="300" cy="15750" r="10" fill="black" />
 <circle cx="400" cy="15850" r="10" fill="black" />
 <line x1="300" y1="15750" x2="400" y2="15850" stroke="black" />
-<circle cx="731" cy="304" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="15700" r="10" fill="black" />
 <circle cx="400" cy="15700" r="10" fill="black" />
 <line x1="100" y1="15700" x2="400" y2="15700" stroke="black" />
@@ -2400,7 +2206,6 @@
 <circle cx="300" cy="15900" r="10" fill="black" />
 <circle cx="400" cy="16000" r="10" fill="black" />
 <line x1="300" y1="15900" x2="400" y2="16000" stroke="black" />
-<circle cx="717" cy="290" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="15850" r="10" fill="black" />
 <circle cx="400" cy="15850" r="10" fill="black" />
 <line x1="100" y1="15850" x2="400" y2="15850" stroke="black" />
@@ -2422,7 +2227,6 @@
 <circle cx="300" cy="16050" r="10" fill="black" />
 <circle cx="400" cy="16150" r="10" fill="black" />
 <line x1="300" y1="16050" x2="400" y2="16150" stroke="black" />
-<circle cx="745" cy="283" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="16000" r="10" fill="black" />
 <circle cx="100" cy="16300" r="10" fill="black" />
 <line x1="100" y1="16000" x2="100" y2="16300" stroke="black" />
@@ -2444,7 +2248,6 @@
 <circle cx="300" cy="16200" r="10" fill="black" />
 <circle cx="400" cy="16300" r="10" fill="black" />
 <line x1="300" y1="16200" x2="400" y2="16300" stroke="black" />
-<circle cx="724" cy="297" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="16150" r="10" fill="black" />
 <circle cx="400" cy="16150" r="10" fill="black" />
 <line x1="100" y1="16150" x2="400" y2="16150" stroke="black" />
@@ -2466,7 +2269,6 @@
 <circle cx="300" cy="16350" r="10" fill="black" />
 <circle cx="400" cy="16450" r="10" fill="black" />
 <line x1="300" y1="16350" x2="400" y2="16450" stroke="black" />
-<circle cx="703" cy="304" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="16300" r="10" fill="black" />
 <circle cx="100" cy="16600" r="10" fill="black" />
 <line x1="100" y1="16300" x2="100" y2="16600" stroke="black" />
@@ -2488,7 +2290,6 @@
 <circle cx="300" cy="16500" r="10" fill="black" />
 <circle cx="400" cy="16600" r="10" fill="black" />
 <line x1="300" y1="16500" x2="400" y2="16600" stroke="black" />
-<circle cx="731" cy="311" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="16450" r="10" fill="black" />
 <circle cx="400" cy="16450" r="10" fill="black" />
 <line x1="100" y1="16450" x2="400" y2="16450" stroke="black" />
@@ -2510,7 +2311,6 @@
 <circle cx="300" cy="16650" r="10" fill="black" />
 <circle cx="400" cy="16750" r="10" fill="black" />
 <line x1="300" y1="16650" x2="400" y2="16750" stroke="black" />
-<circle cx="731" cy="297" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="16600" r="10" fill="black" />
 <circle cx="100" cy="16900" r="10" fill="black" />
 <line x1="100" y1="16600" x2="100" y2="16900" stroke="black" />
@@ -2532,7 +2332,6 @@
 <circle cx="300" cy="16800" r="10" fill="black" />
 <circle cx="400" cy="16900" r="10" fill="black" />
 <line x1="300" y1="16800" x2="400" y2="16900" stroke="black" />
-<circle cx="710" cy="311" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="16750" r="10" fill="black" />
 <circle cx="200" cy="16850" r="10" fill="black" />
 <line x1="100" y1="16750" x2="200" y2="16850" stroke="black" />
@@ -2554,7 +2353,6 @@
 <circle cx="300" cy="16950" r="10" fill="black" />
 <circle cx="400" cy="17050" r="10" fill="black" />
 <line x1="300" y1="16950" x2="400" y2="17050" stroke="black" />
-<circle cx="759" cy="304" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="16900" r="10" fill="black" />
 <circle cx="400" cy="16900" r="10" fill="black" />
 <line x1="100" y1="16900" x2="400" y2="16900" stroke="black" />
@@ -2576,7 +2374,6 @@
 <circle cx="300" cy="17100" r="10" fill="black" />
 <circle cx="400" cy="17200" r="10" fill="black" />
 <line x1="300" y1="17100" x2="400" y2="17200" stroke="black" />
-<circle cx="724" cy="276" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="17050" r="10" fill="black" />
 <circle cx="400" cy="17050" r="10" fill="black" />
 <line x1="100" y1="17050" x2="400" y2="17050" stroke="black" />
@@ -2598,7 +2395,6 @@
 <circle cx="300" cy="17250" r="10" fill="black" />
 <circle cx="400" cy="17350" r="10" fill="black" />
 <line x1="300" y1="17250" x2="400" y2="17350" stroke="black" />
-<circle cx="752" cy="269" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="17200" r="10" fill="black" />
 <circle cx="100" cy="17500" r="10" fill="black" />
 <line x1="100" y1="17200" x2="100" y2="17500" stroke="black" />
@@ -2620,7 +2416,6 @@
 <circle cx="300" cy="17400" r="10" fill="black" />
 <circle cx="400" cy="17500" r="10" fill="black" />
 <line x1="300" y1="17400" x2="400" y2="17500" stroke="black" />
-<circle cx="731" cy="283" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="17350" r="10" fill="black" />
 <circle cx="400" cy="17350" r="10" fill="black" />
 <line x1="100" y1="17350" x2="400" y2="17350" stroke="black" />
@@ -2642,7 +2437,6 @@
 <circle cx="300" cy="17550" r="10" fill="black" />
 <circle cx="400" cy="17650" r="10" fill="black" />
 <line x1="300" y1="17550" x2="400" y2="17650" stroke="black" />
-<circle cx="717" cy="269" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="17500" r="10" fill="black" />
 <circle cx="400" cy="17500" r="10" fill="black" />
 <line x1="100" y1="17500" x2="400" y2="17500" stroke="black" />
@@ -2664,7 +2458,6 @@
 <circle cx="300" cy="17700" r="10" fill="black" />
 <circle cx="400" cy="17800" r="10" fill="black" />
 <line x1="300" y1="17700" x2="400" y2="17800" stroke="black" />
-<circle cx="745" cy="262" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="17650" r="10" fill="black" />
 <circle cx="100" cy="17950" r="10" fill="black" />
 <line x1="100" y1="17650" x2="100" y2="17950" stroke="black" />
@@ -2686,7 +2479,6 @@
 <circle cx="300" cy="17850" r="10" fill="black" />
 <circle cx="400" cy="17950" r="10" fill="black" />
 <line x1="300" y1="17850" x2="400" y2="17950" stroke="black" />
-<circle cx="724" cy="276" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="17800" r="10" fill="black" />
 <circle cx="100" cy="18100" r="10" fill="black" />
 <line x1="100" y1="17800" x2="100" y2="18100" stroke="black" />
@@ -2708,7 +2500,6 @@
 <circle cx="300" cy="18000" r="10" fill="black" />
 <circle cx="400" cy="18100" r="10" fill="black" />
 <line x1="300" y1="18000" x2="400" y2="18100" stroke="black" />
-<circle cx="731" cy="290" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="200" cy="18050" r="10" fill="black" />
 <circle cx="300" cy="18050" r="10" fill="black" />
 <line x1="200" y1="18050" x2="300" y2="18050" stroke="black" />
@@ -2730,7 +2521,6 @@
 <circle cx="300" cy="18150" r="10" fill="black" />
 <circle cx="400" cy="18250" r="10" fill="black" />
 <line x1="300" y1="18150" x2="400" y2="18250" stroke="black" />
-<circle cx="759" cy="283" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="18100" r="10" fill="black" />
 <circle cx="400" cy="18100" r="10" fill="black" />
 <line x1="100" y1="18100" x2="400" y2="18100" stroke="black" />
@@ -2752,7 +2542,6 @@
 <circle cx="300" cy="18300" r="10" fill="black" />
 <circle cx="400" cy="18400" r="10" fill="black" />
 <line x1="300" y1="18300" x2="400" y2="18400" stroke="black" />
-<circle cx="724" cy="248" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="18250" r="10" fill="black" />
 <circle cx="400" cy="18250" r="10" fill="black" />
 <line x1="100" y1="18250" x2="400" y2="18250" stroke="black" />
@@ -2774,7 +2563,6 @@
 <circle cx="300" cy="18450" r="10" fill="black" />
 <circle cx="400" cy="18550" r="10" fill="black" />
 <line x1="300" y1="18450" x2="400" y2="18550" stroke="black" />
-<circle cx="759" cy="255" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="18400" r="10" fill="black" />
 <circle cx="400" cy="18400" r="10" fill="black" />
 <line x1="100" y1="18400" x2="400" y2="18400" stroke="black" />
@@ -2796,7 +2584,6 @@
 <circle cx="300" cy="18600" r="10" fill="black" />
 <circle cx="400" cy="18700" r="10" fill="black" />
 <line x1="300" y1="18600" x2="400" y2="18700" stroke="black" />
-<circle cx="724" cy="255" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="18550" r="10" fill="black" />
 <circle cx="400" cy="18550" r="10" fill="black" />
 <line x1="100" y1="18550" x2="400" y2="18550" stroke="black" />
@@ -2818,7 +2605,6 @@
 <circle cx="300" cy="18750" r="10" fill="black" />
 <circle cx="400" cy="18850" r="10" fill="black" />
 <line x1="300" y1="18750" x2="400" y2="18850" stroke="black" />
-<circle cx="703" cy="255" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="18700" r="10" fill="black" />
 <circle cx="400" cy="18700" r="10" fill="black" />
 <line x1="100" y1="18700" x2="400" y2="18700" stroke="black" />
@@ -2840,7 +2626,6 @@
 <circle cx="300" cy="18900" r="10" fill="black" />
 <circle cx="400" cy="19000" r="10" fill="black" />
 <line x1="300" y1="18900" x2="400" y2="19000" stroke="black" />
-<circle cx="759" cy="262" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="18850" r="10" fill="black" />
 <circle cx="400" cy="18850" r="10" fill="black" />
 <line x1="100" y1="18850" x2="400" y2="18850" stroke="black" />
@@ -2862,7 +2647,6 @@
 <circle cx="300" cy="19050" r="10" fill="black" />
 <circle cx="400" cy="19150" r="10" fill="black" />
 <line x1="300" y1="19050" x2="400" y2="19150" stroke="black" />
-<circle cx="738" cy="262" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="19000" r="10" fill="black" />
 <circle cx="400" cy="19000" r="10" fill="black" />
 <line x1="100" y1="19000" x2="400" y2="19000" stroke="black" />
@@ -2884,7 +2668,6 @@
 <circle cx="300" cy="19200" r="10" fill="black" />
 <circle cx="400" cy="19300" r="10" fill="black" />
 <line x1="300" y1="19200" x2="400" y2="19300" stroke="black" />
-<circle cx="745" cy="227" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="19150" r="10" fill="black" />
 <circle cx="400" cy="19150" r="10" fill="black" />
 <line x1="100" y1="19150" x2="400" y2="19150" stroke="black" />
@@ -2906,7 +2689,6 @@
 <circle cx="300" cy="19350" r="10" fill="black" />
 <circle cx="400" cy="19450" r="10" fill="black" />
 <line x1="300" y1="19350" x2="400" y2="19450" stroke="black" />
-<circle cx="724" cy="227" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="19300" r="10" fill="black" />
 <circle cx="400" cy="19300" r="10" fill="black" />
 <line x1="100" y1="19300" x2="400" y2="19300" stroke="black" />
@@ -2928,7 +2710,6 @@
 <circle cx="300" cy="19500" r="10" fill="black" />
 <circle cx="400" cy="19600" r="10" fill="black" />
 <line x1="300" y1="19500" x2="400" y2="19600" stroke="black" />
-<circle cx="773" cy="220" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="19450" r="10" fill="black" />
 <circle cx="100" cy="19750" r="10" fill="black" />
 <line x1="100" y1="19450" x2="100" y2="19750" stroke="black" />
@@ -2950,7 +2731,6 @@
 <circle cx="300" cy="19650" r="10" fill="black" />
 <circle cx="400" cy="19750" r="10" fill="black" />
 <line x1="300" y1="19650" x2="400" y2="19750" stroke="black" />
-<circle cx="752" cy="234" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="19600" r="10" fill="black" />
 <circle cx="400" cy="19600" r="10" fill="black" />
 <line x1="100" y1="19600" x2="400" y2="19600" stroke="black" />
@@ -2972,7 +2752,6 @@
 <circle cx="300" cy="19800" r="10" fill="black" />
 <circle cx="400" cy="19900" r="10" fill="black" />
 <line x1="300" y1="19800" x2="400" y2="19900" stroke="black" />
-<circle cx="780" cy="234" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="19750" r="10" fill="black" />
 <circle cx="400" cy="19750" r="10" fill="black" />
 <line x1="100" y1="19750" x2="400" y2="19750" stroke="black" />
@@ -2994,7 +2773,6 @@
 <circle cx="300" cy="19950" r="10" fill="black" />
 <circle cx="400" cy="20050" r="10" fill="black" />
 <line x1="300" y1="19950" x2="400" y2="20050" stroke="black" />
-<circle cx="759" cy="234" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="19900" r="10" fill="black" />
 <circle cx="200" cy="20000" r="10" fill="black" />
 <line x1="100" y1="19900" x2="200" y2="20000" stroke="black" />
@@ -3016,7 +2794,6 @@
 <circle cx="300" cy="20100" r="10" fill="black" />
 <circle cx="400" cy="20200" r="10" fill="black" />
 <line x1="300" y1="20100" x2="400" y2="20200" stroke="black" />
-<circle cx="787" cy="241" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="20050" r="10" fill="black" />
 <circle cx="400" cy="20050" r="10" fill="black" />
 <line x1="100" y1="20050" x2="400" y2="20050" stroke="black" />
@@ -3038,7 +2815,6 @@
 <circle cx="300" cy="20250" r="10" fill="black" />
 <circle cx="400" cy="20350" r="10" fill="black" />
 <line x1="300" y1="20250" x2="400" y2="20350" stroke="black" />
-<circle cx="773" cy="227" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="20200" r="10" fill="black" />
 <circle cx="100" cy="20500" r="10" fill="black" />
 <line x1="100" y1="20200" x2="100" y2="20500" stroke="black" />
@@ -3060,7 +2836,6 @@
 <circle cx="300" cy="20400" r="10" fill="black" />
 <circle cx="400" cy="20500" r="10" fill="black" />
 <line x1="300" y1="20400" x2="400" y2="20500" stroke="black" />
-<circle cx="752" cy="241" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="20350" r="10" fill="black" />
 <circle cx="400" cy="20350" r="10" fill="black" />
 <line x1="100" y1="20350" x2="400" y2="20350" stroke="black" />
@@ -3082,7 +2857,6 @@
 <circle cx="300" cy="20550" r="10" fill="black" />
 <circle cx="400" cy="20650" r="10" fill="black" />
 <line x1="300" y1="20550" x2="400" y2="20650" stroke="black" />
-<circle cx="752" cy="227" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="20500" r="10" fill="black" />
 <circle cx="100" cy="20800" r="10" fill="black" />
 <line x1="100" y1="20500" x2="100" y2="20800" stroke="black" />
@@ -3104,7 +2878,6 @@
 <circle cx="300" cy="20700" r="10" fill="black" />
 <circle cx="400" cy="20800" r="10" fill="black" />
 <line x1="300" y1="20700" x2="400" y2="20800" stroke="black" />
-<circle cx="731" cy="241" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="20650" r="10" fill="black" />
 <circle cx="200" cy="20750" r="10" fill="black" />
 <line x1="100" y1="20650" x2="200" y2="20750" stroke="black" />
@@ -3126,7 +2899,6 @@
 <circle cx="300" cy="20850" r="10" fill="black" />
 <circle cx="400" cy="20950" r="10" fill="black" />
 <line x1="300" y1="20850" x2="400" y2="20950" stroke="black" />
-<circle cx="787" cy="248" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="200" cy="20900" r="10" fill="black" />
 <circle cx="300" cy="20900" r="10" fill="black" />
 <line x1="200" y1="20900" x2="300" y2="20900" stroke="black" />
@@ -3148,7 +2920,6 @@
 <circle cx="300" cy="21000" r="10" fill="black" />
 <circle cx="400" cy="21100" r="10" fill="black" />
 <line x1="300" y1="21000" x2="400" y2="21100" stroke="black" />
-<circle cx="766" cy="248" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="20950" r="10" fill="black" />
 <circle cx="400" cy="20950" r="10" fill="black" />
 <line x1="100" y1="20950" x2="400" y2="20950" stroke="black" />
@@ -3170,7 +2941,6 @@
 <circle cx="300" cy="21150" r="10" fill="black" />
 <circle cx="400" cy="21250" r="10" fill="black" />
 <line x1="300" y1="21150" x2="400" y2="21250" stroke="black" />
-<circle cx="689" cy="262" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="21100" r="10" fill="black" />
 <circle cx="400" cy="21100" r="10" fill="black" />
 <line x1="100" y1="21100" x2="400" y2="21100" stroke="black" />
@@ -3192,7 +2962,6 @@
 <circle cx="300" cy="21300" r="10" fill="black" />
 <circle cx="400" cy="21400" r="10" fill="black" />
 <line x1="300" y1="21300" x2="400" y2="21400" stroke="black" />
-<circle cx="717" cy="255" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="21250" r="10" fill="black" />
 <circle cx="100" cy="21550" r="10" fill="black" />
 <line x1="100" y1="21250" x2="100" y2="21550" stroke="black" />
@@ -3214,7 +2983,6 @@
 <circle cx="300" cy="21450" r="10" fill="black" />
 <circle cx="400" cy="21550" r="10" fill="black" />
 <line x1="300" y1="21450" x2="400" y2="21550" stroke="black" />
-<circle cx="696" cy="269" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="21400" r="10" fill="black" />
 <circle cx="400" cy="21400" r="10" fill="black" />
 <line x1="100" y1="21400" x2="400" y2="21400" stroke="black" />
@@ -3236,7 +3004,6 @@
 <circle cx="300" cy="21600" r="10" fill="black" />
 <circle cx="400" cy="21700" r="10" fill="black" />
 <line x1="300" y1="21600" x2="400" y2="21700" stroke="black" />
-<circle cx="724" cy="269" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="21550" r="10" fill="black" />
 <circle cx="200" cy="21650" r="10" fill="black" />
 <line x1="100" y1="21550" x2="200" y2="21650" stroke="black" />
@@ -3258,7 +3025,6 @@
 <circle cx="300" cy="21750" r="10" fill="black" />
 <circle cx="400" cy="21850" r="10" fill="black" />
 <line x1="300" y1="21750" x2="400" y2="21850" stroke="black" />
-<circle cx="731" cy="276" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="21700" r="10" fill="black" />
 <circle cx="400" cy="21700" r="10" fill="black" />
 <line x1="100" y1="21700" x2="400" y2="21700" stroke="black" />
@@ -3280,7 +3046,6 @@
 <circle cx="300" cy="21900" r="10" fill="black" />
 <circle cx="400" cy="22000" r="10" fill="black" />
 <line x1="300" y1="21900" x2="400" y2="22000" stroke="black" />
-<circle cx="668" cy="269" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="21850" r="10" fill="black" />
 <circle cx="400" cy="21850" r="10" fill="black" />
 <line x1="100" y1="21850" x2="400" y2="21850" stroke="black" />
@@ -3302,7 +3067,6 @@
 <circle cx="300" cy="22050" r="10" fill="black" />
 <circle cx="400" cy="22150" r="10" fill="black" />
 <line x1="300" y1="22050" x2="400" y2="22150" stroke="black" />
-<circle cx="717" cy="262" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="22000" r="10" fill="black" />
 <circle cx="100" cy="22300" r="10" fill="black" />
 <line x1="100" y1="22000" x2="100" y2="22300" stroke="black" />
@@ -3324,7 +3088,6 @@
 <circle cx="300" cy="22200" r="10" fill="black" />
 <circle cx="400" cy="22300" r="10" fill="black" />
 <line x1="300" y1="22200" x2="400" y2="22300" stroke="black" />
-<circle cx="696" cy="276" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="22150" r="10" fill="black" />
 <circle cx="400" cy="22150" r="10" fill="black" />
 <line x1="100" y1="22150" x2="400" y2="22150" stroke="black" />
@@ -3346,7 +3109,6 @@
 <circle cx="300" cy="22350" r="10" fill="black" />
 <circle cx="400" cy="22450" r="10" fill="black" />
 <line x1="300" y1="22350" x2="400" y2="22450" stroke="black" />
-<circle cx="696" cy="262" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="22300" r="10" fill="black" />
 <circle cx="100" cy="22600" r="10" fill="black" />
 <line x1="100" y1="22300" x2="100" y2="22600" stroke="black" />
@@ -3368,7 +3130,6 @@
 <circle cx="300" cy="22500" r="10" fill="black" />
 <circle cx="400" cy="22600" r="10" fill="black" />
 <line x1="300" y1="22500" x2="400" y2="22600" stroke="black" />
-<circle cx="675" cy="276" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="22450" r="10" fill="black" />
 <circle cx="400" cy="22450" r="10" fill="black" />
 <line x1="100" y1="22450" x2="400" y2="22450" stroke="black" />
@@ -3390,7 +3151,6 @@
 <circle cx="300" cy="22650" r="10" fill="black" />
 <circle cx="400" cy="22750" r="10" fill="black" />
 <line x1="300" y1="22650" x2="400" y2="22750" stroke="black" />
-<circle cx="703" cy="276" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="22600" r="10" fill="black" />
 <circle cx="200" cy="22700" r="10" fill="black" />
 <line x1="100" y1="22600" x2="200" y2="22700" stroke="black" />
@@ -3412,7 +3172,6 @@
 <circle cx="300" cy="22800" r="10" fill="black" />
 <circle cx="400" cy="22900" r="10" fill="black" />
 <line x1="300" y1="22800" x2="400" y2="22900" stroke="black" />
-<circle cx="731" cy="283" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="200" cy="22850" r="10" fill="black" />
 <circle cx="300" cy="22850" r="10" fill="black" />
 <line x1="200" y1="22850" x2="300" y2="22850" stroke="black" />
@@ -3434,7 +3193,6 @@
 <circle cx="300" cy="22950" r="10" fill="black" />
 <circle cx="400" cy="23050" r="10" fill="black" />
 <line x1="300" y1="22950" x2="400" y2="23050" stroke="black" />
-<circle cx="710" cy="283" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="22900" r="10" fill="black" />
 <circle cx="400" cy="22900" r="10" fill="black" />
 <line x1="100" y1="22900" x2="400" y2="22900" stroke="black" />
@@ -3456,7 +3214,6 @@
 <circle cx="300" cy="23100" r="10" fill="black" />
 <circle cx="400" cy="23200" r="10" fill="black" />
 <line x1="300" y1="23100" x2="400" y2="23200" stroke="black" />
-<circle cx="689" cy="241" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="23050" r="10" fill="black" />
 <circle cx="400" cy="23050" r="10" fill="black" />
 <line x1="100" y1="23050" x2="400" y2="23050" stroke="black" />
@@ -3478,7 +3235,6 @@
 <circle cx="300" cy="23250" r="10" fill="black" />
 <circle cx="400" cy="23350" r="10" fill="black" />
 <line x1="300" y1="23250" x2="400" y2="23350" stroke="black" />
-<circle cx="717" cy="234" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="23200" r="10" fill="black" />
 <circle cx="100" cy="23500" r="10" fill="black" />
 <line x1="100" y1="23200" x2="100" y2="23500" stroke="black" />
@@ -3500,7 +3256,6 @@
 <circle cx="300" cy="23400" r="10" fill="black" />
 <circle cx="400" cy="23500" r="10" fill="black" />
 <line x1="300" y1="23400" x2="400" y2="23500" stroke="black" />
-<circle cx="696" cy="248" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="23350" r="10" fill="black" />
 <circle cx="400" cy="23350" r="10" fill="black" />
 <line x1="100" y1="23350" x2="400" y2="23350" stroke="black" />
@@ -3522,7 +3277,6 @@
 <circle cx="300" cy="23550" r="10" fill="black" />
 <circle cx="400" cy="23650" r="10" fill="black" />
 <line x1="300" y1="23550" x2="400" y2="23650" stroke="black" />
-<circle cx="724" cy="248" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="200" cy="23600" r="10" fill="black" />
 <circle cx="300" cy="23600" r="10" fill="black" />
 <line x1="200" y1="23600" x2="300" y2="23600" stroke="black" />
@@ -3544,7 +3298,6 @@
 <circle cx="300" cy="23700" r="10" fill="black" />
 <circle cx="400" cy="23800" r="10" fill="black" />
 <line x1="300" y1="23700" x2="400" y2="23800" stroke="black" />
-<circle cx="731" cy="255" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="23650" r="10" fill="black" />
 <circle cx="400" cy="23650" r="10" fill="black" />
 <line x1="100" y1="23650" x2="400" y2="23650" stroke="black" />
@@ -3566,7 +3319,6 @@
 <circle cx="300" cy="23850" r="10" fill="black" />
 <circle cx="400" cy="23950" r="10" fill="black" />
 <line x1="300" y1="23850" x2="400" y2="23950" stroke="black" />
-<circle cx="717" cy="241" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="23800" r="10" fill="black" />
 <circle cx="100" cy="24100" r="10" fill="black" />
 <line x1="100" y1="23800" x2="100" y2="24100" stroke="black" />
@@ -3588,7 +3340,6 @@
 <circle cx="300" cy="24000" r="10" fill="black" />
 <circle cx="400" cy="24100" r="10" fill="black" />
 <line x1="300" y1="24000" x2="400" y2="24100" stroke="black" />
-<circle cx="696" cy="255" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="400" cy="23950" r="10" fill="black" />
 <circle cx="300" cy="24050" r="10" fill="black" />
 <line x1="400" y1="23950" x2="300" y2="24050" stroke="black" />
@@ -3610,7 +3361,6 @@
 <circle cx="300" cy="24150" r="10" fill="black" />
 <circle cx="400" cy="24250" r="10" fill="black" />
 <line x1="300" y1="24150" x2="400" y2="24250" stroke="black" />
-<circle cx="731" cy="262" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="24100" r="10" fill="black" />
 <circle cx="400" cy="24100" r="10" fill="black" />
 <line x1="100" y1="24100" x2="400" y2="24100" stroke="black" />
@@ -3632,7 +3382,6 @@
 <circle cx="100" cy="24400" r="10" fill="black" />
 <circle cx="400" cy="24400" r="10" fill="black" />
 <line x1="100" y1="24400" x2="400" y2="24400" stroke="black" />
-<circle cx="773" cy="325" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="24250" r="10" fill="black" />
 <circle cx="400" cy="24250" r="10" fill="black" />
 <line x1="100" y1="24250" x2="400" y2="24250" stroke="black" />
@@ -3654,7 +3403,6 @@
 <circle cx="100" cy="24550" r="10" fill="black" />
 <circle cx="400" cy="24550" r="10" fill="black" />
 <line x1="100" y1="24550" x2="400" y2="24550" stroke="black" />
-<circle cx="794" cy="297" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="24400" r="10" fill="black" />
 <circle cx="400" cy="24400" r="10" fill="black" />
 <line x1="100" y1="24400" x2="400" y2="24400" stroke="black" />
@@ -3676,7 +3424,6 @@
 <circle cx="100" cy="24700" r="10" fill="black" />
 <circle cx="400" cy="24700" r="10" fill="black" />
 <line x1="100" y1="24700" x2="400" y2="24700" stroke="black" />
-<circle cx="787" cy="290" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="24550" r="10" fill="black" />
 <circle cx="100" cy="24850" r="10" fill="black" />
 <line x1="100" y1="24550" x2="100" y2="24850" stroke="black" />
@@ -3698,7 +3445,6 @@
 <circle cx="100" cy="24850" r="10" fill="black" />
 <circle cx="400" cy="24850" r="10" fill="black" />
 <line x1="100" y1="24850" x2="400" y2="24850" stroke="black" />
-<circle cx="801" cy="311" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="24700" r="10" fill="black" />
 <circle cx="400" cy="24700" r="10" fill="black" />
 <line x1="100" y1="24700" x2="400" y2="24700" stroke="black" />
@@ -3720,7 +3466,6 @@
 <circle cx="100" cy="25000" r="10" fill="black" />
 <circle cx="400" cy="25000" r="10" fill="black" />
 <line x1="100" y1="25000" x2="400" y2="25000" stroke="black" />
-<circle cx="738" cy="339" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="24850" r="10" fill="black" />
 <circle cx="400" cy="24850" r="10" fill="black" />
 <line x1="100" y1="24850" x2="400" y2="24850" stroke="black" />
@@ -3742,7 +3487,6 @@
 <circle cx="100" cy="25150" r="10" fill="black" />
 <circle cx="400" cy="25150" r="10" fill="black" />
 <line x1="100" y1="25150" x2="400" y2="25150" stroke="black" />
-<circle cx="766" cy="332" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="25000" r="10" fill="black" />
 <circle cx="100" cy="25300" r="10" fill="black" />
 <line x1="100" y1="25000" x2="100" y2="25300" stroke="black" />
@@ -3764,7 +3508,6 @@
 <circle cx="100" cy="25300" r="10" fill="black" />
 <circle cx="400" cy="25300" r="10" fill="black" />
 <line x1="100" y1="25300" x2="400" y2="25300" stroke="black" />
-<circle cx="745" cy="346" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="25150" r="10" fill="black" />
 <circle cx="400" cy="25150" r="10" fill="black" />
 <line x1="100" y1="25150" x2="400" y2="25150" stroke="black" />
@@ -3786,7 +3529,6 @@
 <circle cx="100" cy="25450" r="10" fill="black" />
 <circle cx="400" cy="25450" r="10" fill="black" />
 <line x1="100" y1="25450" x2="400" y2="25450" stroke="black" />
-<circle cx="759" cy="311" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="25300" r="10" fill="black" />
 <circle cx="400" cy="25300" r="10" fill="black" />
 <line x1="100" y1="25300" x2="400" y2="25300" stroke="black" />
@@ -3808,7 +3550,6 @@
 <circle cx="100" cy="25600" r="10" fill="black" />
 <circle cx="400" cy="25600" r="10" fill="black" />
 <line x1="100" y1="25600" x2="400" y2="25600" stroke="black" />
-<circle cx="787" cy="304" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="25450" r="10" fill="black" />
 <circle cx="100" cy="25750" r="10" fill="black" />
 <line x1="100" y1="25450" x2="100" y2="25750" stroke="black" />
@@ -3830,7 +3571,6 @@
 <circle cx="100" cy="25750" r="10" fill="black" />
 <circle cx="400" cy="25750" r="10" fill="black" />
 <line x1="100" y1="25750" x2="400" y2="25750" stroke="black" />
-<circle cx="766" cy="318" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="25600" r="10" fill="black" />
 <circle cx="400" cy="25600" r="10" fill="black" />
 <line x1="100" y1="25600" x2="400" y2="25600" stroke="black" />
@@ -3852,7 +3592,6 @@
 <circle cx="100" cy="25900" r="10" fill="black" />
 <circle cx="400" cy="25900" r="10" fill="black" />
 <line x1="100" y1="25900" x2="400" y2="25900" stroke="black" />
-<circle cx="752" cy="304" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="25750" r="10" fill="black" />
 <circle cx="400" cy="25750" r="10" fill="black" />
 <line x1="100" y1="25750" x2="400" y2="25750" stroke="black" />
@@ -3874,7 +3613,6 @@
 <circle cx="100" cy="26050" r="10" fill="black" />
 <circle cx="400" cy="26050" r="10" fill="black" />
 <line x1="100" y1="26050" x2="400" y2="26050" stroke="black" />
-<circle cx="780" cy="297" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="25900" r="10" fill="black" />
 <circle cx="100" cy="26200" r="10" fill="black" />
 <line x1="100" y1="25900" x2="100" y2="26200" stroke="black" />
@@ -3896,7 +3634,6 @@
 <circle cx="100" cy="26200" r="10" fill="black" />
 <circle cx="400" cy="26200" r="10" fill="black" />
 <line x1="100" y1="26200" x2="400" y2="26200" stroke="black" />
-<circle cx="759" cy="311" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="26050" r="10" fill="black" />
 <circle cx="100" cy="26350" r="10" fill="black" />
 <line x1="100" y1="26050" x2="100" y2="26350" stroke="black" />
@@ -3918,7 +3655,6 @@
 <circle cx="100" cy="26350" r="10" fill="black" />
 <circle cx="400" cy="26350" r="10" fill="black" />
 <line x1="100" y1="26350" x2="400" y2="26350" stroke="black" />
-<circle cx="766" cy="325" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="26200" r="10" fill="black" />
 <circle cx="200" cy="26300" r="10" fill="black" />
 <line x1="100" y1="26200" x2="200" y2="26300" stroke="black" />
@@ -3940,7 +3676,6 @@
 <circle cx="100" cy="26500" r="10" fill="black" />
 <circle cx="400" cy="26500" r="10" fill="black" />
 <line x1="100" y1="26500" x2="400" y2="26500" stroke="black" />
-<circle cx="794" cy="318" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="26350" r="10" fill="black" />
 <circle cx="400" cy="26350" r="10" fill="black" />
 <line x1="100" y1="26350" x2="400" y2="26350" stroke="black" />
@@ -3962,7 +3697,6 @@
 <circle cx="100" cy="26650" r="10" fill="black" />
 <circle cx="400" cy="26650" r="10" fill="black" />
 <line x1="100" y1="26650" x2="400" y2="26650" stroke="black" />
-<circle cx="738" cy="290" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="26500" r="10" fill="black" />
 <circle cx="400" cy="26500" r="10" fill="black" />
 <line x1="100" y1="26500" x2="400" y2="26500" stroke="black" />
@@ -3984,7 +3718,6 @@
 <circle cx="100" cy="26800" r="10" fill="black" />
 <circle cx="400" cy="26800" r="10" fill="black" />
 <line x1="100" y1="26800" x2="400" y2="26800" stroke="black" />
-<circle cx="745" cy="304" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="26650" r="10" fill="black" />
 <circle cx="400" cy="26650" r="10" fill="black" />
 <line x1="100" y1="26650" x2="400" y2="26650" stroke="black" />
@@ -4006,7 +3739,6 @@
 <circle cx="100" cy="26950" r="10" fill="black" />
 <circle cx="400" cy="26950" r="10" fill="black" />
 <line x1="100" y1="26950" x2="400" y2="26950" stroke="black" />
-<circle cx="724" cy="304" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="26800" r="10" fill="black" />
 <circle cx="400" cy="26800" r="10" fill="black" />
 <line x1="100" y1="26800" x2="400" y2="26800" stroke="black" />
@@ -4028,7 +3760,6 @@
 <circle cx="100" cy="27100" r="10" fill="black" />
 <circle cx="400" cy="27100" r="10" fill="black" />
 <line x1="100" y1="27100" x2="400" y2="27100" stroke="black" />
-<circle cx="773" cy="297" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="26950" r="10" fill="black" />
 <circle cx="400" cy="26950" r="10" fill="black" />
 <line x1="100" y1="26950" x2="400" y2="26950" stroke="black" />
@@ -4050,7 +3781,6 @@
 <circle cx="100" cy="27250" r="10" fill="black" />
 <circle cx="400" cy="27250" r="10" fill="black" />
 <line x1="100" y1="27250" x2="400" y2="27250" stroke="black" />
-<circle cx="759" cy="262" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="27100" r="10" fill="black" />
 <circle cx="400" cy="27100" r="10" fill="black" />
 <line x1="100" y1="27100" x2="400" y2="27100" stroke="black" />
@@ -4072,7 +3802,6 @@
 <circle cx="100" cy="27400" r="10" fill="black" />
 <circle cx="400" cy="27400" r="10" fill="black" />
 <line x1="100" y1="27400" x2="400" y2="27400" stroke="black" />
-<circle cx="766" cy="276" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="27250" r="10" fill="black" />
 <circle cx="400" cy="27250" r="10" fill="black" />
 <line x1="100" y1="27250" x2="400" y2="27250" stroke="black" />
@@ -4094,7 +3823,6 @@
 <circle cx="100" cy="27550" r="10" fill="black" />
 <circle cx="400" cy="27550" r="10" fill="black" />
 <line x1="100" y1="27550" x2="400" y2="27550" stroke="black" />
-<circle cx="745" cy="276" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="27400" r="10" fill="black" />
 <circle cx="400" cy="27400" r="10" fill="black" />
 <line x1="100" y1="27400" x2="400" y2="27400" stroke="black" />
@@ -4116,7 +3844,6 @@
 <circle cx="100" cy="27700" r="10" fill="black" />
 <circle cx="400" cy="27700" r="10" fill="black" />
 <line x1="100" y1="27700" x2="400" y2="27700" stroke="black" />
-<circle cx="794" cy="269" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="27550" r="10" fill="black" />
 <circle cx="400" cy="27550" r="10" fill="black" />
 <line x1="100" y1="27550" x2="400" y2="27550" stroke="black" />
@@ -4138,7 +3865,6 @@
 <circle cx="100" cy="27850" r="10" fill="black" />
 <circle cx="400" cy="27850" r="10" fill="black" />
 <line x1="100" y1="27850" x2="400" y2="27850" stroke="black" />
-<circle cx="759" cy="269" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="27700" r="10" fill="black" />
 <circle cx="400" cy="27700" r="10" fill="black" />
 <line x1="100" y1="27700" x2="400" y2="27700" stroke="black" />
@@ -4160,7 +3886,6 @@
 <circle cx="100" cy="28000" r="10" fill="black" />
 <circle cx="400" cy="28000" r="10" fill="black" />
 <line x1="100" y1="28000" x2="400" y2="28000" stroke="black" />
-<circle cx="738" cy="269" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="27850" r="10" fill="black" />
 <circle cx="400" cy="27850" r="10" fill="black" />
 <line x1="100" y1="27850" x2="400" y2="27850" stroke="black" />
@@ -4182,7 +3907,6 @@
 <circle cx="100" cy="28150" r="10" fill="black" />
 <circle cx="400" cy="28150" r="10" fill="black" />
 <line x1="100" y1="28150" x2="400" y2="28150" stroke="black" />
-<circle cx="787" cy="262" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="28000" r="10" fill="black" />
 <circle cx="100" cy="28300" r="10" fill="black" />
 <line x1="100" y1="28000" x2="100" y2="28300" stroke="black" />
@@ -4204,7 +3928,6 @@
 <circle cx="100" cy="28300" r="10" fill="black" />
 <circle cx="400" cy="28300" r="10" fill="black" />
 <line x1="100" y1="28300" x2="400" y2="28300" stroke="black" />
-<circle cx="766" cy="276" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="28150" r="10" fill="black" />
 <circle cx="100" cy="28450" r="10" fill="black" />
 <line x1="100" y1="28150" x2="100" y2="28450" stroke="black" />
@@ -4226,7 +3949,6 @@
 <circle cx="100" cy="28450" r="10" fill="black" />
 <circle cx="400" cy="28450" r="10" fill="black" />
 <line x1="100" y1="28450" x2="400" y2="28450" stroke="black" />
-<circle cx="773" cy="290" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="28300" r="10" fill="black" />
 <circle cx="100" cy="28600" r="10" fill="black" />
 <line x1="100" y1="28300" x2="100" y2="28600" stroke="black" />
@@ -4248,7 +3970,6 @@
 <circle cx="100" cy="28600" r="10" fill="black" />
 <circle cx="400" cy="28600" r="10" fill="black" />
 <line x1="100" y1="28600" x2="400" y2="28600" stroke="black" />
-<circle cx="752" cy="290" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="28450" r="10" fill="black" />
 <circle cx="200" cy="28550" r="10" fill="black" />
 <line x1="100" y1="28450" x2="200" y2="28550" stroke="black" />
@@ -4270,7 +3991,6 @@
 <circle cx="100" cy="28750" r="10" fill="black" />
 <circle cx="400" cy="28750" r="10" fill="black" />
 <line x1="100" y1="28750" x2="400" y2="28750" stroke="black" />
-<circle cx="801" cy="283" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="28600" r="10" fill="black" />
 <circle cx="400" cy="28600" r="10" fill="black" />
 <line x1="100" y1="28600" x2="400" y2="28600" stroke="black" />
@@ -4292,7 +4012,6 @@
 <circle cx="100" cy="28900" r="10" fill="black" />
 <circle cx="400" cy="28900" r="10" fill="black" />
 <line x1="100" y1="28900" x2="400" y2="28900" stroke="black" />
-<circle cx="703" cy="304" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="28750" r="10" fill="black" />
 <circle cx="400" cy="28750" r="10" fill="black" />
 <line x1="100" y1="28750" x2="400" y2="28750" stroke="black" />
@@ -4314,7 +4033,6 @@
 <circle cx="100" cy="29050" r="10" fill="black" />
 <circle cx="400" cy="29050" r="10" fill="black" />
 <line x1="100" y1="29050" x2="400" y2="29050" stroke="black" />
-<circle cx="731" cy="297" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="28900" r="10" fill="black" />
 <circle cx="100" cy="29200" r="10" fill="black" />
 <line x1="100" y1="28900" x2="100" y2="29200" stroke="black" />
@@ -4336,7 +4054,6 @@
 <circle cx="100" cy="29200" r="10" fill="black" />
 <circle cx="400" cy="29200" r="10" fill="black" />
 <line x1="100" y1="29200" x2="400" y2="29200" stroke="black" />
-<circle cx="710" cy="311" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="29050" r="10" fill="black" />
 <circle cx="400" cy="29050" r="10" fill="black" />
 <line x1="100" y1="29050" x2="400" y2="29050" stroke="black" />
@@ -4358,7 +4075,6 @@
 <circle cx="100" cy="29350" r="10" fill="black" />
 <circle cx="400" cy="29350" r="10" fill="black" />
 <line x1="100" y1="29350" x2="400" y2="29350" stroke="black" />
-<circle cx="689" cy="318" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="29200" r="10" fill="black" />
 <circle cx="100" cy="29500" r="10" fill="black" />
 <line x1="100" y1="29200" x2="100" y2="29500" stroke="black" />
@@ -4380,7 +4096,6 @@
 <circle cx="100" cy="29500" r="10" fill="black" />
 <circle cx="400" cy="29500" r="10" fill="black" />
 <line x1="100" y1="29500" x2="400" y2="29500" stroke="black" />
-<circle cx="717" cy="325" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="29350" r="10" fill="black" />
 <circle cx="400" cy="29350" r="10" fill="black" />
 <line x1="100" y1="29350" x2="400" y2="29350" stroke="black" />
@@ -4402,7 +4117,6 @@
 <circle cx="100" cy="29650" r="10" fill="black" />
 <circle cx="400" cy="29650" r="10" fill="black" />
 <line x1="100" y1="29650" x2="400" y2="29650" stroke="black" />
-<circle cx="717" cy="311" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="29500" r="10" fill="black" />
 <circle cx="100" cy="29800" r="10" fill="black" />
 <line x1="100" y1="29500" x2="100" y2="29800" stroke="black" />
@@ -4424,7 +4138,6 @@
 <circle cx="100" cy="29800" r="10" fill="black" />
 <circle cx="400" cy="29800" r="10" fill="black" />
 <line x1="100" y1="29800" x2="400" y2="29800" stroke="black" />
-<circle cx="696" cy="325" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="29650" r="10" fill="black" />
 <circle cx="200" cy="29750" r="10" fill="black" />
 <line x1="100" y1="29650" x2="200" y2="29750" stroke="black" />
@@ -4446,7 +4159,6 @@
 <circle cx="100" cy="29950" r="10" fill="black" />
 <circle cx="400" cy="29950" r="10" fill="black" />
 <line x1="100" y1="29950" x2="400" y2="29950" stroke="black" />
-<circle cx="745" cy="318" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="29800" r="10" fill="black" />
 <circle cx="400" cy="29800" r="10" fill="black" />
 <line x1="100" y1="29800" x2="400" y2="29800" stroke="black" />
@@ -4468,7 +4180,6 @@
 <circle cx="100" cy="30100" r="10" fill="black" />
 <circle cx="400" cy="30100" r="10" fill="black" />
 <line x1="100" y1="30100" x2="400" y2="30100" stroke="black" />
-<circle cx="724" cy="276" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="29950" r="10" fill="black" />
 <circle cx="400" cy="29950" r="10" fill="black" />
 <line x1="100" y1="29950" x2="400" y2="29950" stroke="black" />
@@ -4490,7 +4201,6 @@
 <circle cx="100" cy="30250" r="10" fill="black" />
 <circle cx="400" cy="30250" r="10" fill="black" />
 <line x1="100" y1="30250" x2="400" y2="30250" stroke="black" />
-<circle cx="752" cy="269" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="30100" r="10" fill="black" />
 <circle cx="100" cy="30400" r="10" fill="black" />
 <line x1="100" y1="30100" x2="100" y2="30400" stroke="black" />
@@ -4512,7 +4222,6 @@
 <circle cx="100" cy="30400" r="10" fill="black" />
 <circle cx="400" cy="30400" r="10" fill="black" />
 <line x1="100" y1="30400" x2="400" y2="30400" stroke="black" />
-<circle cx="731" cy="283" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="30250" r="10" fill="black" />
 <circle cx="400" cy="30250" r="10" fill="black" />
 <line x1="100" y1="30250" x2="400" y2="30250" stroke="black" />
@@ -4534,7 +4243,6 @@
 <circle cx="100" cy="30550" r="10" fill="black" />
 <circle cx="400" cy="30550" r="10" fill="black" />
 <line x1="100" y1="30550" x2="400" y2="30550" stroke="black" />
-<circle cx="710" cy="290" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="30400" r="10" fill="black" />
 <circle cx="100" cy="30700" r="10" fill="black" />
 <line x1="100" y1="30400" x2="100" y2="30700" stroke="black" />
@@ -4556,7 +4264,6 @@
 <circle cx="100" cy="30700" r="10" fill="black" />
 <circle cx="400" cy="30700" r="10" fill="black" />
 <line x1="100" y1="30700" x2="400" y2="30700" stroke="black" />
-<circle cx="738" cy="297" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="30550" r="10" fill="black" />
 <circle cx="400" cy="30550" r="10" fill="black" />
 <line x1="100" y1="30550" x2="400" y2="30550" stroke="black" />
@@ -4578,7 +4285,6 @@
 <circle cx="100" cy="30850" r="10" fill="black" />
 <circle cx="400" cy="30850" r="10" fill="black" />
 <line x1="100" y1="30850" x2="400" y2="30850" stroke="black" />
-<circle cx="738" cy="283" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="30700" r="10" fill="black" />
 <circle cx="100" cy="31000" r="10" fill="black" />
 <line x1="100" y1="30700" x2="100" y2="31000" stroke="black" />
@@ -4600,7 +4306,6 @@
 <circle cx="100" cy="31000" r="10" fill="black" />
 <circle cx="400" cy="31000" r="10" fill="black" />
 <line x1="100" y1="31000" x2="400" y2="31000" stroke="black" />
-<circle cx="717" cy="297" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="30850" r="10" fill="black" />
 <circle cx="200" cy="30950" r="10" fill="black" />
 <line x1="100" y1="30850" x2="200" y2="30950" stroke="black" />
@@ -4622,7 +4327,6 @@
 <circle cx="100" cy="31150" r="10" fill="black" />
 <circle cx="400" cy="31150" r="10" fill="black" />
 <line x1="100" y1="31150" x2="400" y2="31150" stroke="black" />
-<circle cx="766" cy="290" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="31000" r="10" fill="black" />
 <circle cx="400" cy="31000" r="10" fill="black" />
 <line x1="100" y1="31000" x2="400" y2="31000" stroke="black" />
@@ -4644,7 +4348,6 @@
 <circle cx="100" cy="31300" r="10" fill="black" />
 <circle cx="400" cy="31300" r="10" fill="black" />
 <line x1="100" y1="31300" x2="400" y2="31300" stroke="black" />
-<circle cx="703" cy="283" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="31150" r="10" fill="black" />
 <circle cx="400" cy="31150" r="10" fill="black" />
 <line x1="100" y1="31150" x2="400" y2="31150" stroke="black" />
@@ -4666,7 +4369,6 @@
 <circle cx="100" cy="31450" r="10" fill="black" />
 <circle cx="400" cy="31450" r="10" fill="black" />
 <line x1="100" y1="31450" x2="400" y2="31450" stroke="black" />
-<circle cx="731" cy="276" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="31300" r="10" fill="black" />
 <circle cx="100" cy="31600" r="10" fill="black" />
 <line x1="100" y1="31300" x2="100" y2="31600" stroke="black" />
@@ -4688,7 +4390,6 @@
 <circle cx="100" cy="31600" r="10" fill="black" />
 <circle cx="400" cy="31600" r="10" fill="black" />
 <line x1="100" y1="31600" x2="400" y2="31600" stroke="black" />
-<circle cx="710" cy="290" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="31450" r="10" fill="black" />
 <circle cx="100" cy="31750" r="10" fill="black" />
 <line x1="100" y1="31450" x2="100" y2="31750" stroke="black" />
@@ -4710,7 +4411,6 @@
 <circle cx="100" cy="31750" r="10" fill="black" />
 <circle cx="400" cy="31750" r="10" fill="black" />
 <line x1="100" y1="31750" x2="400" y2="31750" stroke="black" />
-<circle cx="717" cy="304" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="200" cy="31700" r="10" fill="black" />
 <circle cx="300" cy="31700" r="10" fill="black" />
 <line x1="200" y1="31700" x2="300" y2="31700" stroke="black" />
@@ -4732,7 +4432,6 @@
 <circle cx="100" cy="31900" r="10" fill="black" />
 <circle cx="400" cy="31900" r="10" fill="black" />
 <line x1="100" y1="31900" x2="400" y2="31900" stroke="black" />
-<circle cx="745" cy="297" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="31750" r="10" fill="black" />
 <circle cx="400" cy="31750" r="10" fill="black" />
 <line x1="100" y1="31750" x2="400" y2="31750" stroke="black" />
@@ -4754,7 +4453,6 @@
 <circle cx="100" cy="32050" r="10" fill="black" />
 <circle cx="400" cy="32050" r="10" fill="black" />
 <line x1="100" y1="32050" x2="400" y2="32050" stroke="black" />
-<circle cx="766" cy="283" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="31900" r="10" fill="black" />
 <circle cx="400" cy="31900" r="10" fill="black" />
 <line x1="100" y1="31900" x2="400" y2="31900" stroke="black" />
@@ -4776,7 +4474,6 @@
 <circle cx="100" cy="32200" r="10" fill="black" />
 <circle cx="400" cy="32200" r="10" fill="black" />
 <line x1="100" y1="32200" x2="400" y2="32200" stroke="black" />
-<circle cx="759" cy="276" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="32050" r="10" fill="black" />
 <circle cx="400" cy="32050" r="10" fill="black" />
 <line x1="100" y1="32050" x2="400" y2="32050" stroke="black" />
@@ -4798,7 +4495,6 @@
 <circle cx="100" cy="32350" r="10" fill="black" />
 <circle cx="400" cy="32350" r="10" fill="black" />
 <line x1="100" y1="32350" x2="400" y2="32350" stroke="black" />
-<circle cx="766" cy="290" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="32200" r="10" fill="black" />
 <circle cx="400" cy="32200" r="10" fill="black" />
 <line x1="100" y1="32200" x2="400" y2="32200" stroke="black" />
@@ -4820,7 +4516,6 @@
 <circle cx="100" cy="32500" r="10" fill="black" />
 <circle cx="400" cy="32500" r="10" fill="black" />
 <line x1="100" y1="32500" x2="400" y2="32500" stroke="black" />
-<circle cx="745" cy="290" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="32350" r="10" fill="black" />
 <circle cx="400" cy="32350" r="10" fill="black" />
 <line x1="100" y1="32350" x2="400" y2="32350" stroke="black" />
@@ -4842,7 +4537,6 @@
 <circle cx="100" cy="32650" r="10" fill="black" />
 <circle cx="400" cy="32650" r="10" fill="black" />
 <line x1="100" y1="32650" x2="400" y2="32650" stroke="black" />
-<circle cx="794" cy="283" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="32500" r="10" fill="black" />
 <circle cx="400" cy="32500" r="10" fill="black" />
 <line x1="100" y1="32500" x2="400" y2="32500" stroke="black" />
@@ -4864,7 +4558,6 @@
 <circle cx="100" cy="32800" r="10" fill="black" />
 <circle cx="400" cy="32800" r="10" fill="black" />
 <line x1="100" y1="32800" x2="400" y2="32800" stroke="black" />
-<circle cx="787" cy="262" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="32650" r="10" fill="black" />
 <circle cx="400" cy="32650" r="10" fill="black" />
 <line x1="100" y1="32650" x2="400" y2="32650" stroke="black" />
@@ -4886,7 +4579,6 @@
 <circle cx="100" cy="32950" r="10" fill="black" />
 <circle cx="400" cy="32950" r="10" fill="black" />
 <line x1="100" y1="32950" x2="400" y2="32950" stroke="black" />
-<circle cx="766" cy="262" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="32800" r="10" fill="black" />
 <circle cx="400" cy="32800" r="10" fill="black" />
 <line x1="100" y1="32800" x2="400" y2="32800" stroke="black" />
@@ -4908,7 +4600,6 @@
 <circle cx="100" cy="33100" r="10" fill="black" />
 <circle cx="400" cy="33100" r="10" fill="black" />
 <line x1="100" y1="33100" x2="400" y2="33100" stroke="black" />
-<circle cx="815" cy="255" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="32950" r="10" fill="black" />
 <circle cx="100" cy="33250" r="10" fill="black" />
 <line x1="100" y1="32950" x2="100" y2="33250" stroke="black" />
@@ -4930,7 +4621,6 @@
 <circle cx="100" cy="33250" r="10" fill="black" />
 <circle cx="400" cy="33250" r="10" fill="black" />
 <line x1="100" y1="33250" x2="400" y2="33250" stroke="black" />
-<circle cx="794" cy="269" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="33100" r="10" fill="black" />
 <circle cx="400" cy="33100" r="10" fill="black" />
 <line x1="100" y1="33100" x2="400" y2="33100" stroke="black" />
@@ -4952,7 +4642,6 @@
 <circle cx="100" cy="33400" r="10" fill="black" />
 <circle cx="400" cy="33400" r="10" fill="black" />
 <line x1="100" y1="33400" x2="400" y2="33400" stroke="black" />
-<circle cx="780" cy="255" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="33250" r="10" fill="black" />
 <circle cx="400" cy="33250" r="10" fill="black" />
 <line x1="100" y1="33250" x2="400" y2="33250" stroke="black" />
@@ -4974,7 +4663,6 @@
 <circle cx="100" cy="33550" r="10" fill="black" />
 <circle cx="400" cy="33550" r="10" fill="black" />
 <line x1="100" y1="33550" x2="400" y2="33550" stroke="black" />
-<circle cx="759" cy="255" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="33400" r="10" fill="black" />
 <circle cx="400" cy="33400" r="10" fill="black" />
 <line x1="100" y1="33400" x2="400" y2="33400" stroke="black" />
@@ -4996,7 +4684,6 @@
 <circle cx="100" cy="33700" r="10" fill="black" />
 <circle cx="400" cy="33700" r="10" fill="black" />
 <line x1="100" y1="33700" x2="400" y2="33700" stroke="black" />
-<circle cx="808" cy="248" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="33550" r="10" fill="black" />
 <circle cx="100" cy="33850" r="10" fill="black" />
 <line x1="100" y1="33550" x2="100" y2="33850" stroke="black" />
@@ -5018,7 +4705,6 @@
 <circle cx="100" cy="33850" r="10" fill="black" />
 <circle cx="400" cy="33850" r="10" fill="black" />
 <line x1="100" y1="33850" x2="400" y2="33850" stroke="black" />
-<circle cx="787" cy="262" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="33700" r="10" fill="black" />
 <circle cx="100" cy="34000" r="10" fill="black" />
 <line x1="100" y1="33700" x2="100" y2="34000" stroke="black" />
@@ -5040,7 +4726,6 @@
 <circle cx="100" cy="34000" r="10" fill="black" />
 <circle cx="400" cy="34000" r="10" fill="black" />
 <line x1="100" y1="34000" x2="400" y2="34000" stroke="black" />
-<circle cx="794" cy="276" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="33850" r="10" fill="black" />
 <circle cx="100" cy="34150" r="10" fill="black" />
 <line x1="100" y1="33850" x2="100" y2="34150" stroke="black" />
@@ -5062,7 +4747,6 @@
 <circle cx="100" cy="34150" r="10" fill="black" />
 <circle cx="400" cy="34150" r="10" fill="black" />
 <line x1="100" y1="34150" x2="400" y2="34150" stroke="black" />
-<circle cx="773" cy="276" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="34000" r="10" fill="black" />
 <circle cx="200" cy="34100" r="10" fill="black" />
 <line x1="100" y1="34000" x2="200" y2="34100" stroke="black" />
@@ -5084,7 +4768,6 @@
 <circle cx="100" cy="34300" r="10" fill="black" />
 <circle cx="400" cy="34300" r="10" fill="black" />
 <line x1="100" y1="34300" x2="400" y2="34300" stroke="black" />
-<circle cx="822" cy="269" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="34150" r="10" fill="black" />
 <circle cx="400" cy="34150" r="10" fill="black" />
 <line x1="100" y1="34150" x2="400" y2="34150" stroke="black" />
@@ -5106,7 +4789,6 @@
 <circle cx="100" cy="34450" r="10" fill="black" />
 <circle cx="400" cy="34450" r="10" fill="black" />
 <line x1="100" y1="34450" x2="400" y2="34450" stroke="black" />
-<circle cx="731" cy="297" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="34300" r="10" fill="black" />
 <circle cx="400" cy="34300" r="10" fill="black" />
 <line x1="100" y1="34300" x2="400" y2="34300" stroke="black" />
@@ -5128,7 +4810,6 @@
 <circle cx="100" cy="34600" r="10" fill="black" />
 <circle cx="400" cy="34600" r="10" fill="black" />
 <line x1="100" y1="34600" x2="400" y2="34600" stroke="black" />
-<circle cx="759" cy="290" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="34450" r="10" fill="black" />
 <circle cx="100" cy="34750" r="10" fill="black" />
 <line x1="100" y1="34450" x2="100" y2="34750" stroke="black" />
@@ -5150,7 +4831,6 @@
 <circle cx="100" cy="34750" r="10" fill="black" />
 <circle cx="400" cy="34750" r="10" fill="black" />
 <line x1="100" y1="34750" x2="400" y2="34750" stroke="black" />
-<circle cx="738" cy="304" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="34600" r="10" fill="black" />
 <circle cx="400" cy="34600" r="10" fill="black" />
 <line x1="100" y1="34600" x2="400" y2="34600" stroke="black" />
@@ -5172,7 +4852,6 @@
 <circle cx="100" cy="34900" r="10" fill="black" />
 <circle cx="400" cy="34900" r="10" fill="black" />
 <line x1="100" y1="34900" x2="400" y2="34900" stroke="black" />
-<circle cx="724" cy="290" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="34750" r="10" fill="black" />
 <circle cx="400" cy="34750" r="10" fill="black" />
 <line x1="100" y1="34750" x2="400" y2="34750" stroke="black" />
@@ -5194,7 +4873,6 @@
 <circle cx="100" cy="35050" r="10" fill="black" />
 <circle cx="400" cy="35050" r="10" fill="black" />
 <line x1="100" y1="35050" x2="400" y2="35050" stroke="black" />
-<circle cx="752" cy="283" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="34900" r="10" fill="black" />
 <circle cx="100" cy="35200" r="10" fill="black" />
 <line x1="100" y1="34900" x2="100" y2="35200" stroke="black" />
@@ -5216,7 +4894,6 @@
 <circle cx="100" cy="35200" r="10" fill="black" />
 <circle cx="400" cy="35200" r="10" fill="black" />
 <line x1="100" y1="35200" x2="400" y2="35200" stroke="black" />
-<circle cx="731" cy="297" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="35050" r="10" fill="black" />
 <circle cx="400" cy="35050" r="10" fill="black" />
 <line x1="100" y1="35050" x2="400" y2="35050" stroke="black" />
@@ -5238,7 +4915,6 @@
 <circle cx="100" cy="35350" r="10" fill="black" />
 <circle cx="400" cy="35350" r="10" fill="black" />
 <line x1="100" y1="35350" x2="400" y2="35350" stroke="black" />
-<circle cx="710" cy="304" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="35200" r="10" fill="black" />
 <circle cx="100" cy="35500" r="10" fill="black" />
 <line x1="100" y1="35200" x2="100" y2="35500" stroke="black" />
@@ -5260,7 +4936,6 @@
 <circle cx="100" cy="35500" r="10" fill="black" />
 <circle cx="400" cy="35500" r="10" fill="black" />
 <line x1="100" y1="35500" x2="400" y2="35500" stroke="black" />
-<circle cx="738" cy="311" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="35350" r="10" fill="black" />
 <circle cx="400" cy="35350" r="10" fill="black" />
 <line x1="100" y1="35350" x2="400" y2="35350" stroke="black" />
@@ -5282,7 +4957,6 @@
 <circle cx="100" cy="35650" r="10" fill="black" />
 <circle cx="400" cy="35650" r="10" fill="black" />
 <line x1="100" y1="35650" x2="400" y2="35650" stroke="black" />
-<circle cx="738" cy="297" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="35500" r="10" fill="black" />
 <circle cx="100" cy="35800" r="10" fill="black" />
 <line x1="100" y1="35500" x2="100" y2="35800" stroke="black" />
@@ -5304,7 +4978,6 @@
 <circle cx="100" cy="35800" r="10" fill="black" />
 <circle cx="400" cy="35800" r="10" fill="black" />
 <line x1="100" y1="35800" x2="400" y2="35800" stroke="black" />
-<circle cx="717" cy="311" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="35650" r="10" fill="black" />
 <circle cx="200" cy="35750" r="10" fill="black" />
 <line x1="100" y1="35650" x2="200" y2="35750" stroke="black" />
@@ -5326,7 +4999,6 @@
 <circle cx="100" cy="35950" r="10" fill="black" />
 <circle cx="400" cy="35950" r="10" fill="black" />
 <line x1="100" y1="35950" x2="400" y2="35950" stroke="black" />
-<circle cx="766" cy="304" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="35800" r="10" fill="black" />
 <circle cx="400" cy="35800" r="10" fill="black" />
 <line x1="100" y1="35800" x2="400" y2="35800" stroke="black" />
@@ -5348,7 +5020,6 @@
 <circle cx="100" cy="36100" r="10" fill="black" />
 <circle cx="400" cy="36100" r="10" fill="black" />
 <line x1="100" y1="36100" x2="400" y2="36100" stroke="black" />
-<circle cx="731" cy="276" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="35950" r="10" fill="black" />
 <circle cx="400" cy="35950" r="10" fill="black" />
 <line x1="100" y1="35950" x2="400" y2="35950" stroke="black" />
@@ -5370,7 +5041,6 @@
 <circle cx="100" cy="36250" r="10" fill="black" />
 <circle cx="400" cy="36250" r="10" fill="black" />
 <line x1="100" y1="36250" x2="400" y2="36250" stroke="black" />
-<circle cx="759" cy="269" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="36100" r="10" fill="black" />
 <circle cx="100" cy="36400" r="10" fill="black" />
 <line x1="100" y1="36100" x2="100" y2="36400" stroke="black" />
@@ -5392,7 +5062,6 @@
 <circle cx="100" cy="36400" r="10" fill="black" />
 <circle cx="400" cy="36400" r="10" fill="black" />
 <line x1="100" y1="36400" x2="400" y2="36400" stroke="black" />
-<circle cx="738" cy="283" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="36250" r="10" fill="black" />
 <circle cx="400" cy="36250" r="10" fill="black" />
 <line x1="100" y1="36250" x2="400" y2="36250" stroke="black" />
@@ -5414,7 +5083,6 @@
 <circle cx="100" cy="36550" r="10" fill="black" />
 <circle cx="400" cy="36550" r="10" fill="black" />
 <line x1="100" y1="36550" x2="400" y2="36550" stroke="black" />
-<circle cx="724" cy="269" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="36400" r="10" fill="black" />
 <circle cx="400" cy="36400" r="10" fill="black" />
 <line x1="100" y1="36400" x2="400" y2="36400" stroke="black" />
@@ -5436,7 +5104,6 @@
 <circle cx="100" cy="36700" r="10" fill="black" />
 <circle cx="400" cy="36700" r="10" fill="black" />
 <line x1="100" y1="36700" x2="400" y2="36700" stroke="black" />
-<circle cx="752" cy="262" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="36550" r="10" fill="black" />
 <circle cx="100" cy="36850" r="10" fill="black" />
 <line x1="100" y1="36550" x2="100" y2="36850" stroke="black" />
@@ -5458,7 +5125,6 @@
 <circle cx="100" cy="36850" r="10" fill="black" />
 <circle cx="400" cy="36850" r="10" fill="black" />
 <line x1="100" y1="36850" x2="400" y2="36850" stroke="black" />
-<circle cx="731" cy="276" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="36700" r="10" fill="black" />
 <circle cx="100" cy="37000" r="10" fill="black" />
 <line x1="100" y1="36700" x2="100" y2="37000" stroke="black" />
@@ -5480,7 +5146,6 @@
 <circle cx="100" cy="37000" r="10" fill="black" />
 <circle cx="400" cy="37000" r="10" fill="black" />
 <line x1="100" y1="37000" x2="400" y2="37000" stroke="black" />
-<circle cx="738" cy="290" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="200" cy="36950" r="10" fill="black" />
 <circle cx="300" cy="36950" r="10" fill="black" />
 <line x1="200" y1="36950" x2="300" y2="36950" stroke="black" />
@@ -5502,7 +5167,6 @@
 <circle cx="100" cy="37150" r="10" fill="black" />
 <circle cx="400" cy="37150" r="10" fill="black" />
 <line x1="100" y1="37150" x2="400" y2="37150" stroke="black" />
-<circle cx="766" cy="283" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="37000" r="10" fill="black" />
 <circle cx="400" cy="37000" r="10" fill="black" />
 <line x1="100" y1="37000" x2="400" y2="37000" stroke="black" />
@@ -5524,7 +5188,6 @@
 <circle cx="100" cy="37300" r="10" fill="black" />
 <circle cx="400" cy="37300" r="10" fill="black" />
 <line x1="100" y1="37300" x2="400" y2="37300" stroke="black" />
-<circle cx="731" cy="248" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="37150" r="10" fill="black" />
 <circle cx="400" cy="37150" r="10" fill="black" />
 <line x1="100" y1="37150" x2="400" y2="37150" stroke="black" />
@@ -5546,7 +5209,6 @@
 <circle cx="100" cy="37450" r="10" fill="black" />
 <circle cx="400" cy="37450" r="10" fill="black" />
 <line x1="100" y1="37450" x2="400" y2="37450" stroke="black" />
-<circle cx="738" cy="262" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="37300" r="10" fill="black" />
 <circle cx="400" cy="37300" r="10" fill="black" />
 <line x1="100" y1="37300" x2="400" y2="37300" stroke="black" />
@@ -5568,7 +5230,6 @@
 <circle cx="100" cy="37600" r="10" fill="black" />
 <circle cx="400" cy="37600" r="10" fill="black" />
 <line x1="100" y1="37600" x2="400" y2="37600" stroke="black" />
-<circle cx="717" cy="262" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="37450" r="10" fill="black" />
 <circle cx="400" cy="37450" r="10" fill="black" />
 <line x1="100" y1="37450" x2="400" y2="37450" stroke="black" />
@@ -5590,7 +5251,6 @@
 <circle cx="100" cy="37750" r="10" fill="black" />
 <circle cx="400" cy="37750" r="10" fill="black" />
 <line x1="100" y1="37750" x2="400" y2="37750" stroke="black" />
-<circle cx="766" cy="255" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="37600" r="10" fill="black" />
 <circle cx="400" cy="37600" r="10" fill="black" />
 <line x1="100" y1="37600" x2="400" y2="37600" stroke="black" />
@@ -5612,7 +5272,6 @@
 <circle cx="100" cy="37900" r="10" fill="black" />
 <circle cx="400" cy="37900" r="10" fill="black" />
 <line x1="100" y1="37900" x2="400" y2="37900" stroke="black" />
-<circle cx="752" cy="227" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="37750" r="10" fill="black" />
 <circle cx="400" cy="37750" r="10" fill="black" />
 <line x1="100" y1="37750" x2="400" y2="37750" stroke="black" />
@@ -5634,7 +5293,6 @@
 <circle cx="100" cy="38050" r="10" fill="black" />
 <circle cx="400" cy="38050" r="10" fill="black" />
 <line x1="100" y1="38050" x2="400" y2="38050" stroke="black" />
-<circle cx="731" cy="227" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="37900" r="10" fill="black" />
 <circle cx="400" cy="37900" r="10" fill="black" />
 <line x1="100" y1="37900" x2="400" y2="37900" stroke="black" />
@@ -5656,7 +5314,6 @@
 <circle cx="100" cy="38200" r="10" fill="black" />
 <circle cx="400" cy="38200" r="10" fill="black" />
 <line x1="100" y1="38200" x2="400" y2="38200" stroke="black" />
-<circle cx="780" cy="220" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="38050" r="10" fill="black" />
 <circle cx="100" cy="38350" r="10" fill="black" />
 <line x1="100" y1="38050" x2="100" y2="38350" stroke="black" />
@@ -5678,7 +5335,6 @@
 <circle cx="100" cy="38350" r="10" fill="black" />
 <circle cx="400" cy="38350" r="10" fill="black" />
 <line x1="100" y1="38350" x2="400" y2="38350" stroke="black" />
-<circle cx="759" cy="234" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="38200" r="10" fill="black" />
 <circle cx="100" cy="38500" r="10" fill="black" />
 <line x1="100" y1="38200" x2="100" y2="38500" stroke="black" />
@@ -5700,7 +5356,6 @@
 <circle cx="100" cy="38500" r="10" fill="black" />
 <circle cx="400" cy="38500" r="10" fill="black" />
 <line x1="100" y1="38500" x2="400" y2="38500" stroke="black" />
-<circle cx="766" cy="248" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="38350" r="10" fill="black" />
 <circle cx="100" cy="38650" r="10" fill="black" />
 <line x1="100" y1="38350" x2="100" y2="38650" stroke="black" />
@@ -5722,7 +5377,6 @@
 <circle cx="100" cy="38650" r="10" fill="black" />
 <circle cx="400" cy="38650" r="10" fill="black" />
 <line x1="100" y1="38650" x2="400" y2="38650" stroke="black" />
-<circle cx="745" cy="248" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="38500" r="10" fill="black" />
 <circle cx="200" cy="38600" r="10" fill="black" />
 <line x1="100" y1="38500" x2="200" y2="38600" stroke="black" />
@@ -5744,7 +5398,6 @@
 <circle cx="100" cy="38800" r="10" fill="black" />
 <circle cx="400" cy="38800" r="10" fill="black" />
 <line x1="100" y1="38800" x2="400" y2="38800" stroke="black" />
-<circle cx="794" cy="241" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="38650" r="10" fill="black" />
 <circle cx="400" cy="38650" r="10" fill="black" />
 <line x1="100" y1="38650" x2="400" y2="38650" stroke="black" />
@@ -5766,7 +5419,6 @@
 <circle cx="100" cy="38950" r="10" fill="black" />
 <circle cx="400" cy="38950" r="10" fill="black" />
 <line x1="100" y1="38950" x2="400" y2="38950" stroke="black" />
-<circle cx="696" cy="262" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="38800" r="10" fill="black" />
 <circle cx="400" cy="38800" r="10" fill="black" />
 <line x1="100" y1="38800" x2="400" y2="38800" stroke="black" />
@@ -5788,7 +5440,6 @@
 <circle cx="100" cy="39100" r="10" fill="black" />
 <circle cx="400" cy="39100" r="10" fill="black" />
 <line x1="100" y1="39100" x2="400" y2="39100" stroke="black" />
-<circle cx="724" cy="255" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="38950" r="10" fill="black" />
 <circle cx="100" cy="39250" r="10" fill="black" />
 <line x1="100" y1="38950" x2="100" y2="39250" stroke="black" />
@@ -5810,7 +5461,6 @@
 <circle cx="100" cy="39250" r="10" fill="black" />
 <circle cx="400" cy="39250" r="10" fill="black" />
 <line x1="100" y1="39250" x2="400" y2="39250" stroke="black" />
-<circle cx="703" cy="269" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="39100" r="10" fill="black" />
 <circle cx="400" cy="39100" r="10" fill="black" />
 <line x1="100" y1="39100" x2="400" y2="39100" stroke="black" />
@@ -5832,7 +5482,6 @@
 <circle cx="100" cy="39400" r="10" fill="black" />
 <circle cx="400" cy="39400" r="10" fill="black" />
 <line x1="100" y1="39400" x2="400" y2="39400" stroke="black" />
-<circle cx="682" cy="276" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="39250" r="10" fill="black" />
 <circle cx="100" cy="39550" r="10" fill="black" />
 <line x1="100" y1="39250" x2="100" y2="39550" stroke="black" />
@@ -5854,7 +5503,6 @@
 <circle cx="100" cy="39550" r="10" fill="black" />
 <circle cx="400" cy="39550" r="10" fill="black" />
 <line x1="100" y1="39550" x2="400" y2="39550" stroke="black" />
-<circle cx="710" cy="283" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="39400" r="10" fill="black" />
 <circle cx="400" cy="39400" r="10" fill="black" />
 <line x1="100" y1="39400" x2="400" y2="39400" stroke="black" />
@@ -5876,7 +5524,6 @@
 <circle cx="100" cy="39700" r="10" fill="black" />
 <circle cx="400" cy="39700" r="10" fill="black" />
 <line x1="100" y1="39700" x2="400" y2="39700" stroke="black" />
-<circle cx="710" cy="269" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="39550" r="10" fill="black" />
 <circle cx="100" cy="39850" r="10" fill="black" />
 <line x1="100" y1="39550" x2="100" y2="39850" stroke="black" />
@@ -5898,7 +5545,6 @@
 <circle cx="100" cy="39850" r="10" fill="black" />
 <circle cx="400" cy="39850" r="10" fill="black" />
 <line x1="100" y1="39850" x2="400" y2="39850" stroke="black" />
-<circle cx="689" cy="283" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="39700" r="10" fill="black" />
 <circle cx="200" cy="39800" r="10" fill="black" />
 <line x1="100" y1="39700" x2="200" y2="39800" stroke="black" />
@@ -5920,7 +5566,6 @@
 <circle cx="100" cy="40000" r="10" fill="black" />
 <circle cx="400" cy="40000" r="10" fill="black" />
 <line x1="100" y1="40000" x2="400" y2="40000" stroke="black" />
-<circle cx="738" cy="276" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="39850" r="10" fill="black" />
 <circle cx="400" cy="39850" r="10" fill="black" />
 <line x1="100" y1="39850" x2="400" y2="39850" stroke="black" />
@@ -5942,7 +5587,6 @@
 <circle cx="100" cy="40150" r="10" fill="black" />
 <circle cx="400" cy="40150" r="10" fill="black" />
 <line x1="100" y1="40150" x2="400" y2="40150" stroke="black" />
-<circle cx="696" cy="241" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="40000" r="10" fill="black" />
 <circle cx="400" cy="40000" r="10" fill="black" />
 <line x1="100" y1="40000" x2="400" y2="40000" stroke="black" />
@@ -5964,7 +5608,6 @@
 <circle cx="100" cy="40300" r="10" fill="black" />
 <circle cx="400" cy="40300" r="10" fill="black" />
 <line x1="100" y1="40300" x2="400" y2="40300" stroke="black" />
-<circle cx="724" cy="234" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="40150" r="10" fill="black" />
 <circle cx="100" cy="40450" r="10" fill="black" />
 <line x1="100" y1="40150" x2="100" y2="40450" stroke="black" />
@@ -5986,7 +5629,6 @@
 <circle cx="100" cy="40450" r="10" fill="black" />
 <circle cx="400" cy="40450" r="10" fill="black" />
 <line x1="100" y1="40450" x2="400" y2="40450" stroke="black" />
-<circle cx="703" cy="248" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="40300" r="10" fill="black" />
 <circle cx="100" cy="40600" r="10" fill="black" />
 <line x1="100" y1="40300" x2="100" y2="40600" stroke="black" />
@@ -6008,7 +5650,6 @@
 <circle cx="100" cy="40600" r="10" fill="black" />
 <circle cx="400" cy="40600" r="10" fill="black" />
 <line x1="100" y1="40600" x2="400" y2="40600" stroke="black" />
-<circle cx="710" cy="262" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="200" cy="40550" r="10" fill="black" />
 <circle cx="300" cy="40550" r="10" fill="black" />
 <line x1="200" y1="40550" x2="300" y2="40550" stroke="black" />
@@ -6030,7 +5671,6 @@
 <circle cx="100" cy="40750" r="10" fill="black" />
 <circle cx="400" cy="40750" r="10" fill="black" />
 <line x1="100" y1="40750" x2="400" y2="40750" stroke="black" />
-<circle cx="738" cy="255" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="40600" r="10" fill="black" />
 <circle cx="400" cy="40600" r="10" fill="black" />
 <line x1="100" y1="40600" x2="400" y2="40600" stroke="black" />
@@ -6052,7 +5692,6 @@
 <circle cx="100" cy="40900" r="10" fill="black" />
 <circle cx="400" cy="40900" r="10" fill="black" />
 <line x1="100" y1="40900" x2="400" y2="40900" stroke="black" />
-<circle cx="752" cy="325" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="40750" r="10" fill="black" />
 <circle cx="400" cy="40750" r="10" fill="black" />
 <line x1="100" y1="40750" x2="400" y2="40750" stroke="black" />
@@ -6074,7 +5713,6 @@
 <circle cx="100" cy="41050" r="10" fill="black" />
 <circle cx="400" cy="41050" r="10" fill="black" />
 <line x1="100" y1="41050" x2="400" y2="41050" stroke="black" />
-<circle cx="731" cy="325" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="40900" r="10" fill="black" />
 <circle cx="400" cy="40900" r="10" fill="black" />
 <line x1="100" y1="40900" x2="400" y2="40900" stroke="black" />
@@ -6096,7 +5734,6 @@
 <circle cx="100" cy="41200" r="10" fill="black" />
 <circle cx="400" cy="41200" r="10" fill="black" />
 <line x1="100" y1="41200" x2="400" y2="41200" stroke="black" />
-<circle cx="773" cy="297" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="41050" r="10" fill="black" />
 <circle cx="400" cy="41050" r="10" fill="black" />
 <line x1="100" y1="41050" x2="400" y2="41050" stroke="black" />
@@ -6118,7 +5755,6 @@
 <circle cx="100" cy="41350" r="10" fill="black" />
 <circle cx="400" cy="41350" r="10" fill="black" />
 <line x1="100" y1="41350" x2="400" y2="41350" stroke="black" />
-<circle cx="752" cy="297" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="41200" r="10" fill="black" />
 <circle cx="400" cy="41200" r="10" fill="black" />
 <line x1="100" y1="41200" x2="400" y2="41200" stroke="black" />
@@ -6140,7 +5776,6 @@
 <circle cx="100" cy="41500" r="10" fill="black" />
 <circle cx="400" cy="41500" r="10" fill="black" />
 <line x1="100" y1="41500" x2="400" y2="41500" stroke="black" />
-<circle cx="766" cy="290" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="41350" r="10" fill="black" />
 <circle cx="400" cy="41350" r="10" fill="black" />
 <line x1="100" y1="41350" x2="400" y2="41350" stroke="black" />
@@ -6162,7 +5797,6 @@
 <circle cx="100" cy="41650" r="10" fill="black" />
 <circle cx="400" cy="41650" r="10" fill="black" />
 <line x1="100" y1="41650" x2="400" y2="41650" stroke="black" />
-<circle cx="745" cy="290" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="41500" r="10" fill="black" />
 <circle cx="100" cy="41800" r="10" fill="black" />
 <line x1="100" y1="41500" x2="100" y2="41800" stroke="black" />
@@ -6184,7 +5818,6 @@
 <circle cx="100" cy="41800" r="10" fill="black" />
 <circle cx="400" cy="41800" r="10" fill="black" />
 <line x1="100" y1="41800" x2="400" y2="41800" stroke="black" />
-<circle cx="780" cy="311" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="41650" r="10" fill="black" />
 <circle cx="100" cy="41950" r="10" fill="black" />
 <line x1="100" y1="41650" x2="100" y2="41950" stroke="black" />
@@ -6206,7 +5839,6 @@
 <circle cx="100" cy="41950" r="10" fill="black" />
 <circle cx="400" cy="41950" r="10" fill="black" />
 <line x1="100" y1="41950" x2="400" y2="41950" stroke="black" />
-<circle cx="759" cy="311" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="41800" r="10" fill="black" />
 <circle cx="400" cy="41800" r="10" fill="black" />
 <line x1="100" y1="41800" x2="400" y2="41800" stroke="black" />
@@ -6228,7 +5860,6 @@
 <circle cx="100" cy="42100" r="10" fill="black" />
 <circle cx="400" cy="42100" r="10" fill="black" />
 <line x1="100" y1="42100" x2="400" y2="42100" stroke="black" />
-<circle cx="696" cy="339" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="41950" r="10" fill="black" />
 <circle cx="400" cy="41950" r="10" fill="black" />
 <line x1="100" y1="41950" x2="400" y2="41950" stroke="black" />
@@ -6250,7 +5881,6 @@
 <circle cx="100" cy="42250" r="10" fill="black" />
 <circle cx="400" cy="42250" r="10" fill="black" />
 <line x1="100" y1="42250" x2="400" y2="42250" stroke="black" />
-<circle cx="745" cy="332" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="42100" r="10" fill="black" />
 <circle cx="100" cy="42400" r="10" fill="black" />
 <line x1="100" y1="42100" x2="100" y2="42400" stroke="black" />
@@ -6272,7 +5902,6 @@
 <circle cx="100" cy="42400" r="10" fill="black" />
 <circle cx="400" cy="42400" r="10" fill="black" />
 <line x1="100" y1="42400" x2="400" y2="42400" stroke="black" />
-<circle cx="724" cy="346" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="42250" r="10" fill="black" />
 <circle cx="400" cy="42250" r="10" fill="black" />
 <line x1="100" y1="42250" x2="400" y2="42250" stroke="black" />
@@ -6294,7 +5923,6 @@
 <circle cx="100" cy="42550" r="10" fill="black" />
 <circle cx="400" cy="42550" r="10" fill="black" />
 <line x1="100" y1="42550" x2="400" y2="42550" stroke="black" />
-<circle cx="724" cy="332" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="42400" r="10" fill="black" />
 <circle cx="100" cy="42700" r="10" fill="black" />
 <line x1="100" y1="42400" x2="100" y2="42700" stroke="black" />
@@ -6316,7 +5944,6 @@
 <circle cx="100" cy="42700" r="10" fill="black" />
 <circle cx="400" cy="42700" r="10" fill="black" />
 <line x1="100" y1="42700" x2="400" y2="42700" stroke="black" />
-<circle cx="703" cy="346" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="42550" r="10" fill="black" />
 <circle cx="400" cy="42550" r="10" fill="black" />
 <line x1="100" y1="42550" x2="400" y2="42550" stroke="black" />
@@ -6338,7 +5965,6 @@
 <circle cx="100" cy="42850" r="10" fill="black" />
 <circle cx="400" cy="42850" r="10" fill="black" />
 <line x1="100" y1="42850" x2="400" y2="42850" stroke="black" />
-<circle cx="717" cy="311" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="42700" r="10" fill="black" />
 <circle cx="400" cy="42700" r="10" fill="black" />
 <line x1="100" y1="42700" x2="400" y2="42700" stroke="black" />
@@ -6360,7 +5986,6 @@
 <circle cx="100" cy="43000" r="10" fill="black" />
 <circle cx="400" cy="43000" r="10" fill="black" />
 <line x1="100" y1="43000" x2="400" y2="43000" stroke="black" />
-<circle cx="766" cy="304" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="42850" r="10" fill="black" />
 <circle cx="100" cy="43150" r="10" fill="black" />
 <line x1="100" y1="42850" x2="100" y2="43150" stroke="black" />
@@ -6382,7 +6007,6 @@
 <circle cx="100" cy="43150" r="10" fill="black" />
 <circle cx="400" cy="43150" r="10" fill="black" />
 <line x1="100" y1="43150" x2="400" y2="43150" stroke="black" />
-<circle cx="745" cy="318" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="43000" r="10" fill="black" />
 <circle cx="400" cy="43000" r="10" fill="black" />
 <line x1="100" y1="43000" x2="400" y2="43000" stroke="black" />
@@ -6404,7 +6028,6 @@
 <circle cx="100" cy="43300" r="10" fill="black" />
 <circle cx="400" cy="43300" r="10" fill="black" />
 <line x1="100" y1="43300" x2="400" y2="43300" stroke="black" />
-<circle cx="745" cy="304" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="43150" r="10" fill="black" />
 <circle cx="100" cy="43450" r="10" fill="black" />
 <line x1="100" y1="43150" x2="100" y2="43450" stroke="black" />
@@ -6426,7 +6049,6 @@
 <circle cx="100" cy="43450" r="10" fill="black" />
 <circle cx="400" cy="43450" r="10" fill="black" />
 <line x1="100" y1="43450" x2="400" y2="43450" stroke="black" />
-<circle cx="724" cy="318" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="43300" r="10" fill="black" />
 <circle cx="400" cy="43300" r="10" fill="black" />
 <line x1="100" y1="43300" x2="400" y2="43300" stroke="black" />
@@ -6448,7 +6070,6 @@
 <circle cx="100" cy="43600" r="10" fill="black" />
 <circle cx="400" cy="43600" r="10" fill="black" />
 <line x1="100" y1="43600" x2="400" y2="43600" stroke="black" />
-<circle cx="710" cy="304" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="43450" r="10" fill="black" />
 <circle cx="400" cy="43450" r="10" fill="black" />
 <line x1="100" y1="43450" x2="400" y2="43450" stroke="black" />
@@ -6470,7 +6091,6 @@
 <circle cx="100" cy="43750" r="10" fill="black" />
 <circle cx="400" cy="43750" r="10" fill="black" />
 <line x1="100" y1="43750" x2="400" y2="43750" stroke="black" />
-<circle cx="759" cy="297" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="43600" r="10" fill="black" />
 <circle cx="100" cy="43900" r="10" fill="black" />
 <line x1="100" y1="43600" x2="100" y2="43900" stroke="black" />
@@ -6492,7 +6112,6 @@
 <circle cx="100" cy="43900" r="10" fill="black" />
 <circle cx="400" cy="43900" r="10" fill="black" />
 <line x1="100" y1="43900" x2="400" y2="43900" stroke="black" />
-<circle cx="738" cy="311" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="43750" r="10" fill="black" />
 <circle cx="400" cy="43750" r="10" fill="black" />
 <line x1="100" y1="43750" x2="400" y2="43750" stroke="black" />
@@ -6514,7 +6133,6 @@
 <circle cx="100" cy="44050" r="10" fill="black" />
 <circle cx="400" cy="44050" r="10" fill="black" />
 <line x1="100" y1="44050" x2="400" y2="44050" stroke="black" />
-<circle cx="738" cy="297" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="43900" r="10" fill="black" />
 <circle cx="100" cy="44200" r="10" fill="black" />
 <line x1="100" y1="43900" x2="100" y2="44200" stroke="black" />
@@ -6536,7 +6154,6 @@
 <circle cx="100" cy="44200" r="10" fill="black" />
 <circle cx="400" cy="44200" r="10" fill="black" />
 <line x1="100" y1="44200" x2="400" y2="44200" stroke="black" />
-<circle cx="717" cy="311" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="44050" r="10" fill="black" />
 <circle cx="100" cy="44350" r="10" fill="black" />
 <line x1="100" y1="44050" x2="100" y2="44350" stroke="black" />
@@ -6558,7 +6175,6 @@
 <circle cx="100" cy="44350" r="10" fill="black" />
 <circle cx="400" cy="44350" r="10" fill="black" />
 <line x1="100" y1="44350" x2="400" y2="44350" stroke="black" />
-<circle cx="724" cy="325" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="44200" r="10" fill="black" />
 <circle cx="200" cy="44300" r="10" fill="black" />
 <line x1="100" y1="44200" x2="200" y2="44300" stroke="black" />
@@ -6580,7 +6196,6 @@
 <circle cx="100" cy="44500" r="10" fill="black" />
 <circle cx="400" cy="44500" r="10" fill="black" />
 <line x1="100" y1="44500" x2="400" y2="44500" stroke="black" />
-<circle cx="773" cy="318" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="200" cy="44450" r="10" fill="black" />
 <circle cx="300" cy="44450" r="10" fill="black" />
 <line x1="200" y1="44450" x2="300" y2="44450" stroke="black" />
@@ -6602,7 +6217,6 @@
 <circle cx="100" cy="44650" r="10" fill="black" />
 <circle cx="400" cy="44650" r="10" fill="black" />
 <line x1="100" y1="44650" x2="400" y2="44650" stroke="black" />
-<circle cx="752" cy="318" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="44500" r="10" fill="black" />
 <circle cx="400" cy="44500" r="10" fill="black" />
 <line x1="100" y1="44500" x2="400" y2="44500" stroke="black" />
@@ -6624,7 +6238,6 @@
 <circle cx="100" cy="44800" r="10" fill="black" />
 <circle cx="400" cy="44800" r="10" fill="black" />
 <line x1="100" y1="44800" x2="400" y2="44800" stroke="black" />
-<circle cx="717" cy="290" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="44650" r="10" fill="black" />
 <circle cx="400" cy="44650" r="10" fill="black" />
 <line x1="100" y1="44650" x2="400" y2="44650" stroke="black" />
@@ -6646,7 +6259,6 @@
 <circle cx="100" cy="44950" r="10" fill="black" />
 <circle cx="400" cy="44950" r="10" fill="black" />
 <line x1="100" y1="44950" x2="400" y2="44950" stroke="black" />
-<circle cx="696" cy="290" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="44800" r="10" fill="black" />
 <circle cx="400" cy="44800" r="10" fill="black" />
 <line x1="100" y1="44800" x2="400" y2="44800" stroke="black" />
@@ -6668,7 +6280,6 @@
 <circle cx="100" cy="45100" r="10" fill="black" />
 <circle cx="400" cy="45100" r="10" fill="black" />
 <line x1="100" y1="45100" x2="400" y2="45100" stroke="black" />
-<circle cx="752" cy="297" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="44950" r="10" fill="black" />
 <circle cx="400" cy="44950" r="10" fill="black" />
 <line x1="100" y1="44950" x2="400" y2="44950" stroke="black" />
@@ -6690,7 +6301,6 @@
 <circle cx="100" cy="45250" r="10" fill="black" />
 <circle cx="400" cy="45250" r="10" fill="black" />
 <line x1="100" y1="45250" x2="400" y2="45250" stroke="black" />
-<circle cx="731" cy="297" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="45100" r="10" fill="black" />
 <circle cx="400" cy="45100" r="10" fill="black" />
 <line x1="100" y1="45100" x2="400" y2="45100" stroke="black" />
@@ -6712,7 +6322,6 @@
 <circle cx="100" cy="45400" r="10" fill="black" />
 <circle cx="400" cy="45400" r="10" fill="black" />
 <line x1="100" y1="45400" x2="400" y2="45400" stroke="black" />
-<circle cx="738" cy="262" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="45250" r="10" fill="black" />
 <circle cx="400" cy="45250" r="10" fill="black" />
 <line x1="100" y1="45250" x2="400" y2="45250" stroke="black" />
@@ -6734,7 +6343,6 @@
 <circle cx="100" cy="45550" r="10" fill="black" />
 <circle cx="400" cy="45550" r="10" fill="black" />
 <line x1="100" y1="45550" x2="400" y2="45550" stroke="black" />
-<circle cx="717" cy="262" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="45400" r="10" fill="black" />
 <circle cx="400" cy="45400" r="10" fill="black" />
 <line x1="100" y1="45400" x2="400" y2="45400" stroke="black" />
@@ -6756,7 +6364,6 @@
 <circle cx="100" cy="45700" r="10" fill="black" />
 <circle cx="400" cy="45700" r="10" fill="black" />
 <line x1="100" y1="45700" x2="400" y2="45700" stroke="black" />
-<circle cx="773" cy="269" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="45550" r="10" fill="black" />
 <circle cx="400" cy="45550" r="10" fill="black" />
 <line x1="100" y1="45550" x2="400" y2="45550" stroke="black" />
@@ -6778,7 +6385,6 @@
 <circle cx="100" cy="45850" r="10" fill="black" />
 <circle cx="400" cy="45850" r="10" fill="black" />
 <line x1="100" y1="45850" x2="400" y2="45850" stroke="black" />
-<circle cx="752" cy="269" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="45700" r="10" fill="black" />
 <circle cx="400" cy="45700" r="10" fill="black" />
 <line x1="100" y1="45700" x2="400" y2="45700" stroke="black" />
@@ -6800,7 +6406,6 @@
 <circle cx="100" cy="46000" r="10" fill="black" />
 <circle cx="400" cy="46000" r="10" fill="black" />
 <line x1="100" y1="46000" x2="400" y2="46000" stroke="black" />
-<circle cx="766" cy="262" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="45850" r="10" fill="black" />
 <circle cx="100" cy="46150" r="10" fill="black" />
 <line x1="100" y1="45850" x2="100" y2="46150" stroke="black" />
@@ -6822,7 +6427,6 @@
 <circle cx="100" cy="46150" r="10" fill="black" />
 <circle cx="400" cy="46150" r="10" fill="black" />
 <line x1="100" y1="46150" x2="400" y2="46150" stroke="black" />
-<circle cx="745" cy="276" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="46000" r="10" fill="black" />
 <circle cx="400" cy="46000" r="10" fill="black" />
 <line x1="100" y1="46000" x2="400" y2="46000" stroke="black" />
@@ -6844,7 +6448,6 @@
 <circle cx="100" cy="46300" r="10" fill="black" />
 <circle cx="400" cy="46300" r="10" fill="black" />
 <line x1="100" y1="46300" x2="400" y2="46300" stroke="black" />
-<circle cx="745" cy="262" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="46150" r="10" fill="black" />
 <circle cx="100" cy="46450" r="10" fill="black" />
 <line x1="100" y1="46150" x2="100" y2="46450" stroke="black" />
@@ -6866,7 +6469,6 @@
 <circle cx="100" cy="46450" r="10" fill="black" />
 <circle cx="400" cy="46450" r="10" fill="black" />
 <line x1="100" y1="46450" x2="400" y2="46450" stroke="black" />
-<circle cx="724" cy="276" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="46300" r="10" fill="black" />
 <circle cx="200" cy="46400" r="10" fill="black" />
 <line x1="100" y1="46300" x2="200" y2="46400" stroke="black" />
@@ -6888,7 +6490,6 @@
 <circle cx="100" cy="46600" r="10" fill="black" />
 <circle cx="400" cy="46600" r="10" fill="black" />
 <line x1="100" y1="46600" x2="400" y2="46600" stroke="black" />
-<circle cx="780" cy="283" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="200" cy="46550" r="10" fill="black" />
 <circle cx="300" cy="46550" r="10" fill="black" />
 <line x1="200" y1="46550" x2="300" y2="46550" stroke="black" />
@@ -6910,7 +6511,6 @@
 <circle cx="100" cy="46750" r="10" fill="black" />
 <circle cx="400" cy="46750" r="10" fill="black" />
 <line x1="100" y1="46750" x2="400" y2="46750" stroke="black" />
-<circle cx="759" cy="283" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="46600" r="10" fill="black" />
 <circle cx="400" cy="46600" r="10" fill="black" />
 <line x1="100" y1="46600" x2="400" y2="46600" stroke="black" />
@@ -6932,7 +6532,6 @@
 <circle cx="100" cy="46900" r="10" fill="black" />
 <circle cx="400" cy="46900" r="10" fill="black" />
 <line x1="100" y1="46900" x2="400" y2="46900" stroke="black" />
-<circle cx="661" cy="304" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="46750" r="10" fill="black" />
 <circle cx="400" cy="46750" r="10" fill="black" />
 <line x1="100" y1="46750" x2="400" y2="46750" stroke="black" />
@@ -6954,7 +6553,6 @@
 <circle cx="100" cy="47050" r="10" fill="black" />
 <circle cx="400" cy="47050" r="10" fill="black" />
 <line x1="100" y1="47050" x2="400" y2="47050" stroke="black" />
-<circle cx="710" cy="297" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="46900" r="10" fill="black" />
 <circle cx="100" cy="47200" r="10" fill="black" />
 <line x1="100" y1="46900" x2="100" y2="47200" stroke="black" />
@@ -6976,7 +6574,6 @@
 <circle cx="100" cy="47200" r="10" fill="black" />
 <circle cx="400" cy="47200" r="10" fill="black" />
 <line x1="100" y1="47200" x2="400" y2="47200" stroke="black" />
-<circle cx="689" cy="311" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="47050" r="10" fill="black" />
 <circle cx="400" cy="47050" r="10" fill="black" />
 <line x1="100" y1="47050" x2="400" y2="47050" stroke="black" />
@@ -6998,7 +6595,6 @@
 <circle cx="100" cy="47350" r="10" fill="black" />
 <circle cx="400" cy="47350" r="10" fill="black" />
 <line x1="100" y1="47350" x2="400" y2="47350" stroke="black" />
-<circle cx="689" cy="297" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="47200" r="10" fill="black" />
 <circle cx="100" cy="47500" r="10" fill="black" />
 <line x1="100" y1="47200" x2="100" y2="47500" stroke="black" />
@@ -7020,7 +6616,6 @@
 <circle cx="100" cy="47500" r="10" fill="black" />
 <circle cx="400" cy="47500" r="10" fill="black" />
 <line x1="100" y1="47500" x2="400" y2="47500" stroke="black" />
-<circle cx="668" cy="311" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="47350" r="10" fill="black" />
 <circle cx="400" cy="47350" r="10" fill="black" />
 <line x1="100" y1="47350" x2="400" y2="47350" stroke="black" />
@@ -7042,7 +6637,6 @@
 <circle cx="100" cy="47650" r="10" fill="black" />
 <circle cx="400" cy="47650" r="10" fill="black" />
 <line x1="100" y1="47650" x2="400" y2="47650" stroke="black" />
-<circle cx="696" cy="311" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="47500" r="10" fill="black" />
 <circle cx="200" cy="47600" r="10" fill="black" />
 <line x1="100" y1="47500" x2="200" y2="47600" stroke="black" />
@@ -7064,7 +6658,6 @@
 <circle cx="100" cy="47800" r="10" fill="black" />
 <circle cx="400" cy="47800" r="10" fill="black" />
 <line x1="100" y1="47800" x2="400" y2="47800" stroke="black" />
-<circle cx="724" cy="318" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="200" cy="47750" r="10" fill="black" />
 <circle cx="300" cy="47750" r="10" fill="black" />
 <line x1="200" y1="47750" x2="300" y2="47750" stroke="black" />
@@ -7086,7 +6679,6 @@
 <circle cx="100" cy="47950" r="10" fill="black" />
 <circle cx="400" cy="47950" r="10" fill="black" />
 <line x1="100" y1="47950" x2="400" y2="47950" stroke="black" />
-<circle cx="703" cy="318" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="47800" r="10" fill="black" />
 <circle cx="400" cy="47800" r="10" fill="black" />
 <line x1="100" y1="47800" x2="400" y2="47800" stroke="black" />
@@ -7108,7 +6700,6 @@
 <circle cx="100" cy="48100" r="10" fill="black" />
 <circle cx="400" cy="48100" r="10" fill="black" />
 <line x1="100" y1="48100" x2="400" y2="48100" stroke="black" />
-<circle cx="682" cy="276" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="47950" r="10" fill="black" />
 <circle cx="400" cy="47950" r="10" fill="black" />
 <line x1="100" y1="47950" x2="400" y2="47950" stroke="black" />
@@ -7130,7 +6721,6 @@
 <circle cx="100" cy="48250" r="10" fill="black" />
 <circle cx="400" cy="48250" r="10" fill="black" />
 <line x1="100" y1="48250" x2="400" y2="48250" stroke="black" />
-<circle cx="731" cy="269" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="48100" r="10" fill="black" />
 <circle cx="100" cy="48400" r="10" fill="black" />
 <line x1="100" y1="48100" x2="100" y2="48400" stroke="black" />
@@ -7152,7 +6742,6 @@
 <circle cx="100" cy="48400" r="10" fill="black" />
 <circle cx="400" cy="48400" r="10" fill="black" />
 <line x1="100" y1="48400" x2="400" y2="48400" stroke="black" />
-<circle cx="710" cy="283" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="48250" r="10" fill="black" />
 <circle cx="400" cy="48250" r="10" fill="black" />
 <line x1="100" y1="48250" x2="400" y2="48250" stroke="black" />
@@ -7174,7 +6763,6 @@
 <circle cx="100" cy="48550" r="10" fill="black" />
 <circle cx="400" cy="48550" r="10" fill="black" />
 <line x1="100" y1="48550" x2="400" y2="48550" stroke="black" />
-<circle cx="710" cy="269" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="48400" r="10" fill="black" />
 <circle cx="100" cy="48700" r="10" fill="black" />
 <line x1="100" y1="48400" x2="100" y2="48700" stroke="black" />
@@ -7196,7 +6784,6 @@
 <circle cx="100" cy="48700" r="10" fill="black" />
 <circle cx="400" cy="48700" r="10" fill="black" />
 <line x1="100" y1="48700" x2="400" y2="48700" stroke="black" />
-<circle cx="689" cy="283" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="48550" r="10" fill="black" />
 <circle cx="400" cy="48550" r="10" fill="black" />
 <line x1="100" y1="48550" x2="400" y2="48550" stroke="black" />
@@ -7218,7 +6805,6 @@
 <circle cx="100" cy="48850" r="10" fill="black" />
 <circle cx="400" cy="48850" r="10" fill="black" />
 <line x1="100" y1="48850" x2="400" y2="48850" stroke="black" />
-<circle cx="717" cy="283" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="48700" r="10" fill="black" />
 <circle cx="200" cy="48800" r="10" fill="black" />
 <line x1="100" y1="48700" x2="200" y2="48800" stroke="black" />
@@ -7240,7 +6826,6 @@
 <circle cx="100" cy="49000" r="10" fill="black" />
 <circle cx="400" cy="49000" r="10" fill="black" />
 <line x1="100" y1="49000" x2="400" y2="49000" stroke="black" />
-<circle cx="745" cy="290" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="200" cy="48950" r="10" fill="black" />
 <circle cx="300" cy="48950" r="10" fill="black" />
 <line x1="200" y1="48950" x2="300" y2="48950" stroke="black" />
@@ -7262,7 +6847,6 @@
 <circle cx="100" cy="49150" r="10" fill="black" />
 <circle cx="400" cy="49150" r="10" fill="black" />
 <line x1="100" y1="49150" x2="400" y2="49150" stroke="black" />
-<circle cx="724" cy="290" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="49000" r="10" fill="black" />
 <circle cx="400" cy="49000" r="10" fill="black" />
 <line x1="100" y1="49000" x2="400" y2="49000" stroke="black" />
@@ -7284,7 +6868,6 @@
 <circle cx="100" cy="49300" r="10" fill="black" />
 <circle cx="400" cy="49300" r="10" fill="black" />
 <line x1="100" y1="49300" x2="400" y2="49300" stroke="black" />
-<circle cx="710" cy="276" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="49150" r="10" fill="black" />
 <circle cx="100" cy="49450" r="10" fill="black" />
 <line x1="100" y1="49150" x2="100" y2="49450" stroke="black" />
@@ -7306,7 +6889,6 @@
 <circle cx="100" cy="49450" r="10" fill="black" />
 <circle cx="400" cy="49450" r="10" fill="black" />
 <line x1="100" y1="49450" x2="400" y2="49450" stroke="black" />
-<circle cx="689" cy="290" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="400" cy="49300" r="10" fill="black" />
 <circle cx="300" cy="49400" r="10" fill="black" />
 <line x1="400" y1="49300" x2="300" y2="49400" stroke="black" />
@@ -7328,7 +6910,6 @@
 <circle cx="100" cy="49600" r="10" fill="black" />
 <circle cx="400" cy="49600" r="10" fill="black" />
 <line x1="100" y1="49600" x2="400" y2="49600" stroke="black" />
-<circle cx="724" cy="297" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="49450" r="10" fill="black" />
 <circle cx="400" cy="49450" r="10" fill="black" />
 <line x1="100" y1="49450" x2="400" y2="49450" stroke="black" />
@@ -7350,7 +6931,6 @@
 <circle cx="100" cy="49750" r="10" fill="black" />
 <circle cx="400" cy="49750" r="10" fill="black" />
 <line x1="100" y1="49750" x2="400" y2="49750" stroke="black" />
-<circle cx="745" cy="283" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="49600" r="10" fill="black" />
 <circle cx="400" cy="49600" r="10" fill="black" />
 <line x1="100" y1="49600" x2="400" y2="49600" stroke="black" />
@@ -7372,7 +6952,6 @@
 <circle cx="100" cy="49900" r="10" fill="black" />
 <circle cx="400" cy="49900" r="10" fill="black" />
 <line x1="100" y1="49900" x2="400" y2="49900" stroke="black" />
-<circle cx="724" cy="283" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="49750" r="10" fill="black" />
 <circle cx="400" cy="49750" r="10" fill="black" />
 <line x1="100" y1="49750" x2="400" y2="49750" stroke="black" />
@@ -7394,7 +6973,6 @@
 <circle cx="100" cy="50050" r="10" fill="black" />
 <circle cx="400" cy="50050" r="10" fill="black" />
 <line x1="100" y1="50050" x2="400" y2="50050" stroke="black" />
-<circle cx="738" cy="276" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="49900" r="10" fill="black" />
 <circle cx="400" cy="49900" r="10" fill="black" />
 <line x1="100" y1="49900" x2="400" y2="49900" stroke="black" />
@@ -7416,7 +6994,6 @@
 <circle cx="100" cy="50200" r="10" fill="black" />
 <circle cx="400" cy="50200" r="10" fill="black" />
 <line x1="100" y1="50200" x2="400" y2="50200" stroke="black" />
-<circle cx="717" cy="276" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="50050" r="10" fill="black" />
 <circle cx="400" cy="50050" r="10" fill="black" />
 <line x1="100" y1="50050" x2="400" y2="50050" stroke="black" />
@@ -7438,7 +7015,6 @@
 <circle cx="100" cy="50350" r="10" fill="black" />
 <circle cx="400" cy="50350" r="10" fill="black" />
 <line x1="100" y1="50350" x2="400" y2="50350" stroke="black" />
-<circle cx="773" cy="283" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="50200" r="10" fill="black" />
 <circle cx="400" cy="50200" r="10" fill="black" />
 <line x1="100" y1="50200" x2="400" y2="50200" stroke="black" />
@@ -7460,7 +7036,6 @@
 <circle cx="100" cy="50500" r="10" fill="black" />
 <circle cx="400" cy="50500" r="10" fill="black" />
 <line x1="100" y1="50500" x2="400" y2="50500" stroke="black" />
-<circle cx="752" cy="283" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="50350" r="10" fill="black" />
 <circle cx="400" cy="50350" r="10" fill="black" />
 <line x1="100" y1="50350" x2="400" y2="50350" stroke="black" />
@@ -7482,7 +7057,6 @@
 <circle cx="100" cy="50650" r="10" fill="black" />
 <circle cx="400" cy="50650" r="10" fill="black" />
 <line x1="100" y1="50650" x2="400" y2="50650" stroke="black" />
-<circle cx="794" cy="255" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="50500" r="10" fill="black" />
 <circle cx="100" cy="50800" r="10" fill="black" />
 <line x1="100" y1="50500" x2="100" y2="50800" stroke="black" />
@@ -7504,7 +7078,6 @@
 <circle cx="100" cy="50800" r="10" fill="black" />
 <circle cx="400" cy="50800" r="10" fill="black" />
 <line x1="100" y1="50800" x2="400" y2="50800" stroke="black" />
-<circle cx="773" cy="269" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="50650" r="10" fill="black" />
 <circle cx="400" cy="50650" r="10" fill="black" />
 <line x1="100" y1="50650" x2="400" y2="50650" stroke="black" />
@@ -7526,7 +7099,6 @@
 <circle cx="100" cy="50950" r="10" fill="black" />
 <circle cx="400" cy="50950" r="10" fill="black" />
 <line x1="100" y1="50950" x2="400" y2="50950" stroke="black" />
-<circle cx="773" cy="255" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="50800" r="10" fill="black" />
 <circle cx="100" cy="51100" r="10" fill="black" />
 <line x1="100" y1="50800" x2="100" y2="51100" stroke="black" />
@@ -7548,7 +7120,6 @@
 <circle cx="100" cy="51100" r="10" fill="black" />
 <circle cx="400" cy="51100" r="10" fill="black" />
 <line x1="100" y1="51100" x2="400" y2="51100" stroke="black" />
-<circle cx="752" cy="269" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="50950" r="10" fill="black" />
 <circle cx="400" cy="50950" r="10" fill="black" />
 <line x1="100" y1="50950" x2="400" y2="50950" stroke="black" />
@@ -7570,7 +7141,6 @@
 <circle cx="100" cy="51250" r="10" fill="black" />
 <circle cx="400" cy="51250" r="10" fill="black" />
 <line x1="100" y1="51250" x2="400" y2="51250" stroke="black" />
-<circle cx="787" cy="248" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="51100" r="10" fill="black" />
 <circle cx="100" cy="51400" r="10" fill="black" />
 <line x1="100" y1="51100" x2="100" y2="51400" stroke="black" />
@@ -7592,7 +7162,6 @@
 <circle cx="100" cy="51400" r="10" fill="black" />
 <circle cx="400" cy="51400" r="10" fill="black" />
 <line x1="100" y1="51400" x2="400" y2="51400" stroke="black" />
-<circle cx="766" cy="262" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="51250" r="10" fill="black" />
 <circle cx="400" cy="51250" r="10" fill="black" />
 <line x1="100" y1="51250" x2="400" y2="51250" stroke="black" />
@@ -7614,7 +7183,6 @@
 <circle cx="100" cy="51550" r="10" fill="black" />
 <circle cx="400" cy="51550" r="10" fill="black" />
 <line x1="100" y1="51550" x2="400" y2="51550" stroke="black" />
-<circle cx="766" cy="248" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="51400" r="10" fill="black" />
 <circle cx="100" cy="51700" r="10" fill="black" />
 <line x1="100" y1="51400" x2="100" y2="51700" stroke="black" />
@@ -7636,7 +7204,6 @@
 <circle cx="100" cy="51700" r="10" fill="black" />
 <circle cx="400" cy="51700" r="10" fill="black" />
 <line x1="100" y1="51700" x2="400" y2="51700" stroke="black" />
-<circle cx="745" cy="262" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="51550" r="10" fill="black" />
 <circle cx="200" cy="51650" r="10" fill="black" />
 <line x1="100" y1="51550" x2="200" y2="51650" stroke="black" />
@@ -7658,7 +7225,6 @@
 <circle cx="100" cy="51850" r="10" fill="black" />
 <circle cx="400" cy="51850" r="10" fill="black" />
 <line x1="100" y1="51850" x2="400" y2="51850" stroke="black" />
-<circle cx="801" cy="269" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="200" cy="51800" r="10" fill="black" />
 <circle cx="300" cy="51800" r="10" fill="black" />
 <line x1="200" y1="51800" x2="300" y2="51800" stroke="black" />
@@ -7680,7 +7246,6 @@
 <circle cx="100" cy="52000" r="10" fill="black" />
 <circle cx="400" cy="52000" r="10" fill="black" />
 <line x1="100" y1="52000" x2="400" y2="52000" stroke="black" />
-<circle cx="780" cy="269" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="51850" r="10" fill="black" />
 <circle cx="400" cy="51850" r="10" fill="black" />
 <line x1="100" y1="51850" x2="400" y2="51850" stroke="black" />
@@ -7702,7 +7267,6 @@
 <circle cx="100" cy="52150" r="10" fill="black" />
 <circle cx="400" cy="52150" r="10" fill="black" />
 <line x1="100" y1="52150" x2="400" y2="52150" stroke="black" />
-<circle cx="689" cy="297" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="52000" r="10" fill="black" />
 <circle cx="400" cy="52000" r="10" fill="black" />
 <line x1="100" y1="52000" x2="400" y2="52000" stroke="black" />
@@ -7724,7 +7288,6 @@
 <circle cx="100" cy="52300" r="10" fill="black" />
 <circle cx="400" cy="52300" r="10" fill="black" />
 <line x1="100" y1="52300" x2="400" y2="52300" stroke="black" />
-<circle cx="738" cy="290" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="52150" r="10" fill="black" />
 <circle cx="100" cy="52450" r="10" fill="black" />
 <line x1="100" y1="52150" x2="100" y2="52450" stroke="black" />
@@ -7746,7 +7309,6 @@
 <circle cx="100" cy="52450" r="10" fill="black" />
 <circle cx="400" cy="52450" r="10" fill="black" />
 <line x1="100" y1="52450" x2="400" y2="52450" stroke="black" />
-<circle cx="717" cy="304" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="52300" r="10" fill="black" />
 <circle cx="400" cy="52300" r="10" fill="black" />
 <line x1="100" y1="52300" x2="400" y2="52300" stroke="black" />
@@ -7768,7 +7330,6 @@
 <circle cx="100" cy="52600" r="10" fill="black" />
 <circle cx="400" cy="52600" r="10" fill="black" />
 <line x1="100" y1="52600" x2="400" y2="52600" stroke="black" />
-<circle cx="717" cy="290" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="52450" r="10" fill="black" />
 <circle cx="100" cy="52750" r="10" fill="black" />
 <line x1="100" y1="52450" x2="100" y2="52750" stroke="black" />
@@ -7790,7 +7351,6 @@
 <circle cx="100" cy="52750" r="10" fill="black" />
 <circle cx="400" cy="52750" r="10" fill="black" />
 <line x1="100" y1="52750" x2="400" y2="52750" stroke="black" />
-<circle cx="696" cy="304" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="52600" r="10" fill="black" />
 <circle cx="400" cy="52600" r="10" fill="black" />
 <line x1="100" y1="52600" x2="400" y2="52600" stroke="black" />
@@ -7812,7 +7372,6 @@
 <circle cx="100" cy="52900" r="10" fill="black" />
 <circle cx="400" cy="52900" r="10" fill="black" />
 <line x1="100" y1="52900" x2="400" y2="52900" stroke="black" />
-<circle cx="682" cy="290" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="52750" r="10" fill="black" />
 <circle cx="400" cy="52750" r="10" fill="black" />
 <line x1="100" y1="52750" x2="400" y2="52750" stroke="black" />
@@ -7834,7 +7393,6 @@
 <circle cx="100" cy="53050" r="10" fill="black" />
 <circle cx="400" cy="53050" r="10" fill="black" />
 <line x1="100" y1="53050" x2="400" y2="53050" stroke="black" />
-<circle cx="731" cy="283" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="52900" r="10" fill="black" />
 <circle cx="100" cy="53200" r="10" fill="black" />
 <line x1="100" y1="52900" x2="100" y2="53200" stroke="black" />
@@ -7856,7 +7414,6 @@
 <circle cx="100" cy="53200" r="10" fill="black" />
 <circle cx="400" cy="53200" r="10" fill="black" />
 <line x1="100" y1="53200" x2="400" y2="53200" stroke="black" />
-<circle cx="710" cy="297" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="53050" r="10" fill="black" />
 <circle cx="400" cy="53050" r="10" fill="black" />
 <line x1="100" y1="53050" x2="400" y2="53050" stroke="black" />
@@ -7878,7 +7435,6 @@
 <circle cx="100" cy="53350" r="10" fill="black" />
 <circle cx="400" cy="53350" r="10" fill="black" />
 <line x1="100" y1="53350" x2="400" y2="53350" stroke="black" />
-<circle cx="710" cy="283" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="53200" r="10" fill="black" />
 <circle cx="100" cy="53500" r="10" fill="black" />
 <line x1="100" y1="53200" x2="100" y2="53500" stroke="black" />
@@ -7900,7 +7456,6 @@
 <circle cx="100" cy="53500" r="10" fill="black" />
 <circle cx="400" cy="53500" r="10" fill="black" />
 <line x1="100" y1="53500" x2="400" y2="53500" stroke="black" />
-<circle cx="689" cy="297" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="53350" r="10" fill="black" />
 <circle cx="400" cy="53350" r="10" fill="black" />
 <line x1="100" y1="53350" x2="400" y2="53350" stroke="black" />
@@ -7922,7 +7477,6 @@
 <circle cx="100" cy="53650" r="10" fill="black" />
 <circle cx="400" cy="53650" r="10" fill="black" />
 <line x1="100" y1="53650" x2="400" y2="53650" stroke="black" />
-<circle cx="717" cy="297" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="53500" r="10" fill="black" />
 <circle cx="200" cy="53600" r="10" fill="black" />
 <line x1="100" y1="53500" x2="200" y2="53600" stroke="black" />
@@ -7944,7 +7498,6 @@
 <circle cx="100" cy="53800" r="10" fill="black" />
 <circle cx="400" cy="53800" r="10" fill="black" />
 <line x1="100" y1="53800" x2="400" y2="53800" stroke="black" />
-<circle cx="745" cy="304" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="200" cy="53750" r="10" fill="black" />
 <circle cx="300" cy="53750" r="10" fill="black" />
 <line x1="200" y1="53750" x2="300" y2="53750" stroke="black" />
@@ -7966,7 +7519,6 @@
 <circle cx="100" cy="53950" r="10" fill="black" />
 <circle cx="400" cy="53950" r="10" fill="black" />
 <line x1="100" y1="53950" x2="400" y2="53950" stroke="black" />
-<circle cx="724" cy="304" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="53800" r="10" fill="black" />
 <circle cx="400" cy="53800" r="10" fill="black" />
 <line x1="100" y1="53800" x2="400" y2="53800" stroke="black" />
@@ -7988,7 +7540,6 @@
 <circle cx="100" cy="54100" r="10" fill="black" />
 <circle cx="400" cy="54100" r="10" fill="black" />
 <line x1="100" y1="54100" x2="400" y2="54100" stroke="black" />
-<circle cx="738" cy="269" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="53950" r="10" fill="black" />
 <circle cx="100" cy="54250" r="10" fill="black" />
 <line x1="100" y1="53950" x2="100" y2="54250" stroke="black" />
@@ -8010,7 +7561,6 @@
 <circle cx="100" cy="54250" r="10" fill="black" />
 <circle cx="400" cy="54250" r="10" fill="black" />
 <line x1="100" y1="54250" x2="400" y2="54250" stroke="black" />
-<circle cx="717" cy="283" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="54100" r="10" fill="black" />
 <circle cx="400" cy="54100" r="10" fill="black" />
 <line x1="100" y1="54100" x2="400" y2="54100" stroke="black" />
@@ -8032,7 +7582,6 @@
 <circle cx="100" cy="54400" r="10" fill="black" />
 <circle cx="400" cy="54400" r="10" fill="black" />
 <line x1="100" y1="54400" x2="400" y2="54400" stroke="black" />
-<circle cx="731" cy="262" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="54250" r="10" fill="black" />
 <circle cx="100" cy="54550" r="10" fill="black" />
 <line x1="100" y1="54250" x2="100" y2="54550" stroke="black" />
@@ -8054,7 +7603,6 @@
 <circle cx="100" cy="54550" r="10" fill="black" />
 <circle cx="400" cy="54550" r="10" fill="black" />
 <line x1="100" y1="54550" x2="400" y2="54550" stroke="black" />
-<circle cx="710" cy="276" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="400" cy="54400" r="10" fill="black" />
 <circle cx="300" cy="54500" r="10" fill="black" />
 <line x1="400" y1="54400" x2="300" y2="54500" stroke="black" />
@@ -8076,7 +7624,6 @@
 <circle cx="100" cy="54700" r="10" fill="black" />
 <circle cx="400" cy="54700" r="10" fill="black" />
 <line x1="100" y1="54700" x2="400" y2="54700" stroke="black" />
-<circle cx="745" cy="283" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="54550" r="10" fill="black" />
 <circle cx="400" cy="54550" r="10" fill="black" />
 <line x1="100" y1="54550" x2="400" y2="54550" stroke="black" />
@@ -8098,7 +7645,6 @@
 <circle cx="100" cy="54850" r="10" fill="black" />
 <circle cx="400" cy="54850" r="10" fill="black" />
 <line x1="100" y1="54850" x2="400" y2="54850" stroke="black" />
-<circle cx="710" cy="248" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="54700" r="10" fill="black" />
 <circle cx="400" cy="54700" r="10" fill="black" />
 <line x1="100" y1="54700" x2="400" y2="54700" stroke="black" />
@@ -8120,7 +7666,6 @@
 <circle cx="100" cy="55000" r="10" fill="black" />
 <circle cx="400" cy="55000" r="10" fill="black" />
 <line x1="100" y1="55000" x2="400" y2="55000" stroke="black" />
-<circle cx="689" cy="248" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="54850" r="10" fill="black" />
 <circle cx="400" cy="54850" r="10" fill="black" />
 <line x1="100" y1="54850" x2="400" y2="54850" stroke="black" />
@@ -8142,7 +7687,6 @@
 <circle cx="100" cy="55150" r="10" fill="black" />
 <circle cx="400" cy="55150" r="10" fill="black" />
 <line x1="100" y1="55150" x2="400" y2="55150" stroke="black" />
-<circle cx="745" cy="255" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="55000" r="10" fill="black" />
 <circle cx="400" cy="55000" r="10" fill="black" />
 <line x1="100" y1="55000" x2="400" y2="55000" stroke="black" />
@@ -8164,7 +7708,6 @@
 <circle cx="100" cy="55300" r="10" fill="black" />
 <circle cx="400" cy="55300" r="10" fill="black" />
 <line x1="100" y1="55300" x2="400" y2="55300" stroke="black" />
-<circle cx="724" cy="255" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="55150" r="10" fill="black" />
 <circle cx="400" cy="55150" r="10" fill="black" />
 <line x1="100" y1="55150" x2="400" y2="55150" stroke="black" />
@@ -8186,7 +7729,6 @@
 <circle cx="100" cy="55450" r="10" fill="black" />
 <circle cx="400" cy="55450" r="10" fill="black" />
 <line x1="100" y1="55450" x2="400" y2="55450" stroke="black" />
-<circle cx="759" cy="220" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="55300" r="10" fill="black" />
 <circle cx="100" cy="55600" r="10" fill="black" />
 <line x1="100" y1="55300" x2="100" y2="55600" stroke="black" />
@@ -8208,7 +7750,6 @@
 <circle cx="100" cy="55600" r="10" fill="black" />
 <circle cx="400" cy="55600" r="10" fill="black" />
 <line x1="100" y1="55600" x2="400" y2="55600" stroke="black" />
-<circle cx="738" cy="234" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="55450" r="10" fill="black" />
 <circle cx="400" cy="55450" r="10" fill="black" />
 <line x1="100" y1="55450" x2="400" y2="55450" stroke="black" />
@@ -8230,7 +7771,6 @@
 <circle cx="100" cy="55750" r="10" fill="black" />
 <circle cx="400" cy="55750" r="10" fill="black" />
 <line x1="100" y1="55750" x2="400" y2="55750" stroke="black" />
-<circle cx="738" cy="220" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="55600" r="10" fill="black" />
 <circle cx="100" cy="55900" r="10" fill="black" />
 <line x1="100" y1="55600" x2="100" y2="55900" stroke="black" />
@@ -8252,7 +7792,6 @@
 <circle cx="100" cy="55900" r="10" fill="black" />
 <circle cx="400" cy="55900" r="10" fill="black" />
 <line x1="100" y1="55900" x2="400" y2="55900" stroke="black" />
-<circle cx="717" cy="234" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="55750" r="10" fill="black" />
 <circle cx="200" cy="55850" r="10" fill="black" />
 <line x1="100" y1="55750" x2="200" y2="55850" stroke="black" />
@@ -8274,7 +7813,6 @@
 <circle cx="100" cy="56050" r="10" fill="black" />
 <circle cx="400" cy="56050" r="10" fill="black" />
 <line x1="100" y1="56050" x2="400" y2="56050" stroke="black" />
-<circle cx="773" cy="241" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="200" cy="56000" r="10" fill="black" />
 <circle cx="300" cy="56000" r="10" fill="black" />
 <line x1="200" y1="56000" x2="300" y2="56000" stroke="black" />
@@ -8296,7 +7834,6 @@
 <circle cx="100" cy="56200" r="10" fill="black" />
 <circle cx="400" cy="56200" r="10" fill="black" />
 <line x1="100" y1="56200" x2="400" y2="56200" stroke="black" />
-<circle cx="752" cy="241" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="56050" r="10" fill="black" />
 <circle cx="400" cy="56050" r="10" fill="black" />
 <line x1="100" y1="56050" x2="400" y2="56050" stroke="black" />
@@ -8318,7 +7855,6 @@
 <circle cx="100" cy="56350" r="10" fill="black" />
 <circle cx="400" cy="56350" r="10" fill="black" />
 <line x1="100" y1="56350" x2="400" y2="56350" stroke="black" />
-<circle cx="654" cy="262" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="56200" r="10" fill="black" />
 <circle cx="400" cy="56200" r="10" fill="black" />
 <line x1="100" y1="56200" x2="400" y2="56200" stroke="black" />
@@ -8340,7 +7876,6 @@
 <circle cx="100" cy="56500" r="10" fill="black" />
 <circle cx="400" cy="56500" r="10" fill="black" />
 <line x1="100" y1="56500" x2="400" y2="56500" stroke="black" />
-<circle cx="703" cy="255" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="56350" r="10" fill="black" />
 <circle cx="100" cy="56650" r="10" fill="black" />
 <line x1="100" y1="56350" x2="100" y2="56650" stroke="black" />
@@ -8362,7 +7897,6 @@
 <circle cx="100" cy="56650" r="10" fill="black" />
 <circle cx="400" cy="56650" r="10" fill="black" />
 <line x1="100" y1="56650" x2="400" y2="56650" stroke="black" />
-<circle cx="682" cy="269" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="56500" r="10" fill="black" />
 <circle cx="400" cy="56500" r="10" fill="black" />
 <line x1="100" y1="56500" x2="400" y2="56500" stroke="black" />
@@ -8384,7 +7918,6 @@
 <circle cx="100" cy="56800" r="10" fill="black" />
 <circle cx="400" cy="56800" r="10" fill="black" />
 <line x1="100" y1="56800" x2="400" y2="56800" stroke="black" />
-<circle cx="682" cy="255" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="56650" r="10" fill="black" />
 <circle cx="100" cy="56950" r="10" fill="black" />
 <line x1="100" y1="56650" x2="100" y2="56950" stroke="black" />
@@ -8406,7 +7939,6 @@
 <circle cx="100" cy="56950" r="10" fill="black" />
 <circle cx="400" cy="56950" r="10" fill="black" />
 <line x1="100" y1="56950" x2="400" y2="56950" stroke="black" />
-<circle cx="661" cy="269" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="56800" r="10" fill="black" />
 <circle cx="400" cy="56800" r="10" fill="black" />
 <line x1="100" y1="56800" x2="400" y2="56800" stroke="black" />
@@ -8428,7 +7960,6 @@
 <circle cx="100" cy="57100" r="10" fill="black" />
 <circle cx="400" cy="57100" r="10" fill="black" />
 <line x1="100" y1="57100" x2="400" y2="57100" stroke="black" />
-<circle cx="689" cy="269" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="56950" r="10" fill="black" />
 <circle cx="200" cy="57050" r="10" fill="black" />
 <line x1="100" y1="56950" x2="200" y2="57050" stroke="black" />
@@ -8450,7 +7981,6 @@
 <circle cx="100" cy="57250" r="10" fill="black" />
 <circle cx="400" cy="57250" r="10" fill="black" />
 <line x1="100" y1="57250" x2="400" y2="57250" stroke="black" />
-<circle cx="717" cy="276" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="200" cy="57200" r="10" fill="black" />
 <circle cx="300" cy="57200" r="10" fill="black" />
 <line x1="200" y1="57200" x2="300" y2="57200" stroke="black" />
@@ -8472,7 +8002,6 @@
 <circle cx="100" cy="57400" r="10" fill="black" />
 <circle cx="400" cy="57400" r="10" fill="black" />
 <line x1="100" y1="57400" x2="400" y2="57400" stroke="black" />
-<circle cx="696" cy="276" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="57250" r="10" fill="black" />
 <circle cx="400" cy="57250" r="10" fill="black" />
 <line x1="100" y1="57250" x2="400" y2="57250" stroke="black" />
@@ -8494,7 +8023,6 @@
 <circle cx="100" cy="57550" r="10" fill="black" />
 <circle cx="400" cy="57550" r="10" fill="black" />
 <line x1="100" y1="57550" x2="400" y2="57550" stroke="black" />
-<circle cx="703" cy="234" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="100" cy="57400" r="10" fill="black" />
 <circle cx="100" cy="57700" r="10" fill="black" />
 <line x1="100" y1="57400" x2="100" y2="57700" stroke="black" />
@@ -8516,7 +8044,6 @@
 <circle cx="100" cy="57700" r="10" fill="black" />
 <circle cx="400" cy="57700" r="10" fill="black" />
 <line x1="100" y1="57700" x2="400" y2="57700" stroke="black" />
-<circle cx="682" cy="248" r="1" fill="green" stroke="green" stroke-width="0" />
 <circle cx="400" cy="57550" r="10" fill="black" />
 <circle cx="300" cy="57650" r="10" fill="black" />
 <line x1="400" y1="57550" x2="300" y2="57650" stroke="black" />
@@ -8538,7 +8065,30 @@
 <circle cx="100" cy="57850" r="10" fill="black" />
 <circle cx="400" cy="57850" r="10" fill="black" />
 <line x1="100" y1="57850" x2="400" y2="57850" stroke="black" />
-<circle cx="717" cy="255" r="1" fill="green" stroke="green" stroke-width="0" />
 
 
-</svg>
+</svg><style>
+.myButton { 
+ background-color:#44c767; 
+  
+-moz-border-radius:28px; 
+-webkit-border-radius:28px;
+ border-radius:28px; 
+ border:1px solid #18ab29; 
+ display:inline-block; 
+ cursor:pointer; 
+ color:#ffffff; 
+ font-family:Arial; 
+ font-size:17px; 
+ padding:16px 31px; 
+ text-decoration:none; 
+ text-shadow:0px 1px 0px #2f6627; } 
+ .myButton:hover { 
+ background-color:#5cbf2a; 
+ } 
+ .myButton:active { 
+ position:relative; 
+ top:1px; 
+ } 
+
+ 

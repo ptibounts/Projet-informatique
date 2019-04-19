@@ -3,10 +3,11 @@
 #include <sstream>
 
 const std::string svgHeader =
+    "<a href=\"pareto.html\" class=\"myButton\">Solutions</a>"
     "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n"
     "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" ";
 
-const std::string svgEnding = "\n\n</svg>\n";
+const std::string svgEnding = "\n\n</svg><style>\n.myButton { \n background-color:#44c767; \n  \n-moz-border-radius:28px; \n-webkit-border-radius:28px;\n border-radius:28px; \n border:1px solid #18ab29; \n display:inline-block; \n cursor:pointer; \n color:#ffffff; \n font-family:Arial; \n font-size:17px; \n padding:16px 31px; \n text-decoration:none; \n text-shadow:0px 1px 0px #2f6627; } \n .myButton:hover { \n background-color:#5cbf2a; \n } \n .myButton:active { \n position:relative; \n top:1px; \n } \n\n ";
 
 /// Effets "Boule en relief", voir données à la fin de ce fichier
 extern const std::string svgBallGradients;
@@ -69,7 +70,7 @@ void Svgfile::addDisk(int x, int y, double r, std::string color)
             << attrib("cx", x)
             << attrib("cy", y)
             << attrib("r",  r)
-            << attrib("fill", color )
+            << attrib("fill", color)
             << "/>\n";
 }
 

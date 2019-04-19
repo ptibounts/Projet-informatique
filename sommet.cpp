@@ -53,7 +53,6 @@ std::unordered_map<std::string,std::string> Sommet::parcoursBFS() const
             }
         }
     }
-
     return l_pred;
 }
 
@@ -64,47 +63,49 @@ std::unordered_map<std::string,std::string> Sommet::parcoursBFS(std::vector <std
     std::unordered_set<std::string> l_decouvert;
     file.push(this);
     l_decouvert.insert(m_id);
-      Sommet* s=nullptr;
-
-std::string voisin;
-std::string soma1;
-std::string soma2;
-std::string som1;
-
+    Sommet* s=nullptr;
+    std::string voisin;
+    std::string soma1;
+    std::string soma2;
+    std::string som1;
     while(!file.empty())
     {
         bool selection=false;
-         s=file.front();
+        s=file.front();
         file.pop();
-        for ( auto ts: (s->m_voisins))
+        for (auto ts: (s->m_voisins))
         {
             voisin= ts->GetId();
-            for(auto x: m_vecSommet){
-                if(voisin==x){
-                for(auto y:m_aretes1){
-
-                    selection=y->GetSelect();
-                    if(selection==true){
-                   soma1=y->GetSommet1();
-                   soma2=y->GetSommet2();
-                   som1=s->GetId();
-                   if((soma1==som1 && soma2==voisin)||(soma1==voisin && soma2==som1)){
-
-
-                    if(l_decouvert.find(ts->m_id)==l_decouvert.end())
+            for(auto x: m_vecSommet)
             {
-                l_decouvert.insert(ts->m_id);
-                file.push(ts);
-                l_pred.insert({ts->m_id, s->m_id});
+                if(voisin==x)
+                {
+                    for(auto y:m_aretes1)
+                    {
+                        selection=y->GetSelect();
+                        if(selection==true)
+                        {
+                            soma1=y->GetSommet1();
+                            soma2=y->GetSommet2();
+                            som1=s->GetId();
+                            if((soma1==som1 && soma2==voisin)||(soma1==voisin && soma2==som1))
+                            {
+                                if(l_decouvert.find(ts->m_id)==l_decouvert.end())
+                                {
+                                    l_decouvert.insert(ts->m_id);
+                                    file.push(ts);
+                                    l_pred.insert({ts->m_id, s->m_id});
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
-    }}
     }
-            }}}
-
-
     return l_pred;
 }
+
 std::unordered_set<std::string> Sommet::rechercherCC(std::vector <std::string > m_vecSommet,std::vector <Arete*> m_aretes1)
 {
     std::unordered_set<std::string> cc;
