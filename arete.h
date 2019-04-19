@@ -9,6 +9,7 @@
 class Arete
 {
     public:
+        Arete();
         Arete(std::string, double, double, std::string, std::string);
         Arete(std::string, double, double);
         void afficher() const;
@@ -26,12 +27,15 @@ class Arete
         std::string m_id;         // Identifiant
         double m_poids1, m_poids2; // Ponderation
 
+
     protected:
 
 
     private:
-        bool m_select;
+
         std::string m_sommet1, m_sommet2; // Position
+
+        bool m_select;
 };
 
 #endif // ARETE_H_INCLUDED

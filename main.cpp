@@ -10,10 +10,10 @@ int main()
     int valeur = 0;
     std::vector<Arete*> Tri(std::unordered_map<std::string, Arete*> m_aretes,int v);
     std::map<std::string, Arete*> Kruskal;
+    std::vector<std::vector<bool>> Solution;
     graphe g;
-    std::vector<Arete*> test;
-    g.sommet("triville.txt");
-    g.ponderation("triville_weights_0.txt");
+    g.sommet("broadway.txt");
+    g.ponderation("broadway_weights_0.txt");
     g.afficher();
     g.afficherP();
     do
@@ -23,5 +23,8 @@ int main()
     Kruskal = g.Kruskal(valeur);
     g.dessiner(Kruskal, valeur);
     system("start output.svg");
+    Solution = g.RechercheSol();
+    g.dessinFrontierePrometo(Solution);
+    system("start output1.svg");
     return 0;
 }

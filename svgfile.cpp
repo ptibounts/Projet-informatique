@@ -15,8 +15,8 @@ std::set<std::string> Svgfile::s_openfiles;
 
 bool Svgfile::s_verbose = true;
 
-Svgfile::Svgfile(std::string _filename, int _width, int _height) :
-    m_filename{_filename}, m_width{_width}, m_height{_height}
+Svgfile::Svgfile(std::string _filename) :
+    m_filename{_filename}, m_width{2000}, m_height{2000}
 {
 
     if (s_verbose)
