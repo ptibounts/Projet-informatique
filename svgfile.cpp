@@ -3,7 +3,8 @@
 #include <sstream>
 
 const std::string svgHeader =
-    "<a href=\"pareto.html\" class=\"myButton\">Solutions</a>"
+    "<a href=\"pareto.html\" class=\"myButton\">Graphes</a>"
+    "<a href=\"output1.html\" class=\"myButton\">Pareto</a>"
     "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n"
     "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" ";
 
